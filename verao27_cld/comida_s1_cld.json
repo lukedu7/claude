@@ -1,0 +1,318 @@
+{
+ "target": {
+  "kcal": 2620,
+  "protein": 138,
+  "why": "Mantida a rampa: 2.620 kcal e 138 g de proteína (2,1 g/kg), sem mexer no cardápio. Os 6 treinos em casa gastam ~80 kcal/dia a menos que a semana com academia (gasto ≈ 2.570 em vez de 2.650), o que deixa a S1 num superávit pequeno (~+50 kcal): o papel dela é acostumar o estômago, e subir agora quebraria a rampa."
+ },
+ "days": {
+  "0": {
+   "title": "Descanso",
+   "train": "",
+   "train_end": "",
+   "times": {
+    "cafe": "08:30",
+    "shake": "11:00",
+    "almoco": "13:00",
+    "pre": "16:30",
+    "jantar": "19:30",
+    "ceia": "22:30"
+   },
+   "roles": {
+    "pre": "lanche"
+   },
+   "note": "Descanso com a mesma comida: o pão com mel das 16h30 é lanche. De manhã, compras da S2 (flocão e 14 bananas) e, à tarde, os kits; a ceia começa amanhã."
+  },
+  "1": {
+   "title": "Casa 1 à noite (presencial)",
+   "train": "19:00",
+   "train_end": "19:35",
+   "times": {
+    "cafe": "07:00",
+    "shake": "10:00",
+    "almoco": "12:30",
+    "pre": "17:30",
+    "jantar": "19:45",
+    "ceia": "21:45"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "jantar": "pós-treino"
+   },
+   "note": "Dia presencial: shake batido às 7h na garrafa térmica e 1 pão com 20 g de mel levado para as 17h30 (90 min antes da Casa 1). Jante logo após o treino, no máximo até 22h00, sem ceia na S1, e cama às 22h30: amanhã o treino é às 06h30."
+  },
+  "2": {
+   "title": "Treino em casa cedo",
+   "train": "06:30",
+   "train_end": "07:10",
+   "times": {
+    "pre": "06:00",
+    "cafe": "08:30",
+    "almoco": "12:30",
+    "shake": "16:00",
+    "jantar": "19:30",
+    "ceia": "21:30"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "cafe": "pós-treino",
+    "shake": "lanche"
+   },
+   "note": "06h00: 1 pão francês (50 g) com 20 g de mel e 250 ml de água, e às 06h30 treine; café completo às 08h30. Sem ceia na S1, o shake vira o lanche das 16h00 para você não passar 7 h sem comer entre o almoço e o jantar."
+  },
+  "3": {
+   "title": "Casa 2 à noite (presencial)",
+   "train": "19:00",
+   "train_end": "19:22",
+   "times": {
+    "cafe": "07:00",
+    "shake": "10:00",
+    "almoco": "12:30",
+    "pre": "16:30",
+    "jantar": "19:30",
+    "ceia": "21:45"
+   },
+   "roles": {
+    "pre": "lanche",
+    "jantar": "pós-treino"
+   },
+   "note": "Dia presencial: bata o shake às 7h (leite gelado + banana congelada) na garrafa pré-gelada e leve 1 pão com 20 g de mel para as 16h30. A Casa 2 é leve e não pede pré-treino; jante às 19h30 e durma às 22h30, porque amanhã o treino é às 06h30."
+  },
+  "4": {
+   "title": "Treino em casa cedo",
+   "train": "06:30",
+   "train_end": "07:10",
+   "times": {
+    "pre": "06:00",
+    "cafe": "08:30",
+    "almoco": "12:30",
+    "shake": "16:00",
+    "jantar": "19:30",
+    "ceia": "21:30"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "cafe": "pós-treino",
+    "shake": "lanche"
+   },
+   "note": "06h00: 1 pão francês (50 g) com 20 g de mel e 250 ml de água, e às 06h30 treine; café completo às 08h30. O shake é o lanche das 16h00, como na terça."
+  },
+  "5": {
+   "title": "Treino em casa de manhã",
+   "train": "08:00",
+   "train_end": "08:40",
+   "times": {
+    "cafe": "07:00",
+    "shake": "09:00",
+    "almoco": "12:30",
+    "pre": "16:00",
+    "jantar": "19:30",
+    "ceia": "22:30"
+   },
+   "roles": {
+    "cafe": "pré-treino",
+    "shake": "pós-treino",
+    "pre": "lanche"
+   },
+   "note": "O café das 07h00 é o pré-treino (60 min antes) e o shake das 09h00, logo depois do treino, é o pós-treino. Pão com mel às 16h00."
+  },
+  "6": {
+   "title": "Treino em casa à tarde",
+   "train": "15:00",
+   "train_end": "15:40",
+   "times": {
+    "cafe": "08:00",
+    "pre": "10:30",
+    "almoco": "12:30",
+    "shake": "16:00",
+    "jantar": "19:30",
+    "ceia": "22:00"
+   },
+   "roles": {
+    "pre": "lanche",
+    "almoco": "pré-treino",
+    "shake": "pós-treino"
+   },
+   "note": "O almoço das 12h30 é o pré-treino (2h30 antes; nada entre ele e o treino) e o shake das 16h00 é o pós-treino. O pão com mel vai para as 10h30: é pequeno e não tira a fome do almoço."
+  }
+ },
+ "tonight": [
+  "Regra de hoje: a última refeição é o jantar, terminando no máximo às 22h00. A semana 1 não tem ceia: depois do jantar, só água.",
+  "Já treinou e já jantou: acabou por hoje. Beba 2 copos de água (500 ml) até 22h00 e não compense o que faltou hoje (shake, lanche): o plano completo começa amanhã.",
+  "Já treinou e ainda não jantou: jante agora, terminando até 21h45: 200 g de macarrão pronto (ou 250 g de arroz pronto) + 100 g de proteína pronta + 100 g de molho de tomate ou legumes = 580 kcal · 44 g P. Sem comida de casa pronta: 3 ovos mexidos + 2 pães franceses + 1 banana (680 kcal · 32 g P).",
+  "Ainda não treinou: comece a Casa 1 até 21h10, só com água, e jante logo ao terminar (21h50, acabando até 22h00) o mesmo prato acima. Não jante antes do treino. Se não der para começar até 21h10, jante agora (até 21h45) e não treine hoje: dormir 7h30 antes do alarme das 06h00 vale mais.",
+  "Creatina: se ainda não tem ou não tomou hoje, não compense. Começa amanhã no shake das 16h00, 5 g.",
+  "22h15: deixe na bancada 1 pão francês e 20 g de mel já pesados (pão congelado: tire agora, em saco fechado) e 1 copo de água. Cama 22h30, alarme 06h00."
+ ],
+ "shopping_tomorrow": [
+  "Pão francês: 3 unidades (150 g): 1 às 06h00 e 2 no café das 08h30. Guarde em saco fechado fora da geladeira e aqueça 3 min a 180 °C. Sem pão francês hoje: pão de forma, 2 fatias por pão.",
+  "Mel: 1 pote de 500 g (terça usa 20 g às 06h00).",
+  "Ovos grandes: 1 cartela de 30 (terça usa 2 no café; a semana 1 inteira usa 12).",
+  "Leite integral UHT: 1 caixa de 1 L (300 ml no shake de terça; o resto cobre quarta e quinta até o fardo chegar).",
+  "Aveia em flocos: 1 pacote de 1 kg (terça usa 50 g).",
+  "Banana: 6 unidades (~900 g com casca), 3 maduras + 3 de vez. É a semana 1 inteira (ter–dom, sem ceia). Terça usa 1 madura (100 g de polpa) e congela outra, descascada, para o shake de quarta.",
+  "Pasta de amendoim integral: 1 pote de 1 kg (terça usa 20 g).",
+  "Açúcar: 1 pacote de 1 kg, se não houver em casa (terça usa 16 g).",
+  "Mínimo absoluto às 06h00: os 3 pães, o mel e 2 ovos. Leite, aveia, banana, pasta de amendoim e açúcar podem chegar até 15h30 de terça (shake das 16h00)."
+ ],
+ "shopping_by_wed": [
+  "Pão francês: 22 unidades (1,1 kg): 15 para qua–dom (3 por dia) + 7 para o pré-treino da S2. No dia em que chegar, congele em sacos de 3 (1 saco = 1 dia) e os 7 da S2 um a um.",
+  "Leite integral: fardo de 12 L (a caixa de 1 L de hoje cobre até quinta).",
+  "Creatina monoidratada: 1 pote de 300 g. Começa no dia em que chegar, 5 g pesados no shake, sem dobrar a dose.",
+  "Garrafa térmica inox de 750 ml: tem que estar em casa até terça à noite, porque quarta às 07h00 o shake vai nela. A de 500 ml fica justa: o shake batido dá ~500 ml com espuma.",
+  "Balança de cozinha digital (de 1 em 1 g): até quarta. Na terça, sirva almoço e jantar pelas medidas caseiras do prato-modelo."
+ ],
+ "meal_changes": [
+  {
+   "meal": "jantar",
+   "change": "Arroz não troca por macarrão grama a grama: 200 g de macarrão = 316 kcal, mas 200 g de arroz (as '8 colheres') = 256 kcal, 60 kcal a menos todo dia de arroz, que é quase todo o superávit da S1. Em dia de arroz no jantar, sirva 250 g (10 colheres de sopa cheias), como no almoço: mesmas kcal, 5 g a menos de proteína, sem compensar.",
+   "items": [
+    {
+     "food": "Macarrão pronto (se for arroz: 250 g)",
+     "g": 200,
+     "state": "pronto",
+     "household": "2 pegadores cheios (arroz: 10 colheres de sopa cheias = 250 g)",
+     "kcal": 316,
+     "p": 11.6,
+     "c": 61.8,
+     "f": 1.8
+    },
+    {
+     "food": "Proteína da casa (carne moída, frango, peixe)",
+     "g": 100,
+     "state": "pronta",
+     "household": "5 colheres (sopa) de carne moída ou 1 filé",
+     "kcal": 190,
+     "p": 31,
+     "c": 0,
+     "f": 6.4
+    },
+    {
+     "food": "Molho de tomate ou legumes",
+     "g": 100,
+     "state": "pronto",
+     "household": "4 colheres (sopa)",
+     "kcal": 30,
+     "p": 1.5,
+     "c": 5.5,
+     "f": 0.2
+    },
+    {
+     "food": "Óleo do preparo (já vem na comida)",
+     "g": 5,
+     "state": "",
+     "household": "—",
+     "kcal": 44.2,
+     "p": 0,
+     "c": 0,
+     "f": 5
+    }
+   ]
+  },
+  {
+   "meal": "shake",
+   "change": "'1 medidor' não dá 5 g: nas creatinas vendidas no Brasil o medidor é de 3 g. Pese 5 g na balança ao montar os kits.",
+   "items": [
+    {
+     "food": "Leite integral",
+     "g": 300,
+     "unit": " ml",
+     "state": "gelado",
+     "household": "1 copo americano cheio + ½",
+     "kcal": 180,
+     "p": 9,
+     "c": 14.1,
+     "f": 9.6
+    },
+    {
+     "food": "Aveia em flocos",
+     "g": 50,
+     "state": "",
+     "household": "5 colheres (sopa) rasas",
+     "kcal": 197,
+     "p": 7,
+     "c": 33.3,
+     "f": 4.3
+    },
+    {
+     "food": "Banana madura (polpa)",
+     "g": 100,
+     "state": "de preferência congelada",
+     "household": "1 nanica média",
+     "kcal": 98,
+     "p": 1.3,
+     "c": 26,
+     "f": 0.1
+    },
+    {
+     "food": "Pasta de amendoim integral",
+     "g": 20,
+     "state": "",
+     "household": "1 colher (sopa) cheia",
+     "kcal": 117.6,
+     "p": 5,
+     "c": 4,
+     "f": 10
+    },
+    {
+     "food": "Açúcar",
+     "g": 16,
+     "state": "",
+     "household": "1 colher (sopa) rasa",
+     "kcal": 61.9,
+     "p": 0,
+     "c": 15.9,
+     "f": 0
+    },
+    {
+     "food": "Creatina monoidratada",
+     "g": 5,
+     "state": "",
+     "household": "5 g pesados na balança (o medidor das marcas nacionais é de 3 g)",
+     "kcal": 0,
+     "p": 0,
+     "c": 0,
+     "f": 0
+    }
+   ]
+  },
+  {
+   "meal": "cafe",
+   "change": "Nas notas, 'coma os ovos e 1 pão agora e o outro até 8h30' não serve na S1 (terça e quinta o café é às 08h30). Troque por 'e o outro em até 1 h'.",
+   "items": null
+  }
+ ],
+ "flags": [
+  "Primeira compra: cobre a semana 1 com sobra (ter–dom usa 18 pães, 12 ovos, 1,8 L de leite, 300 g de aveia, 120 g de pasta de amendoim, 120 g de mel, 96 g de açúcar e 30 g de creatina). Correções: banana só 6 (~900 g), não 2,1 kg, porque a S1 não tem ceia; pão 25 no total (3 hoje + 22), porque a segunda já passou; garrafa térmica e balança não estão na lista e são necessárias nesta semana.",
+  "Terça e quinta da S1, o shake vai para as 16h00: sem ceia, seriam 7 h sem comer entre almoço e jantar. Na S2 ele volta às 10h30 e a vitamina da ceia vira o lanche das 16h.",
+  "Os textos dos dias de seg a qui e as opções de pré-treino falam em '2 pães com mel', mas a rampa mantém 1 pão até a S2. Troque por '1 pão com 20 g de mel (2 pães a partir da S3)'.",
+  "Garrafa térmica: troque 500 ml por 750 ml em Compras → Equipamentos. Se não chegar até quarta, faça a versão sólida do shake (troca do cardápio): 2 pães + 30 g de pasta de amendoim + 1 banana + 1 caixinha de 200 ml de leite UHT, com a creatina no leite.",
+  "Compra de domingo 04/10 (S2, semana B): a primeira compra ainda cobre leite, ovos, aveia, mel, pasta de amendoim, açúcar, creatina e os 7 pães do pré. Faltam só 2 pacotes de 500 g de flocão e 14 bananas (~2,1 kg)."
+ ],
+ "agenda": {
+  "2026-09-28": [
+   "Até 22h: compre o que terça usa (Compras → até amanhã 06h00) e agende a entrega do resto para terça.",
+   "Última refeição de hoje: o jantar, até 22h00 (S1 sem ceia). 22h15: separe 1 pão e 20 g de mel para as 06h00; cama 22h30."
+  ],
+  "2026-09-29": [
+   "06h00: 1 pão francês com 20 g de mel + 250 ml de água; treino 06h30. Café completo às 08h30.",
+   "16h00: shake (hoje é o lanche da tarde). À noite: congele 1 banana descascada (shake de quarta) e deixe o kit seco do shake pronto."
+  ],
+  "2026-09-30": [
+   "07h00: café + shake batido com leite gelado e banana congelada, na garrafa pré-gelada (5 min com água e gelo). Leve 1 pão com 20 g de mel para as 16h30.",
+   "Jantar às 19h30, depois da Casa 2. 22h15: separe o pão e o mel das 06h00; cama 22h30."
+  ],
+  "2026-10-01": [
+   "06h00: 1 pão francês com 20 g de mel + 250 ml de água; treino 06h30. Café às 08h30 e shake às 16h00."
+  ],
+  "2026-10-02": [
+   "07h00: café (é o pré-treino do treino das 08h00). 09h00: shake pós-treino."
+  ],
+  "2026-10-03": [
+   "10h30: pão com mel. 12h30: almoço = pré-treino (nada entre ele e o treino das 15h). 16h00: shake pós-treino."
+  ],
+  "2026-10-04": [
+   "Compras da S2 (semana B): 2 pacotes de 500 g de flocão e 14 bananas (~2,1 kg, 7 maduras + 7 de vez). O resto a primeira compra ainda cobre.",
+   "Kits da S2: 7 potes de shake (50 g de aveia + 16 g de açúcar + 5 g de creatina), 7 de ceia (10 g de aveia) e 7 × 80 g de flocão. Congele 1 banana para o shake de segunda (presencial). A ceia começa amanhã."
+  ]
+ }
+}

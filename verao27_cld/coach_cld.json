@@ -1,0 +1,550 @@
+{
+ "ex": {
+  "c1a": {
+   "kg": null,
+   "reps": 8,
+   "adj": "Se a série 1 não fechou 8 reps com o corpo reto, faça a série 2 com as mãos no assento do sofá × 10.",
+   "alt_kg": 5,
+   "lv": [
+    {
+     "n": "Mãos na mesa",
+     "r": "6-15"
+    },
+    {
+     "n": "Mãos no assento do sofá encostado na parede",
+     "r": "6-15"
+    },
+    {
+     "n": "No chão",
+     "r": "6-15"
+    },
+    {
+     "n": "No chão, pausa 2 s embaixo",
+     "r": "6-15"
+    },
+    {
+     "n": "Pés elevados na cadeira",
+     "r": "6-15"
+    },
+    {
+     "n": "Pés na cadeira, descida 3 s + pausa 2 s embaixo",
+     "r": "6-15"
+    },
+    {
+     "n": "Pés na cadeira + mochila 8 kg nas costas",
+     "r": "6-15"
+    },
+    {
+     "n": "Pés na cadeira + mochila 12 kg nas costas",
+     "r": "6-15"
+    }
+   ],
+   "lv_start": 2,
+   "rest": "0 s: vá direto para a remada; 90 s depois do par"
+  },
+  "c1b": {
+   "kg": 5,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps por braço), faça a série 2 com 18 reps por braço, mesmo ritmo.",
+   "alt_kg": 8,
+   "lv": [
+    {
+     "n": "Serrote 5 kg, descida 3 s + pausa 1 s no topo",
+     "r": "12-20"
+    },
+    {
+     "n": "Invertida na mesa, joelhos dobrados",
+     "r": "6-15"
+    },
+    {
+     "n": "Invertida na mesa, pernas estendidas",
+     "r": "6-15"
+    },
+    {
+     "n": "Invertida na mesa, pés na cadeira",
+     "r": "6-15"
+    },
+    {
+     "n": "Invertida na mesa, pés na cadeira, pausa 2 s no topo",
+     "r": "6-15"
+    }
+   ],
+   "lv_start": 0,
+   "rest": "90 s depois do par (flexão → remada)"
+  },
+  "c1c": {
+   "kg": null,
+   "reps": 6,
+   "adj": "Se a série 1 não fechou 6 reps com a cabeça descendo até 5 cm do chão, faça a série 2 com as mãos no sofá × 8.",
+   "alt_kg": 5,
+   "lv": [
+    {
+     "n": "Mãos no sofá, pés no chão",
+     "r": "6-12"
+    },
+    {
+     "n": "No chão (V invertido)",
+     "r": "6-12"
+    },
+    {
+     "n": "No chão, descida 3 s",
+     "r": "6-12"
+    },
+    {
+     "n": "Pés na cadeira",
+     "r": "6-12"
+    },
+    {
+     "n": "Pés na cadeira, pausa 2 s embaixo",
+     "r": "6-12"
+    }
+   ],
+   "lv_start": 1,
+   "rest": "90 s"
+  },
+  "c1d": {
+   "kg": 3,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 3 kg × 18.",
+   "alt_kg": 3,
+   "lv": [
+    {
+     "n": "3 kg",
+     "r": "15-20"
+    },
+    {
+     "n": "3 kg, descida 3 s + pausa 1 s no topo",
+     "r": "15-20"
+    },
+    {
+     "n": "5 kg",
+     "r": "8-15"
+    },
+    {
+     "n": "5 kg, descida 3 s",
+     "r": "8-15"
+    },
+    {
+     "n": "5 kg, descida 3 s + pausa 1 s no topo",
+     "r": "8-15"
+    },
+    {
+     "n": "5 kg unilateral, inclinado segurando na parede, descida 3 s",
+     "r": "8-15"
+    }
+   ],
+   "lv_start": 0,
+   "rest": "60 s"
+  },
+  "c1e": {
+   "kg": 5,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps por braço), faça a série 2 com 15 reps por braço.",
+   "alt_kg": 5,
+   "lv": [
+    {
+     "n": "5 kg",
+     "r": "10-15"
+    },
+    {
+     "n": "5 kg, descida 3 s + pausa 1 s embaixo",
+     "r": "10-15"
+    },
+    {
+     "n": "Concentrada sentado 5 kg, pausa 2 s no topo",
+     "r": "10-15"
+    },
+    {
+     "n": "Concentrada sentado 5 kg, pausa 2 s no topo + descida 3 s",
+     "r": "10-15"
+    }
+   ],
+   "lv_start": 0,
+   "rest": "0 s: vá direto para o tríceps; 60 s depois do par"
+  },
+  "c1f": {
+   "kg": 5,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps por braço), faça a série 2 com 15 reps por braço.",
+   "alt_kg": null,
+   "lv": [
+    {
+     "n": "5 kg unilateral",
+     "r": "10-15"
+    },
+    {
+     "n": "5 kg unilateral, descida 4 s",
+     "r": "10-15"
+    },
+    {
+     "n": "Flexão diamante, mãos no sofá",
+     "r": "6-15"
+    },
+    {
+     "n": "Flexão diamante no chão",
+     "r": "6-15"
+    }
+   ],
+   "lv_start": 0,
+   "rest": "60 s depois do par (rosca → tríceps)"
+  },
+  "ia1": {
+   "kg": 0,
+   "reps": 10,
+   "adj": "Carga = anilhas somadas, sem o carrinho (0 = só o carrinho). Se a série 1 saiu fácil (sobrariam 6+ reps) com a coxa chegando à paralela, faça a série 2 com 10 kg (5 de cada lado) × 10.",
+   "alt_kg": 0,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min 30 s"
+  },
+  "ia2": {
+   "kg": 10,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem a lombar arredondar, faça a série 2 com 14 kg por halter × 10.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "ia3": {
+   "kg": 20,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 25 kg × 12.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "90 s"
+  },
+  "ia4": {
+   "kg": 15,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem o quadril subir, faça a série 2 com 20 kg × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "90 s"
+  },
+  "ia5": {
+   "kg": 30,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) com 1 s de pausa embaixo, faça a série 2 com 40 kg × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "75 s"
+  },
+  "ia6": {
+   "kg": 15,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 20 kg × 15.",
+   "alt_kg": 2.5,
+   "lv": null,
+   "lv_start": null,
+   "rest": "75 s"
+  },
+  "ia7": {
+   "kg": 20,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 25 kg × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s"
+  },
+  "c2e": {
+   "kg": 5,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com o halter de 5 kg × 15.",
+   "alt_kg": null,
+   "lv": [
+    {
+     "n": "Sem peso, pausa 2 s no topo",
+     "r": "10-20"
+    },
+    {
+     "n": "Halter 5 kg no peito",
+     "r": "10-20"
+    },
+    {
+     "n": "Mochila 8 kg no peito",
+     "r": "10-20"
+    },
+    {
+     "n": "Mochila 12 kg no peito",
+     "r": "10-20"
+    }
+   ],
+   "lv_start": 1,
+   "rest": "60 s"
+  },
+  "c2b": {
+   "kg": null,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 × 13.",
+   "alt_kg": null,
+   "lv": [
+    {
+     "n": "Dead bug (reps por lado)",
+     "r": "8-12"
+    },
+    {
+     "n": "Joelhos a 90°",
+     "r": "10-15"
+    },
+    {
+     "n": "Pernas quase estendidas",
+     "r": "10-15"
+    },
+    {
+     "n": "Pernas quase estendidas, descida 4 s + pausa no topo",
+     "r": "10-15"
+    }
+   ],
+   "lv_start": 1,
+   "rest": "60 s"
+  },
+  "c2c": {
+   "kg": null,
+   "reps": 25,
+   "adj": null,
+   "alt_kg": null,
+   "lv": [
+    {
+     "n": "Joelhos apoiados",
+     "r": "20-40"
+    },
+    {
+     "n": "Pés empilhados",
+     "r": "20-40"
+    },
+    {
+     "n": "Pé de cima elevado",
+     "r": "20-40"
+    }
+   ],
+   "lv_start": 1,
+   "rest": "30 s entre os lados"
+  },
+  "sa1": {
+   "kg": 10,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 12 kg por halter × 10.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min 30 s"
+  },
+  "sa2": {
+   "kg": 25,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem jogar o tronco para trás, faça a série 2 com 30 kg × 10.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sa3": {
+   "kg": 20,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 25 kg × 10.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sa4": {
+   "kg": 25,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) com a lombar neutra, faça a série 2 com 30 kg × 10.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sa5": {
+   "kg": 4,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem balançar o tronco, faça a série 2 com 5 kg por halter × 12.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s"
+  },
+  "sa6": {
+   "kg": 12,
+   "reps": 10,
+   "adj": "Carga = total (barra + anilhas). Se a série 1 saiu fácil (sobrariam 6+ reps) sem balançar, faça a série 2 com 14 kg no total × 10.",
+   "alt_kg": 15,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s depois do par (rosca → tríceps)"
+  },
+  "sa7": {
+   "kg": 15,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) com os cotovelos colados no corpo, faça a série 2 com 17,5 kg × 12.",
+   "alt_kg": 15,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s depois do par (rosca → tríceps)"
+  },
+  "ib1": {
+   "kg": 20,
+   "reps": 12,
+   "adj": "Carga = anilhas somadas, sem o carrinho. Se a série 1 saiu fácil (sobrariam 6+ reps) descendo até os joelhos perto do peito sem o quadril sair do encosto, faça a série 2 com 40 kg (20 de cada lado) × 12.",
+   "alt_kg": 40,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min 30 s"
+  },
+  "ib2": {
+   "kg": 20,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 25 kg × 12.",
+   "alt_kg": 15,
+   "lv": null,
+   "lv_start": null,
+   "rest": "90 s"
+  },
+  "ib3": {
+   "kg": 20,
+   "reps": 10,
+   "adj": "Carga = anilhas somadas, sem a barra. Se a série 1 saiu fácil (sobrariam 6+ reps) sem sentir a lombar, faça a série 2 com 30 kg × 10.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "ib7": {
+   "kg": 2.5,
+   "reps": 15,
+   "adj": "Se a série 1 do lado mais fraco saiu fácil (sobrariam 6+ reps), faça a série 2 com 5 kg × 12 nos 2 lados.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s depois dos 2 lados"
+  },
+  "ib4": {
+   "kg": 30,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) com 1 s de pausa embaixo, faça a série 2 com 40 kg × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "75 s"
+  },
+  "ib5": {
+   "kg": 15,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 20 kg × 15.",
+   "alt_kg": 2.5,
+   "lv": null,
+   "lv_start": null,
+   "rest": "75 s"
+  },
+  "ib6": {
+   "kg": 20,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 25 kg × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s"
+  },
+  "sb1": {
+   "kg": 10,
+   "reps": 8,
+   "adj": "Carga = anilhas somadas, sem a barra. Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 14 kg (7 de cada lado) × 8.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min 30 s"
+  },
+  "sb8": {
+   "kg": 8,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem arquear a lombar, faça a série 2 com 10 kg por halter × 10.",
+   "alt_kg": 15,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sb2": {
+   "kg": 25,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 30 kg × 10.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sb3": {
+   "kg": 20,
+   "reps": 10,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) com o peito colado no apoio, faça a série 2 com 25 kg × 10.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "2 min"
+  },
+  "sb4": {
+   "kg": 5,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 7,5 kg por lado × 12.",
+   "alt_kg": 20,
+   "lv": null,
+   "lv_start": null,
+   "rest": "90 s"
+  },
+  "sb5": {
+   "kg": 4,
+   "reps": 15,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem balançar o tronco, faça a série 2 com 5 kg por halter × 12.",
+   "alt_kg": 10,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s"
+  },
+  "sb6": {
+   "kg": 5,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps) sem tirar as costas do banco, faça a série 2 com 6 kg por halter × 12.",
+   "alt_kg": 5,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s depois do par (rosca → tríceps)"
+  },
+  "sb7": {
+   "kg": 10,
+   "reps": 12,
+   "adj": "Se a série 1 saiu fácil (sobrariam 6+ reps), faça a série 2 com 12,5 kg × 12.",
+   "alt_kg": 8,
+   "lv": null,
+   "lv_start": null,
+   "rest": "60 s depois do par (rosca → tríceps)"
+  }
+ },
+ "rule_changes": [
+  "Faixa: em exercício com escada (lv), \"fundo\" e \"topo\" são os do NÍVEL atual (lv[nível].r), não os de \"reps\" do exercício. Ex.: a remada de casa no nível 0 usa 12–20; o 15/15 de segunda NÃO sobe de nível (com a faixa 6–15 do exercício, subiria errado).",
+  "(b) Carga de trabalho W = maior kg (em escada: maior nível) da última sessão em que pelo menos 1 série fez ≥ fundo − 2 reps. Se nenhuma série chegou a fundo − 2: W = menor kg usado − 1 incremento (em escada: nível − 1) e meta = fundo em todas as séries. Motivo: \"maior kg\" puro prende o aluno numa carga que ele testou e não aguentou.",
+  "(b) Só sobe se TODAS as séries da última vez foram feitas em W e bateram o topo. Aí: W + incremento (em escada: próximo nível), todas as séries = fundo (em escada: fundo da faixa do NOVO nível).",
+  "(c) Série feita em W: meta = máx(reps da última vez nessa série + 1; fundo), limitada ao topo. Série feita abaixo de W (regra da escada ou ajuste da série 2): meta = menor nº de reps feito em W na última vez, limitado entre fundo e topo (no lugar de \"fundo\"). Séries novas = meta da última série. Em segundos: +5 s no lugar de +1 rep.",
+  "Nova — meta é piso: se ao completar a meta ainda sobrariam 3 reps a mais que o RIR máximo da fase (ex.: Adaptação 3–4 → sobrariam 7+), continue até ficar nesse RIR, no máximo até o topo, e anote o total real. Motivo: cada exercício de academia aparece 1×/semana; +1 rep por semana é lento para iniciante e o chute inicial é conservador de propósito.",
+  "(d) Semana leve: séries = metade arredondada para cima (mínimo 1), mesma carga/nível, reps = fundo. A semana leve NÃO vira referência: a meta seguinte sai da última sessão ANTES dela (senão ele volta com metas no fundo da faixa e perde semanas).",
+  "Nova (e) — estagnação: se nas 3 últimas sessões do exercício (sem contar semana leve) W foi a mesma e a média de reps por série em W não subiu em nenhuma das 2 últimas, a próxima = W − 1 incremento (em escada: nível − 1), todas as séries = topo − 2; depois volta à regra normal.",
+  "Carga sugerida que não existe na academia (halter ímpar, placa de 2,5 kg): use a menor carga existente acima dela e meta = fundo em todas as séries.",
+  "Incrementos: 2 kg por halter está certo para supino inclinado, stiff e desenvolvimento (halteres ≥ 10 kg vão de 2 em 2). Mantenha 1 kg em elevação lateral (sa5/sb5) e rosca inclinada (sb6): halteres até 10 kg costumam ir de 1 em 1, e 2 kg ali é +33–50% (4→6 kg). Máquinas 5, polias 2,5, leg press 10, Smith e barra W 2 no total: ok. Em casa (c1d, c1e, c1f, c2e) incremento_kg = 0: não existe halter de 4 ou 6 kg; progride só pela escada lv (a troca 3→5 kg da elevação lateral é um nível, com faixa 8–15)."
+ ],
+ "inc_changes": {
+  "c1d": 0,
+  "c1e": 0,
+  "c1f": 0,
+  "c2e": 0
+ },
+ "flags": [
+  "Ombro lateral em 3 dias seguidos (qui SA → sex IB → sáb SB): no bloco final são 4 + 4 + 5 = 13 séries em 72 h a RIR 0–1, e sb5 herda a meta de sa5 (mesma key) chegando ao sábado já cansado, então as metas de quinta e sábado ficam oscilando. Correção: mova a elevação lateral na polia (ib7) de IB (sex) para IA (ter), logo depois do crucifixo inverso no peck deck, e mude sb5 series_por_fase para [2,3,4,4,3].",
+  "SB: Smith inclinado seguido do desenvolvimento (dois empurrões pesados em sequência, mesmo deltoide anterior e tríceps, sem ajudante); o desenvolvimento, que é prioridade de ombro, sempre sai cansado. Correção: ordem de SB = Smith inclinado → puxada neutra → desenvolvimento → remada com apoio no peito → crossover → elevação lateral → bi-set rosca/tríceps.",
+  "Com a semana 1 toda em casa, a academia começa na S2 (06/10) com só 1 semana de adaptação: o teste de carga e a repetição da carga viram uma sessão só. Correção: na S3 (12–18/10) use as séries da Acumulação I, mas com RIR 3–4 em todos os exercícios de academia; o RIR da Acumulação I passa a valer na S4 (19/10)."
+ ],
+ "today_changes": []
+}

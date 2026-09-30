@@ -1,0 +1,15 @@
+{
+ "week": 1,
+ "session": "C1",
+ "date": "2026-09-28",
+ "done": true,
+ "notes": "Treinei depois do jantar (2 cachorros-quentes). Flexão: 2ª série quase falhou. Pike: não saiu, ~3 na 1ª série. Tríceps francês unilateral: 1 série de 6 por lado, o tronco entorta.",
+ "ex": {
+  "c1a": { "v": "No chão", "lim": true, "sets": [{ "kg": "", "reps": "8" }, { "kg": "", "reps": "8" }] },
+  "c1b": { "v": "Serrote 5 kg, descida 3 s + pausa 1 s no topo", "sets": [{ "kg": "", "reps": "15" }, { "kg": "", "reps": "15" }] },
+  "c1c": { "v": "No chão (V invertido)", "sets": [{ "kg": "", "reps": "3" }] },
+  "c1d": { "v": "3 kg", "lim": true, "sets": [{ "kg": "", "reps": "15" }, { "kg": "", "reps": "15" }] },
+  "c1e": { "v": "5 kg", "lim": true, "sets": [{ "kg": "", "reps": "12" }, { "kg": "", "reps": "12" }] },
+  "c1f": { "v": "5 kg unilateral", "sets": [{ "kg": "", "reps": "6" }] }
+ }
+}

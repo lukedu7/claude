@@ -1,0 +1,1206 @@
+{
+ "profile": {
+  "altura_cm": 185,
+  "peso_kg": 66,
+  "idade": 22,
+  "nivel": "iniciante em carga e progressão (já conhece alguns exercícios), magro, 1ª semana de treino",
+  "halteres_de_casa": "um par de 3 kg e um par de 5 kg (só isso)",
+  "casa_extra": "mesa de madeira maciça, cadeira, sofá, colchonete, mochila com livros"
+ },
+ "schedule": {
+  "dom": "OFF",
+  "seg": "C1",
+  "ter": "IA",
+  "qua": "C2",
+  "qui": "SA",
+  "sex": "IB",
+  "sab": "SB"
+ },
+ "phases": [
+  {
+   "nome": "Adaptação",
+   "semanas": "1-2",
+   "datas": "28/09–11/10",
+   "rir": {
+    "c": "3–4",
+    "i": "3–4",
+    "h": "3–4",
+    "h1": "3–4"
+   }
+  },
+  {
+   "nome": "Acumulação I",
+   "semanas": "3-4",
+   "datas": "12/10–25/10",
+   "rir": {
+    "c": "3",
+    "i": "2",
+    "h": "3",
+    "h1": "2–3"
+   }
+  },
+  {
+   "nome": "Acumulação II",
+   "semanas": "5-7",
+   "datas": "26/10–15/11",
+   "rir": {
+    "c": "2",
+    "i": "1–2",
+    "h": "2–3",
+    "h1": "2–3"
+   }
+  },
+  {
+   "nome": "Bloco final",
+   "semanas": "8-12",
+   "datas": "16/11–20/12",
+   "rir": {
+    "c": "1–2",
+    "i": "0–1 (0 só na última série)",
+    "h": "2",
+    "h1": "2–3"
+   }
+  },
+  {
+   "nome": "Festas",
+   "semanas": "13-14",
+   "datas": "21/12–03/01",
+   "rir": {
+    "c": "2",
+    "i": "2",
+    "h": "2–3",
+    "h1": "2–3"
+   }
+  }
+ ],
+ "rir_keys": "c=compostos academia, i=isoladores academia, h=Casa 1, h1=Casa 2",
+ "home_levels": [
+  {
+   "movement": "Flexão",
+   "levels": [
+    "Mãos na mesa ou bancada",
+    "Mãos no assento da cadeira ou do sofá (encostados na parede)",
+    "No chão",
+    "Pés elevados numa cadeira",
+    "Pés elevados + pausa de 2 s + descida em 3 s",
+    "Arqueiro ou com mochila de 5–10 kg"
+   ],
+   "criteria": "Faixa de 6–15. Com 15 em todas as séries, suba. Se no nível novo a 1ª série der menos de 6, volte e use pausa de 2 s embaixo."
+  },
+  {
+   "movement": "Remada",
+   "levels": [
+    "Serrote com 5 kg, descida 3 s + pausa 1 s no topo (12–20 por lado)",
+    "Remada invertida na mesa, joelhos dobrados",
+    "Mesa com as pernas estendidas",
+    "Mesa com os pés elevados numa cadeira",
+    "Pés elevados + pausa de 2 s no topo"
+   ],
+   "criteria": "N1: 20 por lado em todas as séries → N2. Da mesa em diante, faixa de 6–15: com 15 em todas, suba. Barra fixa de porta (bônus): pendurar 20–30 s → negativas de 5 s → com elástico → barra completa."
+  },
+  {
+   "movement": "Pike push-up",
+   "levels": [
+    "Mãos elevadas no sofá, pés no chão",
+    "No chão (V invertido)",
+    "Pés elevados numa cadeira",
+    "Pés elevados + pausa de 2 s"
+   ],
+   "criteria": "Faixa de 6–12. Com 12 em todas as séries, suba."
+  },
+  {
+   "movement": "Prancha frontal",
+   "levels": [
+    "Joelhos no chão",
+    "Padrão",
+    "Tirando um pé do chão, alternando a cada 5 s",
+    "Cotovelos 10–15 cm à frente dos ombros"
+   ],
+   "criteria": "Com 3 × 45 s perfeitos, suba e recomece com 20–25 s. Nunca passe de 60 s."
+  },
+  {
+   "movement": "Prancha lateral",
+   "levels": [
+    "Joelhos apoiados",
+    "Pés empilhados",
+    "Pé de cima elevado"
+   ],
+   "criteria": "Com 40 s dos dois lados, suba e recomece com 20 s."
+  },
+  {
+   "movement": "Abdominal reverso",
+   "levels": [
+    "Dead bug (8–12 por lado)",
+    "Joelhos a 90°",
+    "Pernas quase estendidas",
+    "Descida em 4 s + pausa no topo"
+   ],
+   "criteria": "Com o topo da faixa em todas as séries, suba."
+  },
+  {
+   "movement": "Búlgaro (só na sessão mínima)",
+   "levels": [
+    "Afundo com a mão na parede",
+    "Afundo sem apoio",
+    "Búlgaro com o pé de trás na cadeira",
+    "Búlgaro com halteres",
+    "Halteres + descida em 3 s"
+   ],
+   "criteria": "Faixa de 8–15 por perna. Com 15 em todas as séries, suba."
+  },
+  {
+   "movement": "Halteres de casa (3 e 5 kg)",
+   "levels": [
+    "Carga normal, faixa do exercício",
+    "Mesma carga, descida em 3 s",
+    "Descida em 3 s + pausa de 1 s",
+    "Próximo halter (3 → 5 kg), volta ao nível 1"
+   ],
+   "criteria": "Com o topo da faixa em todas as séries, suba. Se quiser acelerar a Casa 1, um par de halteres de 8–10 kg (~R$ 100–200) ajuda a partir de novembro. Não é obrigatório."
+  }
+ ],
+ "progression": {
+  "model": "Progressão dupla: primeiro as reps, depois a carga. Use a MESMA carga em todas as séries até bater o TOPO da faixa em TODAS, com técnica e no RIR da fase. Aí suba o menor incremento e recomece do fundo da faixa. Só existe uma decisão por exercício: subir a carga ou buscar mais reps. O registro já sugere qual.",
+  "steps": [
+   "Olhe a sugestão do registro (vem da última vez que você fez aquele exercício).",
+   "Use a mesma carga em todas as séries de trabalho.",
+   "Meta: +1 rep em pelo menos uma série, sem piorar a técnica e sem passar do RIR.",
+   "Bateu o topo em TODAS as séries (ex.: 12/12/12 numa faixa de 8–12)? Na próxima, suba 1 incremento.",
+   "Com a carga nova as reps caem, e isso é normal. Ficou tudo dentro da faixa? Siga.",
+   "Regra da escada: com a carga nova, uma série caiu abaixo do fundo da faixa? Faça as restantes com a carga anterior. Na próxima sessão, tente de novo.",
+   "Bateu o topo, mas indo além do RIR (ex.: até a falha quando o alvo era 2)? Ainda não suba.",
+   "Em casa, em vez de carga, você sobe de NÍVEL (tabela de níveis abaixo)."
+  ],
+  "start_test": [
+   "Na 1ª vez de cada exercício (S1), o objetivo é achar a carga com que você faria ~10 reps sobrando 3–4.",
+   "Comece leve demais de propósito: barra vazia, 1ª placa, só o carrinho, halter com que você faria 15 reps ou mais.",
+   "Faça 10 reps com técnica perfeita e pergunte: “quantas mais eu faria?”",
+   "Sobrariam 7 ou mais: suba 2–3 incrementos. 5–6: suba 1–2. 3–4: ESSA é a carga. 0–2 ou a técnica quebrou: volte 1 incremento.",
+   "No máximo 3 tentativas por exercício, com 1–2 min de descanso entre elas. A tentativa certa conta como 1ª série; faça mais 1 igual.",
+   "S2: repita a carga. Fez o topo sobrando 4 ou mais? Suba na S3. Ficou abaixo do fundo? Desça 1 incremento."
+  ],
+  "guesses": "Chutes iniciais (cada máquina pesa diferente): supino inclinado 8–12 kg por halter · elevação lateral 4–6 kg · stiff 10–14 kg por halter · rosca W 10–15 kg no total · puxada e remada 25–35 kg · hack e leg press: só o carrinho. Em casa: elevação lateral com 3 kg, rosca com 5 kg.",
+  "increments": "Menor incremento disponível. Halteres: próximo par (+1 ou +2 kg). Máquinas e polias: +1 placa (2,5–5 kg). Barra W e Smith: +2 kg no total. Hack e hip thrust: +5 kg. Leg press: +10 kg. Anote a regulagem de cada máquina: sem ela, a comparação de carga não vale.",
+  "stall": [
+   "Estagnou = 2 sessões seguidas do mesmo exercício sem ganhar rep nem carga. Uma sessão ruim isolada é normal.",
+   "1º passo: confira o básico. Dormiu 7h30 ou mais? Bateu a comida? O peso subiu? A amplitude e o descanso foram os mesmos? Se algo falhou, corrija e mantenha a carga por mais 1 semana.",
+   "2º passo: se o básico está ok, reduza ~10% e reconstrua pela progressão dupla. Em geral você passa da marca antiga em 2–3 sessões.",
+   "3º passo: travou de novo? Troque pela alternativa 1 e faça o teste de carga.",
+   "3 ou mais exercícios travados na mesma semana, com cansaço ou sono ruim → transforme a semana atual em semana leve (botão acima do registro)."
+  ],
+  "example": [
+   "Supino inclinado com halteres, 3 × 8–12:",
+   "S1 (teste): 10 kg × 10 sobrando ~6 → 12 kg × 10 sobrando 3–4. Carga = 12 kg.",
+   "S2: 12 kg: 12/12 → topo nas duas séries, sobe.",
+   "S3: 14 kg: 10/9/9 · S4: 11/10/10 · S5: 12/11/11 · S6: 12/12/12 → sobe.",
+   "S7: 16 kg: 9, 7… a 2ª caiu abaixo de 8, então a 3ª volta para 14 kg (regra da escada).",
+   "S8: 16 kg: 9/8/8 · S9: 10/9/9 · S10: 11/10/9 · S12: 12/11/10.",
+   "Resultado: de 12 kg × 10 para 16 kg × 12/11/10, +33% de carga."
+  ]
+ },
+ "sessions": {
+  "C1": {
+   "nome": "Casa 1: peso corporal",
+   "local": "casa",
+   "dur_min": 38,
+   "ex": [
+    {
+     "id": "c1a",
+     "key": "flexao",
+     "nome": "Flexão de braço (no seu nível)",
+     "equip": "",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "6-15",
+     "unidade": "reps",
+     "descanso": "bi-set 90 s",
+     "tipo": "h",
+     "peso_corporal": true,
+     "nivel_inicial_atual": "N3 flexão no chão",
+     "alternativas": [
+      "Supino com halteres deitado no chão, 3 × 8–12"
+     ],
+     "notas": "15 reps em todas as séries → próximo nível.",
+     "nolog": false
+    },
+    {
+     "id": "c1b",
+     "key": "remada_casa",
+     "nome": "Remada: serrote com 5 kg → remada na mesa",
+     "equip": "halteres_casa",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "6-15",
+     "unidade": "reps",
+     "descanso": "bi-set com a flexão",
+     "tipo": "h",
+     "peso_corporal": true,
+     "nivel_inicial_atual": "N1 serrote 5 kg com pausa",
+     "alternativas": [
+      "Remada curvada com mochila pesada"
+     ],
+     "notas": "Com 5 kg o serrote fica fácil rápido: use descida de 3 s e pausa de 1 s no topo, e passe para a mesa assim que fizer 20 por lado. Mesa: teste antes (madeira maciça; nunca de vidro ou dobrável).",
+     "nolog": false
+    },
+    {
+     "id": "c1c",
+     "key": "pike",
+     "nome": "Pike push-up",
+     "equip": "",
+     "series_por_fase": [
+      2,
+      2,
+      3,
+      3,
+      2
+     ],
+     "reps": "6-12",
+     "unidade": "reps",
+     "descanso": "90 s",
+     "tipo": "h",
+     "peso_corporal": true,
+     "nivel_inicial_atual": "N2 pike no chão",
+     "alternativas": [
+      "Desenvolvimento com halteres sentado, 2 × 8–12"
+     ],
+     "notas": "Se doer o ombro, troque pelo desenvolvimento com halteres.",
+     "nolog": false
+    },
+    {
+     "id": "c1d",
+     "key": "elev_lat_casa",
+     "nome": "Elevação lateral (halteres de 3 kg)",
+     "equip": "halteres_casa",
+     "series_por_fase": [
+      2,
+      3,
+      4,
+      4,
+      3
+     ],
+     "reps": "15-20",
+     "unidade": "reps",
+     "descanso": "60 s",
+     "tipo": "h",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Elevação lateral unilateral apoiado na parede",
+      "Elevação lateral com elástico preso sob o pé"
+     ],
+     "notas": "Comece com 3 kg. Com 20 reps em todas as séries, use descida de 3 s + pausa de 1 s no topo; só depois passe para os de 5 kg.",
+     "nolog": false
+    },
+    {
+     "id": "c1e",
+     "key": "rosca_alt",
+     "nome": "Rosca alternada (halteres de 5 kg)",
+     "equip": "halteres_casa",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "h",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Rosca martelo",
+      "Rosca com mochila"
+     ],
+     "notas": "Bi-set com o tríceps. Com 15 em todas: descida de 3 s + pausa de 1 s embaixo; depois, rosca concentrada sentado com 5 kg e pausa de 2 s no topo.",
+     "nolog": false
+    },
+    {
+     "id": "c1f",
+     "key": "triceps_frances_casa",
+     "nome": "Tríceps francês unilateral (halter de 5 kg)",
+     "equip": "halteres_casa",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "h",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Flexão diamante",
+      "Tríceps coice"
+     ],
+     "notas": "Com 2 mãos, 5 kg é leve demais: por isso é unilateral. Com 15 por braço em todas, use descida de 4 s, e depois flexão diamante.",
+     "nolog": false
+    }
+   ]
+  },
+  "IA": {
+   "nome": "Inferior A",
+   "local": "academia",
+   "dur_min": 60,
+   "ex": [
+    {
+     "id": "ia1",
+     "key": "hack",
+     "nome": "Agachamento no hack",
+     "equip": "hack",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2–3 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Agachamento no Smith (pés levemente à frente)",
+      "Leg press 45° com os pés no meio"
+     ],
+     "notas": "Comece só com o carrinho e use as travas. Primeiro a profundidade, depois a carga. Anote o total de anilhas.",
+     "nolog": false
+    },
+    {
+     "id": "ia2",
+     "key": "stiff",
+     "nome": "Stiff com halteres",
+     "equip": "halteres",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 2,
+     "peso_corporal": false,
+     "alternativas": [
+      "Stiff com barra",
+      "Hiperextensão a 45° com anilha"
+     ],
+     "notas": "Carga por halter. A lombar nunca arredonda: a amplitude termina antes disso.",
+     "nolog": false
+    },
+    {
+     "id": "ia3",
+     "key": "extensora",
+     "nome": "Cadeira extensora",
+     "equip": "extensora",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Agachamento goblet com calcanhar elevado",
+      "Leg press com os pés baixos"
+     ],
+     "notas": "Anote as posições do encosto e do rolo.",
+     "nolog": false
+    },
+    {
+     "id": "ia4",
+     "key": "mesa_flexora",
+     "nome": "Mesa flexora",
+     "equip": "mesa_flexora",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Cadeira flexora",
+      "Flexora em pé unilateral"
+     ],
+     "notas": "Se o quadril sobe, a carga está alta demais.",
+     "nolog": false
+    },
+    {
+     "id": "ia5",
+     "key": "panturrilha",
+     "nome": "Panturrilha em pé",
+     "equip": "pant_pe",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Panturrilha no leg press",
+      "Panturrilha no Smith com step"
+     ],
+     "notas": "Amplitude completa e pausa valem mais que carga.",
+     "nolog": false
+    },
+    {
+     "id": "ia6",
+     "key": "peck_inv",
+     "nome": "Crucifixo inverso no peck deck",
+     "equip": "peck_deck",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "12-20",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Crucifixo inverso na polia (cabos cruzados)",
+      "Crucifixo inverso com halteres no banco inclinado"
+     ],
+     "notas": "Está no dia de perna de propósito: é um músculo pequeno, que recupera rápido.",
+     "nolog": false
+    },
+    {
+     "id": "ia7",
+     "key": "abd_polia",
+     "nome": "Abdominal na polia (ajoelhado)",
+     "equip": "corda",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Abdominal na máquina",
+      "Abdominal no banco declinado com anilha"
+     ],
+     "notas": "Abdômen se treina com carga e progressão, como os outros músculos.",
+     "nolog": false
+    }
+   ]
+  },
+  "C2": {
+   "nome": "Casa 2: leve",
+   "local": "casa",
+   "dur_min": 22,
+   "ex": [
+    {
+     "id": "c2e",
+     "key": "abd_supra_casa",
+     "nome": "Abdominal supra com peso",
+     "equip": "colchonete",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "10-20",
+     "unidade": "reps",
+     "descanso": "60 s",
+     "tipo": "h1",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Abdominal supra sem peso, com pausa de 2 s no topo"
+     ],
+     "notas": "Para aparecer, o abdômen precisa de músculo (carga e progressão, como qualquer músculo) E de pouca gordura por cima. Comece com o halter de 5 kg; com 20 reps em todas as séries, passe para a mochila com livros.",
+     "nolog": false
+    },
+    {
+     "id": "c2b",
+     "key": "abd_reverso",
+     "nome": "Abdominal reverso",
+     "equip": "colchonete",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "60 s",
+     "tipo": "h1",
+     "peso_corporal": true,
+     "nivel_inicial_atual": "N2 joelhos a 90°",
+     "alternativas": [
+      "Dead bug"
+     ],
+     "notas": "O que conta é enrolar o quadril, não balançar as pernas.",
+     "nolog": false
+    },
+    {
+     "id": "c2c",
+     "key": "prancha_lateral",
+     "nome": "Prancha lateral",
+     "equip": "colchonete",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "20-40",
+     "unidade": "s",
+     "descanso": "30 s",
+     "tipo": "h1",
+     "peso_corporal": true,
+     "nivel_inicial_atual": "N2 padrão",
+     "alternativas": [
+      "Prancha lateral com os joelhos apoiados"
+     ],
+     "notas": "S1 = lado direito, S2 = lado esquerdo. 40 s dos dois lados → próximo nível.",
+     "nolog": false
+    },
+    {
+     "id": "c2d",
+     "key": "mobilidade",
+     "nome": "Mobilidade (5 min)",
+     "equip": "colchonete",
+     "series_por_fase": 1,
+     "reps": "5 min",
+     "unidade": "reps",
+     "descanso": "—",
+     "tipo": "h1",
+     "peso_corporal": false,
+     "alternativas": [
+      "Caminhada leve de 10 min"
+     ],
+     "notas": "Sem dor, só tensão confortável.",
+     "nolog": true
+    }
+   ]
+  },
+  "SA": {
+   "nome": "Superior A",
+   "local": "academia",
+   "dur_min": 70,
+   "ex": [
+    {
+     "id": "sa1",
+     "key": "sup_incl_halt",
+     "nome": "Supino inclinado com halteres",
+     "equip": "banco",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2–3 min",
+     "tipo": "c",
+     "incremento_kg": 2,
+     "peso_corporal": false,
+     "alternativas": [
+      "Supino inclinado na máquina articulada",
+      "Supino inclinado no Smith"
+     ],
+     "notas": "Carga por halter. Sem ajudante, nunca vá à falha. Anote o furo do banco.",
+     "nolog": false
+    },
+    {
+     "id": "sa2",
+     "key": "puxada_aberta",
+     "nome": "Puxada frontal aberta",
+     "equip": "polia_alta",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Puxada na máquina articulada",
+      "Barra fixa assistida (graviton)"
+     ],
+     "notas": "Não jogue o tronco para roubar carga. Pense em puxar com os cotovelos.",
+     "nolog": false
+    },
+    {
+     "id": "sa3",
+     "key": "chest_press",
+     "nome": "Supino reto na máquina",
+     "equip": "chest_press",
+     "series_por_fase": [
+      2,
+      2,
+      3,
+      3,
+      2
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Supino reto com halteres",
+      "Supino reto no Smith"
+     ],
+     "notas": "Vem depois do inclinado, então a carga menor é normal. Anote a altura do banco.",
+     "nolog": false
+    },
+    {
+     "id": "sa4",
+     "key": "remada_baixa",
+     "nome": "Remada sentada na polia (triângulo)",
+     "equip": "polia_baixa",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Remada sentada na máquina articulada",
+      "Remada unilateral com halter (serrote)"
+     ],
+     "notas": "Lombar neutra o tempo todo.",
+     "nolog": false
+    },
+    {
+     "id": "sa5",
+     "key": "elev_lat",
+     "nome": "Elevação lateral com halteres",
+     "equip": "halteres",
+     "series_por_fase": [
+      2,
+      3,
+      4,
+      4,
+      3
+     ],
+     "reps": "12-20",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Elevação lateral na máquina",
+      "Elevação lateral na polia"
+     ],
+     "notas": "Carga por halter. 4–8 kg é normal. Se precisar balançar, está pesado.",
+     "nolog": false
+    },
+    {
+     "id": "sa6",
+     "key": "rosca_w",
+     "nome": "Rosca direta com barra W",
+     "equip": "barra_w",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "i",
+     "incremento_kg": 2,
+     "peso_corporal": false,
+     "alternativas": [
+      "Rosca na polia baixa com barra",
+      "Rosca alternada com halteres"
+     ],
+     "notas": "Bi-set com o tríceps: rosca → tríceps → 60 s → repete.",
+     "nolog": false
+    },
+    {
+     "id": "sa7",
+     "key": "triceps_corda",
+     "nome": "Tríceps na polia com corda",
+     "equip": "corda",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "i",
+     "incremento_kg": 2.5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Tríceps na polia com barra reta ou V",
+      "Tríceps coice com halter"
+     ],
+     "notas": "Se os cotovelos se afastam do corpo, a carga está alta demais.",
+     "nolog": false
+    }
+   ]
+  },
+  "IB": {
+   "nome": "Inferior B",
+   "local": "academia",
+   "dur_min": 55,
+   "ex": [
+    {
+     "id": "ib1",
+     "key": "leg_press",
+     "nome": "Leg press 45°",
+     "equip": "leg_press",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "2–3 min",
+     "tipo": "c",
+     "incremento_kg": 10,
+     "peso_corporal": false,
+     "alternativas": [
+      "Leg press horizontal",
+      "Agachamento no Smith"
+     ],
+     "notas": "Anote o total de anilhas (sem o carrinho) e recoloque as travas ao final.",
+     "nolog": false
+    },
+    {
+     "id": "ib2",
+     "key": "cad_flexora",
+     "nome": "Cadeira flexora",
+     "equip": "cad_flexora",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Mesa flexora",
+      "Flexora em pé unilateral"
+     ],
+     "notas": "Os posteriores trabalham melhor alongados.",
+     "nolog": false
+    },
+    {
+     "id": "ib3",
+     "key": "hip_thrust",
+     "nome": "Elevação pélvica (hip thrust)",
+     "equip": "hip_thrust",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Hip thrust no Smith",
+      "Ponte de glúteo no chão com halter (12–20)"
+     ],
+     "notas": "Sentiu mais a lombar? A costela está subindo: reduza a carga.",
+     "nolog": false
+    },
+    {
+     "id": "ib7",
+     "key": "elev_lat_polia",
+     "nome": "Elevação lateral unilateral na polia",
+     "equip": "crossover",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "12-20",
+     "unidade": "reps",
+     "descanso": "60 s depois dos 2 lados",
+     "tipo": "i",
+     "incremento_kg": 2.5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Elevação lateral na máquina",
+      "Elevação lateral com halteres"
+     ],
+     "notas": "Ombro lateral é músculo pequeno e recupera rápido, por isso aguenta 4 treinos por semana. A polia puxa desde o início do movimento e complementa o halter. Anote as reps do lado mais fraco.",
+     "nolog": false
+    },
+    {
+     "id": "ib4",
+     "key": "panturrilha",
+     "nome": "Panturrilha em pé",
+     "equip": "pant_pe",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Panturrilha no leg press",
+      "Panturrilha no Smith com step"
+     ],
+     "notas": "Mesmo exercício de terça.",
+     "nolog": false
+    },
+    {
+     "id": "ib5",
+     "key": "peck_inv",
+     "nome": "Crucifixo inverso no peck deck",
+     "equip": "peck_deck",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "12-20",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Crucifixo inverso na polia (cabos cruzados)",
+      "Crucifixo inverso com halteres no banco inclinado"
+     ],
+     "notas": "Mesmo exercício de terça.",
+     "nolog": false
+    },
+    {
+     "id": "ib6",
+     "key": "abd_polia",
+     "nome": "Abdominal na polia (ajoelhado)",
+     "equip": "corda",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "60–90 s",
+     "tipo": "i",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Abdominal na máquina",
+      "Abdominal no banco declinado com anilha"
+     ],
+     "notas": "Mesmo exercício de terça.",
+     "nolog": false
+    }
+   ]
+  },
+  "SB": {
+   "nome": "Superior B",
+   "local": "academia",
+   "dur_min": 80,
+   "ex": [
+    {
+     "id": "sb1",
+     "key": "smith_incl",
+     "nome": "Supino inclinado no Smith",
+     "equip": "smith",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      4,
+      3
+     ],
+     "reps": "6-10",
+     "unidade": "reps",
+     "descanso": "2–3 min",
+     "tipo": "c",
+     "incremento_kg": 2,
+     "peso_corporal": false,
+     "alternativas": [
+      "Supino inclinado na máquina",
+      "Supino inclinado com halteres (8–12)"
+     ],
+     "notas": "Anote só as anilhas somadas (sem a barra). Ajuste as travas logo acima do peito.",
+     "nolog": false
+    },
+    {
+     "id": "sb8",
+     "key": "desenv_halt",
+     "nome": "Desenvolvimento com halteres sentado",
+     "equip": "banco",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 2,
+     "peso_corporal": false,
+     "alternativas": [
+      "Desenvolvimento na máquina",
+      "Desenvolvimento no Smith, sentado"
+     ],
+     "notas": "É o exercício que mais dá “volume” ao ombro como um todo. Carga por halter. Nunca arqueie a lombar para empurrar.",
+     "nolog": false
+    },
+    {
+     "id": "sb2",
+     "key": "puxada_neutra",
+     "nome": "Puxada com pegada neutra",
+     "equip": "polia_alta",
+     "series_por_fase": [
+      2,
+      3,
+      3,
+      3,
+      3
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Puxada unilateral na polia",
+      "Barra fixa assistida com pegada neutra"
+     ],
+     "notas": "O alongamento no topo conta tanto quanto a contração.",
+     "nolog": false
+    },
+    {
+     "id": "sb3",
+     "key": "remada_peito",
+     "nome": "Remada com apoio no peito",
+     "equip": "remada_peito",
+     "series_por_fase": [
+      2,
+      2,
+      2,
+      2,
+      2
+     ],
+     "reps": "8-12",
+     "unidade": "reps",
+     "descanso": "2 min",
+     "tipo": "c",
+     "incremento_kg": 5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Remada com halteres de bruços no banco inclinado",
+      "Remada sentada na máquina articulada"
+     ],
+     "notas": "O apoio no peito tira a lombar do movimento.",
+     "nolog": false
+    },
+    {
+     "id": "sb4",
+     "key": "crossover_asc",
+     "nome": "Crossover de baixo para cima",
+     "equip": "crossover",
+     "series_por_fase": [
+      2,
+      2,
+      3,
+      3,
+      2
+     ],
+     "reps": "12-15",
+     "unidade": "reps",
+     "descanso": "90 s",
+     "tipo": "i",
+     "incremento_kg": 2.5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Peck deck com o assento baixo",
+      "Crucifixo inclinado com halteres"
+     ],
+     "notas": "Carga moderada e controle total.",
+     "nolog": false
+    },
+    {
+     "id": "sb5",
+     "key": "elev_lat",
+     "nome": "Elevação lateral com halteres",
+     "equip": "halteres",
+     "series_por_fase": [
+      2,
+      3,
+      4,
+      5,
+      3
+     ],
+     "reps": "12-20",
+     "unidade": "reps",
+     "descanso": "60 s",
+     "tipo": "i",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Elevação lateral na máquina",
+      "Elevação lateral na polia"
+     ],
+     "notas": "Mesmo exercício de quinta: a sugestão compara com a última vez que você fez, qualquer que tenha sido o dia.",
+     "nolog": false
+    },
+    {
+     "id": "sb6",
+     "key": "rosca_incl",
+     "nome": "Rosca inclinada com halteres",
+     "equip": "banco",
+     "series_por_fase": [
+      2,
+      3,
+      4,
+      4,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "i",
+     "incremento_kg": 1,
+     "peso_corporal": false,
+     "alternativas": [
+      "Rosca bayesian na polia",
+      "Rosca Scott na máquina"
+     ],
+     "notas": "Carga por halter, menor que na rosca W: é normal.",
+     "nolog": false
+    },
+    {
+     "id": "sb7",
+     "key": "triceps_frances_polia",
+     "nome": "Tríceps francês na polia",
+     "equip": "crossover",
+     "series_por_fase": [
+      2,
+      3,
+      4,
+      4,
+      3
+     ],
+     "reps": "10-15",
+     "unidade": "reps",
+     "descanso": "bi-set 60 s",
+     "tipo": "i",
+     "incremento_kg": 2.5,
+     "peso_corporal": false,
+     "alternativas": [
+      "Tríceps francês com halter sentado",
+      "Tríceps testa com barra W"
+     ],
+     "notas": "A cabeça longa é a maior parte do braço.",
+     "nolog": false
+    }
+   ]
+  }
+ }
+}

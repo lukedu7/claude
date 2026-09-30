@@ -1,0 +1,869 @@
+{
+ "profile": {
+  "height": 185,
+  "weight": 66,
+  "age": 22
+ },
+ "cidade": "Curitiba",
+ "rotina": "trabalho presencial seg e qua; home office ter, qui, sex. Almoço e jantar feitos por outra pessoa em casa (ele monta o prato pelas medidas). Ele cuida de café, shake, lanche/pré e ceia.",
+ "targets": {
+  "kcal": 3030,
+  "protein": 150,
+  "carbs": 435,
+  "fat": 76,
+  "protein_note": "2,3 g/kg: o topo da faixa útil",
+  "carbs_note": "~57% das kcal: combustível do treino",
+  "fat_note": "~1,1 g/kg: saúde hormonal",
+  "rate_text": "+0,2 a 0,4",
+  "rate_note": "kg por semana a partir da S5 (S1–S4 sobe mais: água e glicogênio)",
+  "goal_text": "69,5–71,5 kg em 03/01"
+ },
+ "calc": {
+  "bmr": 1711,
+  "factor": 1.55,
+  "tdee": 2650,
+  "surplus": 380,
+  "text": [
+   "TMB (Mifflin-St Jeor, homem, 22 anos, 66 kg): 10×66 + 6,25×185 − 5×22 + 5 = 1.711 kcal.",
+   "Gasto total = 1.711 × 1,55 ≈ 2.650 kcal. O fator 1,55 cobre 4 treinos de academia, 2 sessões curtas em casa e uma rotina mais sentada.",
+   "Meta ≈ 3.030 kcal (superávit de ~380 kcal). Proteína 150 g (2,3 g/kg). Mais que isso só enche e tira espaço do carboidrato, o que é ruim para quem tem pouca fome. Gordura ~76 g, carboidrato ~435 g.",
+   "Rampa de apetite: S1 ≈ 2.620 kcal (sem ceia e com 1 pão só no pré-treino), S2 ≈ 2.870 (a ceia entra) e da S3 em diante ≈ 3.030. Com isso você consegue bater 100% desde o primeiro dia.",
+   "O fator 1,55 é uma estimativa. Quem decide é a média da balança: a revisão de segunda corrige o valor em 2–3 semanas."
+  ],
+  "assumptions": [
+   "22 anos, 66 kg, Curitiba. Trabalho presencial na segunda e na quarta, home office no resto. Almoço e jantar em casa, feitos por outra pessoa.",
+   "Sem alergia, intolerância à lactose, doença ou medicação. Se tiver alguma, o plano precisa ser adaptado.",
+   "Os horários mudam conforme o dia do treino (tabela “Horários por dia”), mas a comida é a mesma todos os dias.",
+   "Pesos de referência: pão francês = 50 g; ovo grande = 50 g sem casca; banana = pese a POLPA (100 g ≈ 1 nanica média)."
+  ]
+ },
+ "food": {
+  "intro": "Almoço e jantar são a comida de casa: você monta o prato pelas medidas do prato-modelo. Café, shake, lanche e ceia são seus e levam 2–5 min. Nas 2 primeiras semanas, pese o prato na balança de cozinha; depois, as medidas caseiras bastam, conferindo 1 vez por semana.",
+  "weights_note": "Arroz, feijão, macarrão e a proteína do prato são pesados PRONTOS. Pão, aveia, pasta de amendoim e leite são pesados como vêm.",
+  "ab_note": "Semanas ímpares (1, 3, 5…) = A: pão no café. Semanas pares (2, 4, 6…) = B: cuscuz no café. Variar o café ajuda a não enjoar, e quem é magro come menos quando a comida cansa."
+ },
+ "days": {
+  "0": {
+   "title": "Descanso",
+   "train": "",
+   "train_end": "",
+   "times": {
+    "cafe": "08:30",
+    "shake": "11:00",
+    "almoco": "13:00",
+    "pre": "16:30",
+    "jantar": "19:30",
+    "ceia": "22:30"
+   },
+   "roles": {
+    "pre": "lanche"
+   },
+   "note": "Compras de manhã e preparo da semana à tarde (~3h). Comida igual à dos outros dias."
+  },
+  "1": {
+   "title": "Treino em casa à noite",
+   "train": "19:00",
+   "train_end": "19:35",
+   "times": {
+    "cafe": "07:00",
+    "shake": "10:00",
+    "almoco": "12:30",
+    "pre": "17:30",
+    "jantar": "19:45",
+    "ceia": "21:45"
+   },
+   "roles": {
+    "pre": "lanche",
+    "jantar": "pós-treino"
+   },
+   "note": "Dia presencial: leve o shake na garrafa térmica e os 2 pães com mel para as 17h30. Amanhã tem academia cedo: ceia às 21h45 e cama às 22h30."
+  },
+  "2": {
+   "title": "Academia cedo",
+   "train": "06:30",
+   "train_end": "07:45",
+   "times": {
+    "pre": "06:00",
+    "cafe": "08:00",
+    "shake": "10:30",
+    "almoco": "12:30",
+    "ceia": "16:00",
+    "jantar": "19:30"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "cafe": "pós-treino",
+    "ceia": "lanche"
+   },
+   "note": "Ao acordar, os 2 pães com mel (ou só 1, se não descer) e vá. Café completo ao voltar. A vitamina da ceia vira o lanche das 16h (a partir da S2)."
+  },
+  "3": {
+   "title": "Casa leve à noite",
+   "train": "19:00",
+   "train_end": "19:20",
+   "times": {
+    "cafe": "07:00",
+    "shake": "10:00",
+    "almoco": "12:30",
+    "pre": "17:30",
+    "jantar": "19:30",
+    "ceia": "21:45"
+   },
+   "roles": {
+    "pre": "lanche"
+   },
+   "note": "Dia presencial: leve o shake na garrafa térmica e os 2 pães com mel para as 17h30. Amanhã tem academia cedo: ceia às 21h45 e cama às 22h30."
+  },
+  "4": {
+   "title": "Academia cedo",
+   "train": "06:30",
+   "train_end": "07:45",
+   "times": {
+    "pre": "06:00",
+    "cafe": "08:00",
+    "shake": "10:30",
+    "almoco": "12:30",
+    "ceia": "16:00",
+    "jantar": "19:30"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "cafe": "pós-treino",
+    "ceia": "lanche"
+   },
+   "note": "Ao acordar, os 2 pães com mel (ou só 1, se não descer) e vá. Café completo ao voltar. A vitamina da ceia vira o lanche das 16h (a partir da S2)."
+  },
+  "5": {
+   "title": "Academia de manhã",
+   "train": "08:00",
+   "train_end": "09:15",
+   "times": {
+    "cafe": "06:45",
+    "shake": "09:45",
+    "almoco": "12:30",
+    "pre": "16:00",
+    "jantar": "19:30",
+    "ceia": "22:30"
+   },
+   "roles": {
+    "cafe": "pré-treino",
+    "shake": "pós-treino",
+    "pre": "lanche"
+   },
+   "note": "O café é o seu pré-treino (60–75 min antes). O shake logo depois do treino."
+  },
+  "6": {
+   "title": "Academia à tarde",
+   "train": "15:00",
+   "train_end": "16:15",
+   "times": {
+    "cafe": "08:00",
+    "shake": "10:30",
+    "almoco": "12:30",
+    "pre": "14:00",
+    "jantar": "18:30",
+    "ceia": "21:30"
+   },
+   "roles": {
+    "pre": "pré-treino",
+    "jantar": "pós-treino"
+   },
+   "note": "Pré-treino às 14h e jantar logo depois do treino."
+  }
+ },
+ "meals": [
+  {
+   "id": "cafe",
+   "name": "Café da manhã",
+   "time": "07:00",
+   "role": "normal",
+   "items": [
+    {
+     "food": "Pão francês",
+     "g": 100,
+     "state": "",
+     "household": "2 unidades",
+     "kcal": 300,
+     "p": 8,
+     "c": 58.6,
+     "f": 3.1
+    },
+    {
+     "food": "Ovos mexidos sem óleo (ou cozidos)",
+     "g": 100,
+     "state": "",
+     "household": "2 ovos grandes",
+     "kcal": 146,
+     "p": 13.3,
+     "c": 0.6,
+     "f": 9.5
+    }
+   ],
+   "b": {
+    "items": [
+     {
+      "food": "Cuscuz de flocão de milho",
+      "g": 80,
+      "state": "flocão cru, ≈260 g pronto",
+      "household": "~1 xícara (chá) rasa de flocão",
+      "kcal": 294,
+      "p": 6,
+      "c": 66,
+      "f": 2
+     },
+     {
+      "food": "Ovos mexidos sem óleo (ou cozidos)",
+      "g": 100,
+      "state": "",
+      "household": "2 ovos grandes",
+      "kcal": 146,
+      "p": 13.3,
+      "c": 0.6,
+      "f": 9.5
+     }
+    ]
+   },
+   "swaps": [
+    "2 pães = 5 fatias de pão de forma (120 g): 304 kcal · 11 g P",
+    "2 pães = tapioca com 130 g de goma: 299 kcal · 0 g P",
+    "2 ovos = 1 ovo + 2 fatias de muçarela (30 g): 172 kcal · 13,5 g P",
+    "Cuscuz (semana B) = 2 pães franceses: 300 kcal · 8 g P"
+   ],
+   "notes": "Café preto ou chá sem açúcar à vontade. Pão congelado: 5 min a 180 °C no forno ou na airfryer. Acordou sem fome? Coma os ovos e 1 pão agora e o outro até 8h30."
+  },
+  {
+   "id": "shake",
+   "name": "Shake caseiro",
+   "time": "10:00",
+   "role": "shake",
+   "items": [
+    {
+     "food": "Leite integral",
+     "g": 300,
+     "unit": " ml",
+     "state": "gelado",
+     "household": "1 copo americano cheio + ½",
+     "kcal": 180,
+     "p": 9,
+     "c": 14.1,
+     "f": 9.6
+    },
+    {
+     "food": "Aveia em flocos",
+     "g": 50,
+     "state": "",
+     "household": "5 colheres (sopa) rasas",
+     "kcal": 197,
+     "p": 7,
+     "c": 33.3,
+     "f": 4.3
+    },
+    {
+     "food": "Banana madura (polpa)",
+     "g": 100,
+     "state": "de preferência congelada",
+     "household": "1 nanica média",
+     "kcal": 98,
+     "p": 1.3,
+     "c": 26,
+     "f": 0.1
+    },
+    {
+     "food": "Pasta de amendoim integral",
+     "g": 20,
+     "state": "",
+     "household": "1 colher (sopa) cheia",
+     "kcal": 117.6,
+     "p": 5,
+     "c": 4,
+     "f": 10
+    },
+    {
+     "food": "Açúcar",
+     "g": 16,
+     "state": "",
+     "household": "1 colher (sopa) rasa",
+     "kcal": 61.9,
+     "p": 0,
+     "c": 15.9,
+     "f": 0
+    },
+    {
+     "food": "Creatina monoidratada",
+     "g": 5,
+     "state": "",
+     "household": "1 medidor",
+     "kcal": 0,
+     "p": 0,
+     "c": 0,
+     "f": 0
+    }
+   ],
+   "swaps": [
+    "Shake inteiro = versão sólida: 2 pães + 30 g de pasta de amendoim + 1 banana + 200 ml de leite (creatina no leite): 694 kcal · 23 g P",
+    "300 ml de leite = 300 g de iogurte natural + 100 ml de água: 183 kcal · 10,5 g P",
+    "16 g de açúcar = 20 g de mel: 62 kcal",
+    "1 banana = +25 g de aveia"
+   ],
+   "notes": "Bata por 40–60 s (rende ≈500 ml). Em casa, beba na hora (pode levar de 15 a 30 min). Seg e qua (presencial): bata às 7h com leite gelado e banana congelada e leve numa garrafa térmica inox pré-gelada (5 min com água e gelo), que aguenta até ~10h30. Sem garrafa térmica, no máximo 1 h fora da geladeira. É a refeição mais fácil do dia: não pule."
+  },
+  {
+   "id": "almoco",
+   "name": "Almoço (comida de casa)",
+   "time": "12:30",
+   "role": "normal",
+   "items": [
+    {
+     "food": "Arroz (ou outro carboidrato da casa)",
+     "g": 250,
+     "state": "pronto",
+     "household": "≈10 colheres (sopa) cheias",
+     "kcal": 320,
+     "p": 6.3,
+     "c": 70.3,
+     "f": 0.5
+    },
+    {
+     "food": "Feijão (grãos + caldo)",
+     "g": 150,
+     "state": "pronto",
+     "household": "1 concha média cheia",
+     "kcal": 114,
+     "p": 7.2,
+     "c": 20.4,
+     "f": 0.8
+    },
+    {
+     "food": "Proteína da casa (frango, carne magra, peixe)",
+     "g": 100,
+     "state": "pronta",
+     "household": "1 filé do tamanho da palma da mão",
+     "kcal": 170,
+     "p": 30.7,
+     "c": 0,
+     "f": 4.3
+    },
+    {
+     "food": "Legumes ou salada cozida",
+     "g": 100,
+     "state": "pronto",
+     "household": "1 xícara (chá) cheia",
+     "kcal": 30,
+     "p": 1.5,
+     "c": 5.5,
+     "f": 0.2
+    },
+    {
+     "food": "Salada crua (alface, tomate)",
+     "g": 30,
+     "state": "",
+     "household": "à vontade, no fim",
+     "kcal": 4.2,
+     "p": 0.5,
+     "c": 0.7,
+     "f": 0
+    },
+    {
+     "food": "Azeite (salada ou arroz)",
+     "g": 5,
+     "state": "",
+     "household": "1 colher (chá)",
+     "kcal": 44.2,
+     "p": 0,
+     "c": 0,
+     "f": 5
+    },
+    {
+     "food": "Óleo do preparo (já vem na comida)",
+     "g": 5,
+     "state": "",
+     "household": "—",
+     "kcal": 44.2,
+     "p": 0,
+     "c": 0,
+     "f": 5
+    }
+   ],
+   "swaps": [
+    "Proteína (≈30 g): 100 g de frango pronto = 100 g de bife ou carne moída magra = 110 g de carne de panela ou lombo = 130 g de peixe = 110 g de sobrecoxa sem pele (tire o azeite) = 1 lata de atum",
+    "Proteína da casa pouca ou gordurosa hoje? Complete com 2–3 ovos mexidos (3 min) ou 1 lata de atum",
+    "250 g de arroz = 200 g de macarrão = 350 g de batata cozida = 260 g de mandioca = 280 g de cuscuz pronto (≈320 kcal)",
+    "Sem feijão hoje? +50 g de arroz (≈64 kcal) ou 1 fatia de pão"
+   ],
+   "notes": "Sirva-se pelas medidas. Nas 2 primeiras semanas, pese: coloque o prato na balança, zere e sirva cada item. Proteína e carboidrato primeiro, salada no fim."
+  },
+  {
+   "id": "pre",
+   "name": "Lanche / pré-treino",
+   "time": "16:30",
+   "role": "pre_treino",
+   "items": [
+    {
+     "food": "Pão francês",
+     "g": 100,
+     "state": "",
+     "household": "2 unidades",
+     "kcal": 300,
+     "p": 8,
+     "c": 58.6,
+     "f": 3.1
+    },
+    {
+     "food": "Mel",
+     "g": 20,
+     "state": "",
+     "household": "1 colher (sopa)",
+     "kcal": 61.8,
+     "p": 0.1,
+     "c": 16.8,
+     "f": 0
+    }
+   ],
+   "ramp": {
+    "until": 2,
+    "note": "S1–S2: só 1 pão",
+    "items": [
+     {
+      "food": "Pão francês",
+      "g": 50,
+      "state": "",
+      "household": "1 unidade",
+      "kcal": 150,
+      "p": 4,
+      "c": 29.3,
+      "f": 1.6
+     },
+     {
+      "food": "Mel",
+      "g": 20,
+      "state": "",
+      "household": "1 colher (sopa)",
+      "kcal": 61.8,
+      "p": 0.1,
+      "c": 16.8,
+      "f": 0
+     }
+    ]
+   },
+   "swaps": [
+    "= 5 fatias de pão de forma + 20 g de mel: 365 kcal · 11 g P",
+    "= 2 bananas (200 g de polpa) + 40 g de aveia + 10 g de mel: 385 kcal · 8 g P",
+    "= 1 iogurte natural (170 g) + 1 banana + 30 g de aveia + 10 g de mel: 351 kcal · 11,5 g P (coma 90 min antes)"
+   ],
+   "notes": "Nos dias de academia à noite ou à tarde, é o pré-treino: 60–90 min antes. Nos outros dias, é o lanche da tarde. Nos dias presenciais, leve os pães já com mel. Café preto opcional, até 17h."
+  },
+  {
+   "id": "jantar",
+   "name": "Jantar (comida de casa)",
+   "time": "20:00",
+   "role": "pos_treino",
+   "items": [
+    {
+     "food": "Macarrão ou arroz",
+     "g": 200,
+     "state": "pronto",
+     "household": "2 pegadores cheios (ou 8 colheres de arroz)",
+     "kcal": 316,
+     "p": 11.6,
+     "c": 61.8,
+     "f": 1.8
+    },
+    {
+     "food": "Proteína da casa (carne moída, frango, peixe)",
+     "g": 100,
+     "state": "pronta",
+     "household": "5 colheres (sopa) de carne moída ou 1 filé",
+     "kcal": 190,
+     "p": 31,
+     "c": 0,
+     "f": 6.4
+    },
+    {
+     "food": "Molho de tomate ou legumes",
+     "g": 100,
+     "state": "pronto",
+     "household": "4 colheres (sopa)",
+     "kcal": 30,
+     "p": 1.5,
+     "c": 5.5,
+     "f": 0.2
+    },
+    {
+     "food": "Óleo do preparo (já vem na comida)",
+     "g": 5,
+     "state": "",
+     "household": "—",
+     "kcal": 44.2,
+     "p": 0,
+     "c": 0,
+     "f": 5
+    }
+   ],
+   "swaps": [
+    "Mesmas trocas de proteína e carboidrato do almoço",
+    "Janta da casa é sopa, lanche ou pizza? Prato de emergência: 3 ovos mexidos + 2 pães + 1 banana (≈680 kcal · 32 g P), ou 2 fatias de pizza + 1 copo de leite, sem culpa",
+    "Jantar depois das 21h e nada pronto? Shake: 30 g de whey + 300 ml de leite + 1 banana + 50 g de aveia + 10 g de mel = 624 kcal · 39 g P"
+   ],
+   "notes": "Nos dias de treino à noite ou à tarde, é o pós-treino: até ~45 min depois. Se sobrar da comida do almoço, repetir também vale. O que importa é carboidrato + ~100 g de proteína pronta."
+  },
+  {
+   "id": "ceia",
+   "name": "Ceia",
+   "time": "22:30",
+   "role": "ceia",
+   "from": 2,
+   "items": [
+    {
+     "food": "Leite integral",
+     "g": 200,
+     "unit": " ml",
+     "state": "",
+     "household": "1 copo americano",
+     "kcal": 120,
+     "p": 6,
+     "c": 9.4,
+     "f": 6.4
+    },
+    {
+     "food": "Banana madura (polpa)",
+     "g": 100,
+     "state": "",
+     "household": "1 nanica média",
+     "kcal": 98,
+     "p": 1.3,
+     "c": 26,
+     "f": 0.1
+    },
+    {
+     "food": "Aveia em flocos",
+     "g": 10,
+     "state": "",
+     "household": "1 colher (sopa)",
+     "kcal": 39.4,
+     "p": 1.4,
+     "c": 6.7,
+     "f": 0.9
+    }
+   ],
+   "swaps": [
+    "= 1 iogurte natural integral (170 g) + 1 banana + 15 g de aveia: 261 kcal · 9 g P",
+    "= 200 ml de leite + 2 fatias de pão de forma: 246 kcal · 11 g P",
+    "= 1 pão francês + 15 g de pasta de amendoim: 238 kcal · 8 g P"
+   ],
+   "notes": "Bata como vitamina ou faça um mingau frio (2 min). O leite da ceia leva o cálcio do dia para ~900 mg. Entra a partir da semana 2."
+  }
+ ],
+ "pre": {
+  "timing": "60–90 min antes",
+  "why": "Treinar com glicogênio cheio e sem fome rende 1–3 repetições a mais com a mesma carga, e isso é mais estímulo para crescer. Pouca gordura e pouca fibra evitam estufamento no treino.",
+  "options": [
+   "Terça e quinta (academia cedo): os 2 pães com 20 g de mel ao acordar, 30–40 min antes (se não descer, 1 pão). Café completo ao voltar.",
+   "Sábado: 2 pães + 20 g de mel às 14h = 362 kcal · 8 g P (S1–S2: 1 pão = 212 kcal).",
+   "Sexta: o próprio café (pães + ovos) é o pré-treino, 60–75 min antes.",
+   "Segunda e quarta (casa à noite): o lanche das 17h30 já resolve.",
+   "Sem fome (líquido, desce 30–45 min antes): 2 bananas + 20 g de aveia + 30 g de mel batidos com 300 ml de água gelada = 368 kcal · 5,5 g P."
+  ]
+ },
+ "post": {
+  "timing": "até 1–2 h depois",
+  "why": "A proteína (30–40 g) entrega os aminoácidos para construir músculo, e o carboidrato repõe a energia para o treino de amanhã. A “janela anabólica” dura horas: o jantar das 20h resolve, não precisa de shake no vestiário.",
+  "options": [
+   "Terça e quinta: o café ao voltar da academia. Sexta: o shake logo depois. Segunda e sábado: o jantar ≈ 580 kcal · 44 g P.",
+   "Rápido e barato: 200 g de arroz + 100 g de feijão + 3 ovos mexidos + 100 g de legumes = 581 kcal · 31 g P.",
+   "Com whey (jantar depois das 21h): 30 g de whey + 300 ml de leite + 1 banana + 50 g de aveia + 10 g de mel = 624 kcal · 39 g P.",
+   "Sem fome: vitamina de 300 ml de leite + 1 banana + 30 g de aveia + 20 g de mel, com 2 ovos cozidos = 604 kcal · 28 g P."
+  ]
+ },
+ "variants": [
+  {
+   "title": "Dia de treino em casa",
+   "text": "Cardápio idêntico. A sessão curta gasta só 100–200 kcal a menos, o que na média da semana não faz diferença, e ter um cardápio só significa zero decisão."
+  },
+  {
+   "title": "Domingo (descanso)",
+   "text": "Mesmas calorias, porque o músculo cresce na recuperação. O pré-treino vira lanche e os horários podem deslizar. Almoço de família ou churrasco: 150–200 g de carne magra + 1 prato raso de carboidrato + salada."
+  },
+  {
+   "title": "Horário da academia mudou",
+   "text": "Mantenha a lógica: pré-treino 60–90 min antes, refeição com proteína até 1–2 h depois, e no máximo 4 h entre as refeições."
+  },
+  {
+   "title": "Esporte ou mais de 12 mil passos",
+   "text": "+300 kcal no dia: 1 pão francês + 25 g de pasta de amendoim (297 kcal). Nunca jogue bola na véspera de treino de perna."
+  }
+ ],
+ "supplements": [
+  {
+   "name": "Creatina monoidratada",
+   "dose": "5 g/dia, sem fase de saturação",
+   "timing": "Todo dia, inclusive domingo (vai no shake)",
+   "priority": "recomendado",
+   "why": "É o suplemento com mais evidência para força e massa magra: dá 1–2 reps a mais por série. Espere +0,5–1,5 kg de água DENTRO do músculo nas primeiras 3–4 semanas (não é gordura nem inchaço). Compre monoidratada pura, com laudo."
+  },
+  {
+   "name": "Whey protein",
+   "dose": "30 g quando usar",
+   "timing": "Só nas opções com whey (jantar atrasado)",
+   "priority": "opcional",
+   "why": "É proteína do leite em pó, não tem nada de mágico. A comida já fecha 150 g de proteína. Se comprar, prefira concentrado nacional com laudo de terceiros."
+  },
+  {
+   "name": "Cafeína (café coado)",
+   "dose": "150 ml ≈ 60–100 mg",
+   "timing": "16h30–17h; nada depois das 17h30",
+   "priority": "opcional",
+   "why": "Nessa dose serve para ficar alerta, com efeito pequeno no treino. Para efeito real, teste 140–200 mg (2–3 mg/kg) só às 16h30 e corte se o sono piorar. Limite de segurança: 400 mg/dia."
+  },
+  {
+   "name": "Hipercalórico (“massa”)",
+   "dose": "Não usar",
+   "timing": "—",
+   "priority": "desnecessário",
+   "why": "É maltodextrina com açúcar, caro por kcal. O shake caseiro entrega o mesmo com fibra e micronutrientes, por uma fração do preço."
+  },
+  {
+   "name": "BCAA",
+   "dose": "Não usar",
+   "timing": "—",
+   "priority": "desnecessário",
+   "why": "Com 150 g de proteína por dia você já consome ~30 g de BCAA. Isolado, não constrói músculo."
+  },
+  {
+   "name": "Pré-treino pronto, termogênico, multivitamínico",
+   "dose": "Não usar",
+   "timing": "—",
+   "priority": "desnecessário",
+   "why": "O pré-treino pronto é cafeína cara, que à noite atrapalha o sono. O termogênico vai contra o objetivo. Vitamina D ou ferro, só se um exame mostrar deficiência."
+  }
+ ],
+ "kickoff": {
+  "title": "Semana 1: arranque (começa hoje)",
+  "intro": "Como outra pessoa cozinha em casa, o seu trabalho é montar o prato pelas medidas e cuidar das 4 refeições que são suas (café, shake, lanche e ceia).",
+  "steps": [
+   "Hoje: peça a compra dos SEUS itens (aba Compras). Delivery de supermercado resolve.",
+   "Combine com quem cozinha: você vai comer ~2× a porção de carne de um adulto (≈150 g crua no almoço e ≈150 g no jantar) e arroz, feijão e macarrão em quantidade. Ofereça ajudar com a proteína extra (custo na aba Compras).",
+   "Balança de cozinha nas 2 primeiras semanas: prato na balança, zera, serve. Depois disso o olho já aprende.",
+   "Semana 1 sem ceia e com 1 pão só no pré-treino (≈2.620 kcal). Assim o estômago se acostuma sem você falhar refeições.",
+   "Na semana 1, cada treino de academia é também o teste de carga, então as sessões podem levar até 85 min. Terça e quinta, comece às 6h30.",
+   "Domingo 04/10: kits da semana 2 (15–20 min)."
+  ]
+ },
+ "mealprep": [
+  {
+   "when": "Domingo: compras dos seus itens",
+   "min": 40,
+   "tasks": [
+    "Lista da aba Compras (só os itens marcados como seus). Confira se a próxima semana é A (pão) ou B (cuscuz).",
+    "Pães: 28 (semana A) ou 14 (semana B). Congele em pares no mesmo dia.",
+    "Bananas em 2 estágios: metade madura, metade verde."
+   ],
+   "storage": "Pão congelado dura 30 dias: 5 min a 180 °C."
+  },
+  {
+   "when": "Domingo: kits da semana",
+   "min": 20,
+   "tasks": [
+    "7 potes de shake: 50 g de aveia + 16 g de açúcar + 5 g de creatina.",
+    "7 potes de ceia: 10 g de aveia.",
+    "Bananas maduras: descasque e congele em saquinhos de 100 g (shake gelado e cremoso).",
+    "Semana B: porcione o flocão em 7 × 80 g."
+   ],
+   "storage": "Kits secos ficam em temperatura ambiente, bem fechados. Com eles, o shake leva 2 min."
+  },
+  {
+   "when": "Combinado com quem cozinha",
+   "min": 0,
+   "tasks": [
+    "Proteína suficiente: ~300 g crua por dia para você (almoço + jantar).",
+    "Arroz, feijão e macarrão em quantidade, e legumes no almoço.",
+    "Se num dia a proteína for pouca ou muito gordurosa, complete com 2–3 ovos ou 1 lata de atum.",
+    "Frituras e molhos cremosos não são proibidos: conte como um dia normal, sem compensar."
+   ],
+   "storage": "Você não precisa controlar o que a casa faz, só montar o seu prato pelas medidas."
+  },
+  {
+   "when": "Todo dia",
+   "min": 10,
+   "tasks": [
+    "Ao acordar: pese-se (na segunda, meça a cintura também).",
+    "Café: ovos + pães (ou cuscuz). Seg e qua: bata o shake junto e leve na garrafa térmica, com os 2 pães com mel.",
+    "Almoço e jantar: monte o prato pelas medidas.",
+    "Ceia (2 min) e check-list antes de dormir."
+   ],
+   "storage": "Compromisso total da semana: ~7–8 h (~5h30 de treino + ~1h30 de compras, kits e registro)."
+  }
+ ],
+ "appetite": [
+  "O relógio manda, não a fome: coloque 6 alarmes no celular (07h00, 10h00, 12h30, 16h30, 20h00, 22h30).",
+  "Beba calorias: se uma refeição sólida não descer, use a versão líquida (vitamina, shake).",
+  "Densidade antes de volume: arroz, macarrão e pão dão mais calorias por garfada que batata ou salada.",
+  "Proteína e carboidrato primeiro; salada por último.",
+  "Na refeição, só goles de água. Beba o grosso 30–60 min antes ou depois. Nada de refrigerante perto da comida.",
+  "Calorias “invisíveis” para salvar um dia ruim: 1 colher (chá) de azeite no arroz = +44 kcal; 1 colher (sopa) de pasta de amendoim = +118 kcal.",
+  "Sobrou comida? Coma até a próxima refeição. Se não der, compense NO MESMO DIA com 20 g de pasta de amendoim na ceia. Nunca no dia seguinte.",
+  "No máximo 4 h sem comer: estômago vazio por muito tempo diminui ainda mais o apetite.",
+  "Tempere bem (alho, cebola, limão, páprica, ervas): comida gostosa é comida que você termina.",
+  "Nas 2 primeiras semanas, sentir-se estufado é normal. O estômago se adapta em 10–14 dias."
+ ],
+ "lifestyle": [
+  "Hidratação: ~3 L de líquidos por dia (o leite conta), sendo 0,5–0,75 L durante o treino. Guia: urina amarelo-clara. Em dia de calor ou praia, +0,5–1 L.",
+  "Sono: mínimo de 7h30, com horário fixo (ex.: 23h–7h). Dormir pouco em superávit desvia o ganho para gordura.",
+  "Álcool: zero em dia de academia. Nas festas, até 3 doses, cada uma intercalada com 1 copo de água, e sempre depois de ter comido. Nunca pule refeição para “guardar calorias”.",
+  "Fibra: o cardápio tem ~40 g por dia. Se estiver estufado, troque 50 g de feijão por 30 g de arroz (mesmas kcal).",
+  "Praia sem truques perigosos: não corte água, não use diurético ou chá “drenante” e não faça jejum. “Secar” deixa o músculo murcho e dá tontura no calor. O que funciona: na véspera, menos feijão e nada de refrigerante; sono; zero álcool; 10–15 min de flexão e remada antes da praia; protetor FPS 30+; cabelo cortado."
+ ],
+ "shopping": {
+  "first": [
+   [
+    "Pão francês 1,4 kg (28 un)",
+    25.06
+   ],
+   [
+    "Ovos (cartela de 30)",
+    17.9
+   ],
+   [
+    "Leite integral (fardo de 12 L)",
+    67.08
+   ],
+   [
+    "Aveia 1 kg",
+    17.9
+   ],
+   [
+    "Banana ~2,1 kg",
+    13.63
+   ],
+   [
+    "Pasta de amendoim 1 kg",
+    32.9
+   ],
+   [
+    "Mel 500 g",
+    34.9
+   ],
+   [
+    "Açúcar 1 kg",
+    4.99
+   ],
+   [
+    "Creatina 300 g",
+    43.89
+   ]
+  ],
+  "items": [
+   {
+    "food": "Pão francês",
+    "buy": "28 un (A) ou 14 un (B); congele em pares",
+    "qa": 1.4,
+    "unit": "kg",
+    "price_sp": 17.9
+   },
+   {
+    "food": "Leite integral UHT",
+    "buy": "Fardo de 12 L dura ~3,5 semanas",
+    "qa": 3.5,
+    "unit": "L",
+    "price_sp": 5.59
+   },
+   {
+    "food": "Banana prata ou nanica",
+    "buy": "~2,1 kg com casca (1,4 kg de polpa)",
+    "qa": 2.1,
+    "unit": "kg",
+    "price_sp": 6.49
+   },
+   {
+    "food": "Mel",
+    "buy": "Pote de 500 g dura ~3,5 semanas",
+    "qa": 0.14,
+    "unit": "kg",
+    "price_sp": 69.8
+   },
+   {
+    "food": "Ovos grandes",
+    "buy": "Cartela de 30 dura ~2 semanas",
+    "qa": 14,
+    "unit": "un",
+    "price_sp": 0.6
+   },
+   {
+    "food": "Aveia em flocos",
+    "buy": "Pacote de 1 kg dura ~2,4 semanas",
+    "qa": 0.42,
+    "unit": "kg",
+    "price_sp": 17.9
+   },
+   {
+    "food": "Flocão de milho (cuscuz)",
+    "buy": "2 pacotes de 500 g (semana B)",
+    "qa": 0,
+    "unit": "kg",
+    "price_sp": 10.98
+   },
+   {
+    "food": "Creatina monoidratada",
+    "buy": "Pote de 300 g dura ~8,5 semanas",
+    "qa": 0.035,
+    "unit": "kg",
+    "price_sp": 146.3
+   },
+   {
+    "food": "Pasta de amendoim integral",
+    "buy": "Pote de 1 kg dura ~7 semanas",
+    "qa": 0.14,
+    "unit": "kg",
+    "price_sp": 32.9
+   },
+   {
+    "food": "Açúcar",
+    "buy": "Pacote de 1 kg dura ~9 semanas",
+    "qa": 0.112,
+    "unit": "kg",
+    "price_sp": 4.99
+   }
+  ],
+  "setup": [
+   [
+    "Balança de cozinha digital (essencial nas 2 primeiras semanas)",
+    30,
+    60
+   ],
+   [
+    "Garrafa térmica inox de 500 ml (shake de seg e qua)",
+    40,
+    70
+   ],
+   [
+    "Potinhos para os kits de shake e ceia (opcional)",
+    15,
+    30
+   ]
+  ]
+ },
+ "agenda_s1": {
+  "2026-09-28": [
+   "Dia 1. Almoço e jantar: comida de casa montada pelo prato-modelo (aba Alimentação). Hoje: pedir a compra dos seus itens e fazer a Casa 1.",
+   "Agora ou amanhã cedo: fotos (frente, lado, costas, com o celular apoiado e o timer) e medir de novo peito e ombros dando a volta completa.",
+   "Peça a compra dos SEUS itens (aba Compras → Primeira compra). Delivery de supermercado resolve.",
+   "19h: Casa 1 em casa. Descubra o seu nível em cada exercício (8–12 reps sobrando 3). Elevação lateral com 3 kg, rosca e tríceps com 5 kg.",
+   "Antes de dormir: confira o horário em que a academia abre e deixe a roupa separada. Amanhã: Inferior A cedo."
+  ],
+  "2026-09-29": [
+   "Inferior A com teste de carga (no máximo 3 tentativas por exercício). Comece às 6h30: hoje pode levar até 85 min.",
+   "Confira na aba Treino → Equipamentos o que a sua academia tem."
+  ],
+  "2026-09-30": [
+   "19h: Casa 2 leve (20 min)."
+  ],
+  "2026-10-02": [
+   "Inferior B com teste de carga (até 85 min hoje)."
+  ],
+  "2026-10-01": [
+   "Superior A com teste de carga. Comece às 6h30: hoje pode levar até 85 min."
+  ],
+  "2026-10-03": [
+   "15h: Superior B com teste de carga."
+  ]
+ }
+}
