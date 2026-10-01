@@ -5576,7 +5576,7 @@ function target(ex, hist, w, sub){
     else { t.kg = (isFinite(t.kg) ? t.kg : 0) + (ex.inc||2); t.kind = 'up'; }
     fill(t.lo); return t;
   }
-  if(hist.length >= 3){
+  if(hist.length >= 3 && (!L || R.li > 0)){
     var Rs = hist.slice(0,3).map(function(h){ return recOf(ex, h); });
     if(!Rs.some(function(x){ return x.fail; }) && Rs[0].W===Rs[1].W && Rs[1].W===Rs[2].W && Rs[0].avg <= Rs[1].avg && Rs[1].avg <= Rs[2].avg){
       t.kind = 'stall';
