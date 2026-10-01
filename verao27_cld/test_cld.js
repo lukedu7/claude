@@ -1,4 +1,4 @@
-// Teste: renderiza as 6 abas em cada dia da semana e confere a lógica das metas exatas.
+// Teste (modo academia ligado na semana 2, via gym_from): renderiza as 6 abas em cada dia da semana e confere a lógica das metas exatas.
 const { chromium } = require('playwright');
 const fs = require('fs');
 const DIR = __dirname;
@@ -19,7 +19,7 @@ const TABS = ['hoje', 'treino', 'comida', 'compras', 'progresso', 'regras'];
     page.on('pageerror', e => errors.push(dateIso + ' ' + tab + ': ' + e.message));
     await page.route(/fonts\.(googleapis|gstatic)\.com/, r => r.abort());
     await page.clock.setFixedTime(new Date(dateIso + 'T20:00:00-03:00'));
-    await page.addInitScript(([d, t]) => { try { localStorage.clear(); if (d) localStorage.setItem('v27:data', JSON.stringify(d)); localStorage.setItem('v27:tab', JSON.stringify(t)); } catch (e) {} }, [data, tab]);
+    await page.addInitScript(([d, t]) => { try { localStorage.clear(); if (d) localStorage.setItem('v27:data', JSON.stringify(d)); localStorage.setItem('v27:tab', JSON.stringify(t)); } catch (e) {} let v; Object.defineProperty(window, 'PLAN', { configurable: true, get: () => v, set: x => { x.gym_from = 2; v = x; } }); }, [data, tab]);
     await page.goto(URL);
     await page.waitForTimeout(150);
     return page;
@@ -82,10 +82,10 @@ const TABS = ['hoje', 'treino', 'comida', 'compras', 'progresso', 'regras'];
   // 5) semana 2: registro lista as sessões de academia; semana 1 as de casa
   p = await open('2026-10-06', data, 'treino');
   const segs = await p.$$eval('.seg[aria-label="Sessão"] button', els => els.map(e => e.innerText));
-  check('S2 registro = academia', segs.join('|').includes('Inferior A') && !segs.join('|').includes('CT'), segs.join(' | '));
+  check('S2 registro = academia', /inferior a/i.test(segs.join('|')) && !segs.join('|').includes('CT'), segs.join(' | '));
   await p.click('button[data-act="tw"][data-delta="-1"]'); await p.waitForTimeout(80);
   const segs1 = await p.$$eval('.seg[aria-label="Sessão"] button', els => els.map(e => e.innerText));
-  check('S1 registro = casa', !segs1.join('|').includes('Inferior A'), segs1.join(' | '));
+  check('S1 registro = casa', !/inferior a/i.test(segs1.join('|')), segs1.join(' | '));
   await p.close();
 
   check('sem erros de script no total', errors.length === 0, errors.slice(0, 3).join(' | '));

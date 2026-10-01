@@ -70,6 +70,44 @@ P.habits = P.habits.filter(x => x.id !== 'agua');
 const W1 = require(DIR + '/week1_cld.js');
 W1.data(P, fs, DIR, miss);
 
+// ---- casa até a academia (avaliação contínua, sem data fixa) · 01/10
+P.gym_from = 99;   // semana em que a academia começa; 99 = ainda em casa
+P.home_sched = { '2': 'CT', '4': 'CQ', '5': 'CX', '6': 'CS' };
+const HOME_TIMES = { cafe: '08:20', shake: '10:45', almoco: '13:00', pre: '16:30', jantar: '19:30', ceia: '21:30' };
+P.home_days = {};
+['1', '2', '3', '4', '5', '6'].forEach(d => {
+  P.home_days[d] = { title: 'Treino em casa às 10h', train: '10:00', train_end: '', times: Object.assign({}, HOME_TIMES),
+    roles: { cafe: 'pré-treino', shake: 'pós-treino', pre: 'lanche' },
+    note: 'Acorde 08h15 e pese-se antes de comer. O café das 08h20 é o pré-treino; o shake logo depois do treino é o pós-treino.' };
+});
+['CT', 'CQ', 'CX', 'CS'].forEach(sid => P.sessions[sid].ex.forEach(x => {
+  if (!x.nolog && !Array.isArray(x.sets)) x.sets = P.train.priority_groups.indexOf(x.grp) >= 0 ? [2, 3, 3, 4, 3] : [2, 3, 3, 3, 3];
+}));
+['CT', 'CQ', 'CX', 'CS'].forEach(sid => { P.sessions[sid].notes = 'Treino em casa até a academia ser liberada (avaliação treino a treino). 10h00, depois do café.'; });
+// agenda: tira as datas fixas de academia e põe o treino às 10h
+const AG = P.agenda;
+const keep = (d, f) => { if (AG[d]) AG[d] = AG[d].filter(f); };
+keep('2026-10-04', t => !/ACADEMIA|academia começa/i.test(t));
+keep('2026-10-05', t => t.indexOf('19h · Casa 1') !== 0);
+keep('2026-10-12', t => t.indexOf('S3: na academia') !== 0);
+delete AG['2026-10-13'];
+keep('2026-10-15', t => t.indexOf('Calibração de RIR (S3)') !== 0);
+AG['2026-10-02'] = ['10h00 · Pernas B em casa: afundo reverso, elevação pélvica unilateral, ponte, panturrilha, abdominal supra e reverso. Metas no registro.'];
+AG['2026-10-03'] = ['10h00 · Superior B em casa: flexão + remada serrote, pike com as mãos no sofá, crucifixo no chão, elevação lateral, rosca + tríceps testa.'];
+AG['2026-10-05'] = ['Semana 2 continua em casa. A academia entra quando o treino em casa ficar leve: a avaliação é treino a treino, sem data fixa.', '10h00 · Casa 1: metas do registro.'].concat(AG['2026-10-05'] || []);
+AG['2026-10-06'] = ['10h00 · Pernas A em casa (metas do registro).'];
+AG['2026-10-07'] = ['10h00 · Casa 2 (core e mobilidade). Prancha lateral: 30 s por lado.'];
+AG['2026-10-08'] = ['10h00 · Superior A em casa.'];
+AG['2026-10-09'] = ['10h00 · Pernas B em casa.'];
+AG['2026-10-10'] = ['10h00 · Superior B em casa.'];
+Object.keys(AG).forEach(d => { if (!AG[d].length) delete AG[d]; });
+P.kickoff.steps = P.kickoff.steps.map(t => t.indexOf('Semana 1 toda em casa') === 0 ? 'Começo em casa (calistenia). A academia entra quando o treino em casa ficar leve: a avaliação é feita treino a treino, sem data fixa.' : t);
+P.phases[0].rules = P.phases[0].rules.map(t => t
+  .replace('S1: tudo em casa (calistenia). S2: 1ª semana de academia, com as cargas de partida do registro.', 'Começo em casa (calistenia). A academia entra quando o treino em casa ficar leve, com as cargas de partida do registro.')
+  .replace('Na S2 (1ª semana de academia), a sessão pode levar até 85 min.', 'Na 1ª semana de academia, a sessão pode levar até 85 min.'));
+const cp2b = P.checkpoints.find(c => c.week === 2);
+cp2b.criteria = cp2b.criteria.map(t => t.replace('(4 em casa na S1, 4 na academia na S2)', '(em casa ou na academia)'));
+
 h = h.slice(0, s) + JSON.stringify(P, null, 1) + h.slice(e);
 
 // 3) motor
@@ -112,6 +150,19 @@ select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid 
 .ex .ex-meta{white-space:normal;overflow-wrap:anywhere}`);
 
 W1.engine(swap);
+/* casa até a academia: agenda e horários */
+swap(`function schedFor(w, dow){ var o = P.week_sched && P.week_sched[String(clampW(w))]; return (o && o[String(dow)]) || P.schedule[String(dow)]; }`,
+     `function homeWeek(w){ return !!P.home_sched && clampW(w) < (P.gym_from || 99); }
+function schedFor(w, dow){ if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)]; var o = P.week_sched && P.week_sched[String(clampW(w))]; return (o && o[String(dow)]) || P.schedule[String(dow)]; }`);
+swap(`function dayCfgW(w, dow){ var o = P.week_days && P.week_days[String(clampW(w))]; return (o && o[String(dow)]) || dayCfg(dow); }`,
+     `function dayCfgW(w, dow){
+  if(homeWeek(w) && P.home_days && P.home_days[String(dow)]){
+    var H = P.home_days[String(dow)], hs = P.sessions[schedFor(w, dow)];
+    if(H.train && hs && hs.dur && !H.train_end) H = Object.assign({}, H, { train_end: tm(hm(H.train) + hs.dur) });
+    return H;
+  }
+  var o = P.week_days && P.week_days[String(clampW(w))]; return (o && o[String(dow)]) || dayCfg(dow); }`);
+
 /* água com horário */
 swap(`function mealLine(m){`,
      `function hm(t){ var a = String(t).split(':'); return (+a[0])*60 + (+a[1]||0); }

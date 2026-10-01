@@ -380,6 +380,21 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 
 ---
 
+## 10. Regras novas de 01/10 (valem daqui pra frente)
+
+- **Autorização permanente:** "pode ajustar sempre o app quando achar necessário". Ele quer respostas como as de um **nutrólogo e um personal trainer juntos**. Mesmo assim, avise o que mudou a cada ajuste.
+- **Academia sem data fixa.** Ele fica em casa até o treinador (você) liberar, avaliando treino a treino. Ele vai à academia quando **pelo menos 2** destas acontecerem:
+  - (1) uma semana com 5–6 treinos, sem dor articular e com técnica firme;
+  - (2) 3+ exercícios fáceis (sobrando 4+ no topo) já no nível mais difícil seguro em casa;
+  - (3) 3+ exercícios travados por 2 treinos seguidos, com comida e sono ok.
+- **Leitura em 01/10:** pernas e costas vão pedir academia primeiro (ponte fácil, agachamento "muito bom", remada fácil). Peito, ombro e braço ainda têm margem em casa (flexão e elevação no limite).
+- **Subir carga:** o app progride sozinho. Quando ele disser "fácil" (sobrando 4+), suba na hora: marque o próximo nível ou ajuste a meta.
+- **Como o app faz isso (v9):**
+  - `P.gym_from = 99` no `transform_cld.js` (bloco "casa até a academia") deixa todas as semanas em casa: ter CT, qui CQ, sex CX, sáb CS, seg C1, qua C2;
+  - treino às **10h00** de seg a sáb (`P.home_days`): acorda 08h15, café 08h20 (pré), shake 10h45 (pós), almoço 13h00, lanche 16h30, jantar 19h30, ceia 21h30 a partir da S2;
+  - as séries das sessões de casa acompanham as fases: [2,3,3,3,3], e as prioridades [2,3,3,4,3].
+- **Para liberar a academia:** troque `P.gym_from = 99` pela semana em que ela começa (ex.: 3). Depois rode `node transform_cld.js` e os testes (`test5_cld.js` cobre os dois modos) e publique com `url`. Recoloque na agenda as datas da 1ª semana de academia (cargas de partida na seção 3.2) e a calibração de RIR.
+
 ## 9. Atualização depois da migração (30/09 tarde → 01/10)
 
 - **Qua 30/09, depois das 14h20:**
