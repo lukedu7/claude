@@ -377,3 +377,31 @@ Pasta `verao27_cld/`: são as fontes que geram o app publicado.
 | `test_cld.js`, `test2_cld.js`, `test3_cld.js` | Testes no navegador (Playwright): todas as abas × 7 dias, progressão, botão de limite, água, sem rolagem lateral no celular. |
 
 Observação: se alguém editar o artefato direto (fora deste build), `transform_cld.js` deixa de refletir a versão publicada. Nesse caso, trabalhe em cima de `projeto_verao_27_cld.html` ou leia o artefato atual antes.
+
+---
+
+## 9. Atualização depois da migração (30/09 tarde → 01/10)
+
+- **Qua 30/09, depois das 14h20:**
+  - lanche de 1 bisnaguinha + 1 fatia de pão de forma com manteiga e leite;
+  - ~17h: 3 shawarmas smash de carne + coca zero 200 ml (antes, uma tigela pequena de Nescau cereal);
+  - 19h: meio pacote de pipoca de rua + Pepsi zero;
+  - jantar ~21h (prato normal; metade do carboidrato se estivesse cheio).
+  - Ele comprou aveia, pasta de amendoim, pão e ovos.
+- **Qui 01/10:**
+  - **Café:** da mãe, com uva verde, pão com manteiga e queijo, e copo de leite (~490 kcal, ~17 g P, sem completar).
+  - **Treino:** Superior A em casa às ~10h. **Registrado no app (`w01-CQ`):**
+    - flexão 8/8 (**lim**, série 2 forçada desde a 4ª);
+    - remada **curvada com 2 halteres de 5 kg** no lugar da mochila, 12/12, fácil;
+    - crucifixo no chão 15/15 (difícil só no fim);
+    - elevação lateral 15/15 (**lim**, sofreu na série 2 a partir da 10ª);
+    - crucifixo inverso 16/16;
+    - rosca: 2×12 **sentado unilateral** e depois 2×6 alternada até a falha (registrado 12/12 **lim**);
+    - tríceps testa 12/12, muito bom;
+    - pump no peito e nos braços.
+  - **Shake completo** ~15 min depois do banho.
+- **Metas que o app calcula:**
+  - **Sex (Pernas B):** afundo reverso 10/10, elevação pélvica unilateral 10/10, ponte 11/11, panturrilha 13/13, abdominal supra 13/13, reverso 10/10.
+  - **Sáb (Superior B):** flexão 8/8, remada serrote 16/16, pike com mãos no sofá 6/6, crucifixo no chão 16/16, elevação lateral 15/15, rosca 12/12, tríceps testa 13/13.
+- **Orientação dada:** nada de séries extras até a falha na semana 1. A rosca de sábado é 2 × 12 e acabou.
+- **Bug encontrado no motor (não corrigido, aguardando o ok dele):** em exercício de escada que está no **nível mais baixo** (ex.: elevação lateral 3 kg), 3 sessões seguidas no limite com as mesmas reps disparam a regra de estagnação. Ela tenta descer um nível, que não existe, e manda topo − 2 (**18/18**), mais pesado que antes. Correção: em `target_cld.js`, só aplicar a estagnação se `!L || R.li > 0`. Isso afetaria a elevação lateral da Casa 1 de 05/10, se sábado repetir 15/15 no limite.
