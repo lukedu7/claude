@@ -426,3 +426,26 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - **Sáb (Superior B):** flexão 8/8, remada serrote 16/16, pike com mãos no sofá 6/6, crucifixo no chão 16/16, elevação lateral 15/15, rosca 12/12, tríceps testa 13/13.
 - **Orientação dada:** nada de séries extras até a falha na semana 1. A rosca de sábado é 2 × 12 e acabou.
 - **Bug no motor (corrigido em 01/10, app v8):** em exercício de escada que está no **nível mais baixo** (ex.: elevação lateral 3 kg), 3 sessões seguidas no limite com as mesmas reps disparam a regra de estagnação. Ela tenta descer um nível, que não existe, e manda topo − 2 (**18/18**), mais pesado que antes. Corrigido em `target_cld.js`: a estagnação só vale se `!L || R.li > 0`. Teste `test4_cld.js` confirma 15/15.
+
+## 11. Sexta 02/10 (Pernas B em casa) e mudanças no app (v11 e v12)
+
+- **Café:** Nescau, abacaxi, 2 fatias de pão de forma com queijo e manteiga. Os 2 ovos foram junto com o shake (ele queria ler a Bíblia às 8h50).
+- **Elevação pélvica:** ele pediu a versão **no chão** por estabilidade. O app (v11) ganhou o nível **"Unilateral no chão, pausa 2 s no topo"** [10-15], entre o bilateral no sofá e o unilateral no sofá. É o nível inicial (start lv 1, 12 reps). Com 15/15 sem limite, passa para o sofá.
+- **Treino às 10h, registrado no app (`w01-CX`):**
+  - afundo reverso 5 kg 10/10 (**lim**, 1ª vez);
+  - elevação pélvica no chão 10/10, tranquila, sentiu a posterior (orientação: pé mais perto do bumbum, encaixar o quadril, subir só até alinhar);
+  - ponte pé na cadeira 11/11, **muito fácil (sobrariam 5)**, 2ª vez fácil;
+  - panturrilha 13/13, **fraco**;
+  - abdominal supra 5 kg 16/16 (foi além da meta de 13, ainda dava mais);
+  - abdominal reverso 10/10.
+  - Em ponte e panturrilha ele não disse as reps; registrei as metas (11 e 13).
+- **App v12, botão "Sobrou muito (5 ou mais): sobe na próxima":**
+  - grava `easy:true` no exercício;
+  - na sessão seguinte, o motor trata como topo batido: sobe um nível (ou a carga);
+  - é exclusivo com "Fui no limite";
+  - teste `test6_cld.js`.
+  - Marquei em ponte e panturrilha. Na **ter 06/10**: ponte "pausa 2 s no topo" 8/8, panturrilha "+ halter 5 kg na mão livre" 10/10.
+- **Metas da sex 09/10:** afundo 10/10, elevação no chão 11/11, abdominal supra 17/17, reverso 11/11. Em casa, a S2 ainda tem 2 séries; a 3ª entra na S3.
+- **Shake de hoje (variação chocolate):** 2 colheres (sopa) de Nescau no lugar dos 16 g de açúcar. Resto igual.
+- **Academia:** ainda não. Afundo 5 kg no limite; ponte e panturrilha ainda têm níveis em casa.
+- Os prints dos testes (`shot_*_cld.png`) foram para o `.gitignore`.
