@@ -5804,7 +5804,7 @@ function prevHist(w, sid, ex, max){
       for(var h=0; h<hits.length; h++) if(hits[h].sid===s2) hit = hits[h];
       if(!hit) continue;
       var d = Store.get('workouts', wid(k,s2)), e = d && d.ex && d.ex[hit.id];
-      if(e && e.sets && e.sets.some(function(x){ return x && num(x.reps)>0; })) out.push({ week:k, sid:s2, sets:e.sets, v:e.v||'', lim:!!e.lim });
+      if(e && e.sets && e.sets.some(function(x){ return x && num(x.reps)>0; })) out.push({ week:k, sid:s2, sets:e.sets, v:e.v||'', lim:!!e.lim, easy:!!e.easy && !e.lim });
     }
   }
   return out;
@@ -5852,8 +5852,8 @@ function target(ex, hist, w, sub){
   setLv(L ? R.li : -1); if(!L) t.kg = R.W;
   if(isDeload(w)){ t.kind = 'deload'; fill(t.lo); return t; }
   if(R.fail){ t.kind = 'down'; if(L) setLv(Math.max(0, R.li-1)); fill(t.lo); return t; }
-  var need = setsFor(ex, prev.week), lim = !!prev.lim;
-  var allTop = !lim && R.done.length >= need && R.done.every(function(x){ return R.atW(x) && x.r >= t.hi; });
+  var need = setsFor(ex, prev.week), lim = !!prev.lim, easy = !!prev.easy;
+  var allTop = !lim && (easy ? R.done.length > 0 : R.done.length >= need && R.done.every(function(x){ return R.atW(x) && x.r >= t.hi; }));
   if(allTop){
     if(L && t.li < L.length-1){ setLv(t.li+1); t.kind = 'up'; }
     else if(L){ t.kind = 'max'; fill(t.hi); return t; }
@@ -5894,9 +5894,10 @@ function hintFor(ex, hist, t, w, sub){
   if(t.kind==='down') return { tone:'down', html: g+last+' Ficou abaixo de '+(t.lo-2)+u+' em todas: '+(ex.lv ? 'volte um nível.' : 'a carga desce um degrau.')+more };
   if(t.kind==='stall') return { tone:'down', html: g+last+' 3 sessões sem progresso: '+(ex.lv ? 'um nível abaixo' : 'um degrau de carga abaixo')+' por uma vez. Depois volta ao normal.'+more };
   if(t.kind==='up'){
+    var why = prev.easy ? ' Você marcou que sobrou muito: ' : ' Bateu o topo em todas: ';
     var ladder = ex.lv ? ' Se uma série ficar abaixo de '+t.lo+u+', faça as seguintes em “'+esc(ex.lv[t.li-1].n)+'”.'
                        : ' Se uma série ficar abaixo de '+t.lo+', faça as seguintes com '+fx(t.kg-(ex.inc||2))+' kg.';
-    return { tone:'up', html: g+last+' Bateu o topo em todas: '+(ex.lv ? 'subiu de nível.' : 'subiu a carga.')+ladder+more };
+    return { tone:'up', html: g+last+why+(ex.lv ? 'subiu de nível.' : 'subiu a carga.')+ladder+more };
   }
   if(t.kind==='limit') return { tone:'hold', html: g+last+' Você foi no limite: repita as mesmas reps. Quando sair sem ser no limite, volta o +1.'+more };
   if(t.kind==='max') return { tone:'hold', html: g+last+' Você está no nível mais alto: mantenha.'+more };
@@ -6011,7 +6012,7 @@ function loggerHTML(w, sid){
       if(!ex.bw && !ex.lv) h += '<input type="number" inputmode="decimal" step="0.5" id="'+base+'-kg" aria-label="Série '+(i+1)+': carga em kg (meta '+(isFinite(tg.kg)? fx(tg.kg) : '—')+')" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'" data-i="'+i+'" data-f="kg" value="'+esc(v.kg||'')+'" placeholder="'+(isFinite(tg.kg)? fx(tg.kg) : 'kg')+'"><span>kg</span>';
       h += '<input type="number" inputmode="numeric" step="1" id="'+base+'-r" aria-label="Série '+(i+1)+': '+unit+' (meta '+tg.reps[i]+')" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'" data-i="'+i+'" data-f="reps"'+vd+' value="'+esc(v.reps||'')+'" placeholder="'+tg.reps[i]+'"><span>'+unit+'</span></div>';
     }
-    h += '</div><label class="row small" for="lm-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="lm-'+w+'-'+sid+'-'+ex.id+'" data-act="lim" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.lim?' checked':'')+'><span>Fui no limite (sobrou 0–1 na última série)</span></label><details class="mini" id="cx-'+sid+'-'+ex.id+'"'+op('cx-'+sid+'-'+ex.id,false)+'><summary>Técnica e alternativas</summary><div class="stack small"><div><strong>'+esc(ex.muscles)+'</strong></div>'+list(escList(ex.cues),'cues')+(ex.alts && ex.alts.length? '<div><span class="muted">Sem o equipamento:</span> '+ex.alts.map(esc).join(' · ')+'</div>' : '')+(ex.notes? '<div class="muted">'+esc(ex.notes)+'</div>' : '')+'</div></details></div>';
+    h += '</div><label class="row small" for="lm-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="lm-'+w+'-'+sid+'-'+ex.id+'" data-act="lim" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.lim?' checked':'')+'><span>Fui no limite (sobrou 0–1 na última série)</span></label><label class="row small" for="ez-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="ez-'+w+'-'+sid+'-'+ex.id+'" data-act="easy" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.easy?' checked':'')+'><span>Sobrou muito (5 ou mais): sobe na próxima</span></label><details class="mini" id="cx-'+sid+'-'+ex.id+'"'+op('cx-'+sid+'-'+ex.id,false)+'><summary>Técnica e alternativas</summary><div class="stack small"><div><strong>'+esc(ex.muscles)+'</strong></div>'+list(escList(ex.cues),'cues')+(ex.alts && ex.alts.length? '<div><span class="muted">Sem o equipamento:</span> '+ex.alts.map(esc).join(' · ')+'</div>' : '')+(ex.notes? '<div class="muted">'+esc(ex.notes)+'</div>' : '')+'</div></details></div>';
   });
   var nid = 'nt-'+w+'-'+sid, did = 'wd-'+w+'-'+sid;
   h += '<label class="small muted" for="'+nid+'" style="display:grid;gap:4px;margin-top:10px">Notas (regulagens das máquinas, dor 0–10, observações)<textarea class="note-in" id="'+nid+'" data-w="'+w+'" data-s="'+sid+'" data-note="1">'+esc(doc.notes||'')+'</textarea></label>';
@@ -6344,7 +6345,9 @@ document.addEventListener('change', function(e){
   var t = e.target, a = t.dataset && t.dataset.act;
   if(a==='wdone'){ var d = ensureW(+t.dataset.w, t.dataset.s); d.done = t.checked; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), d); }
   else if(a==='water'){ var cwa = ensureCk(t.dataset.date); cwa.agua = cwa.agua || {}; cwa.agua[t.dataset.t] = t.checked; Store.put('checks', t.dataset.date, cwa); }
-  else if(a==='lim'){ var dlm = ensureW(+t.dataset.w, t.dataset.s), xlm = dlm.ex[t.dataset.ex] || (dlm.ex[t.dataset.ex] = { sets:[], v:'' }); xlm.lim = t.checked; if(!xlm.v && t.dataset.vdef) xlm.v = t.dataset.vdef; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), dlm); }
+  else if(a==='lim' || a==='easy'){ var dlm = ensureW(+t.dataset.w, t.dataset.s), xlm = dlm.ex[t.dataset.ex] || (dlm.ex[t.dataset.ex] = { sets:[], v:'' }); xlm[a] = t.checked;
+    if(t.checked){ var oth = a==='lim' ? 'easy' : 'lim', oel = document.getElementById((a==='lim' ? 'ez-' : 'lm-')+t.dataset.w+'-'+t.dataset.s+'-'+t.dataset.ex); xlm[oth] = false; if(oel) oel.checked = false; }
+    if(!xlm.v && t.dataset.vdef) xlm.v = t.dataset.vdef; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), dlm); }
   else if(a==='meal'){ var c = ensureCk(t.dataset.date); c.meals[t.dataset.m] = t.checked; Store.put('checks', t.dataset.date, c); }
   else if(a==='habit'){ var c2 = ensureCk(t.dataset.date); c2.habits[t.dataset.h] = t.checked; Store.put('checks', t.dataset.date, c2); }
   else if(a==='weight'){ var v = num(t.value); if(t.value==='') Store.put('weighins', t.dataset.date, null); else if(isFinite(v) && v>30 && v<200) Store.put('weighins', t.dataset.date, { kg: Math.round(v*10)/10 }); }

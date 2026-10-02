@@ -245,9 +245,11 @@ swap(`.ex .ex-meta{white-space:normal;overflow-wrap:anywhere}`,
 .meal.water .meal-name{font-weight:600;color:var(--accent)}`);
 
 swap(`h += '</div><details class="mini" id="cx-'+sid+'-'+ex.id+'"'`,
-     `h += '</div><label class="row small" for="lm-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="lm-'+w+'-'+sid+'-'+ex.id+'" data-act="lim" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.lim?' checked':'')+'><span>Fui no limite (sobrou 0–1 na última série)</span></label><details class="mini" id="cx-'+sid+'-'+ex.id+'"'`);
+     `h += '</div><label class="row small" for="lm-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="lm-'+w+'-'+sid+'-'+ex.id+'" data-act="lim" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.lim?' checked':'')+'><span>Fui no limite (sobrou 0–1 na última série)</span></label><label class="row small" for="ez-'+w+'-'+sid+'-'+ex.id+'"><input type="checkbox" class="check" id="ez-'+w+'-'+sid+'-'+ex.id+'" data-act="easy" data-w="'+w+'" data-s="'+sid+'" data-ex="'+ex.id+'"'+(vdef? ' data-vdef="'+esc(vdef)+'"' : '')+(e.easy?' checked':'')+'><span>Sobrou muito (5 ou mais): sobe na próxima</span></label><details class="mini" id="cx-'+sid+'-'+ex.id+'"'`);
 swap(`  else if(a==='meal'){`,
-     `  else if(a==='lim'){ var dlm = ensureW(+t.dataset.w, t.dataset.s), xlm = dlm.ex[t.dataset.ex] || (dlm.ex[t.dataset.ex] = { sets:[], v:'' }); xlm.lim = t.checked; if(!xlm.v && t.dataset.vdef) xlm.v = t.dataset.vdef; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), dlm); }
+     `  else if(a==='lim' || a==='easy'){ var dlm = ensureW(+t.dataset.w, t.dataset.s), xlm = dlm.ex[t.dataset.ex] || (dlm.ex[t.dataset.ex] = { sets:[], v:'' }); xlm[a] = t.checked;
+    if(t.checked){ var oth = a==='lim' ? 'easy' : 'lim', oel = document.getElementById((a==='lim' ? 'ez-' : 'lm-')+t.dataset.w+'-'+t.dataset.s+'-'+t.dataset.ex); xlm[oth] = false; if(oel) oel.checked = false; }
+    if(!xlm.v && t.dataset.vdef) xlm.v = t.dataset.vdef; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), dlm); }
   else if(a==='meal'){`);
 
 

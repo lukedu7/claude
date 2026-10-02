@@ -9,7 +9,7 @@ function prevHist(w, sid, ex, max){
       for(var h=0; h<hits.length; h++) if(hits[h].sid===s2) hit = hits[h];
       if(!hit) continue;
       var d = Store.get('workouts', wid(k,s2)), e = d && d.ex && d.ex[hit.id];
-      if(e && e.sets && e.sets.some(function(x){ return x && num(x.reps)>0; })) out.push({ week:k, sid:s2, sets:e.sets, v:e.v||'', lim:!!e.lim });
+      if(e && e.sets && e.sets.some(function(x){ return x && num(x.reps)>0; })) out.push({ week:k, sid:s2, sets:e.sets, v:e.v||'', lim:!!e.lim, easy:!!e.easy && !e.lim });
     }
   }
   return out;
@@ -57,8 +57,8 @@ function target(ex, hist, w, sub){
   setLv(L ? R.li : -1); if(!L) t.kg = R.W;
   if(isDeload(w)){ t.kind = 'deload'; fill(t.lo); return t; }
   if(R.fail){ t.kind = 'down'; if(L) setLv(Math.max(0, R.li-1)); fill(t.lo); return t; }
-  var need = setsFor(ex, prev.week), lim = !!prev.lim;
-  var allTop = !lim && R.done.length >= need && R.done.every(function(x){ return R.atW(x) && x.r >= t.hi; });
+  var need = setsFor(ex, prev.week), lim = !!prev.lim, easy = !!prev.easy;
+  var allTop = !lim && (easy ? R.done.length > 0 : R.done.length >= need && R.done.every(function(x){ return R.atW(x) && x.r >= t.hi; }));
   if(allTop){
     if(L && t.li < L.length-1){ setLv(t.li+1); t.kind = 'up'; }
     else if(L){ t.kind = 'max'; fill(t.hi); return t; }
@@ -99,9 +99,10 @@ function hintFor(ex, hist, t, w, sub){
   if(t.kind==='down') return { tone:'down', html: g+last+' Ficou abaixo de '+(t.lo-2)+u+' em todas: '+(ex.lv ? 'volte um nível.' : 'a carga desce um degrau.')+more };
   if(t.kind==='stall') return { tone:'down', html: g+last+' 3 sessões sem progresso: '+(ex.lv ? 'um nível abaixo' : 'um degrau de carga abaixo')+' por uma vez. Depois volta ao normal.'+more };
   if(t.kind==='up'){
+    var why = prev.easy ? ' Você marcou que sobrou muito: ' : ' Bateu o topo em todas: ';
     var ladder = ex.lv ? ' Se uma série ficar abaixo de '+t.lo+u+', faça as seguintes em “'+esc(ex.lv[t.li-1].n)+'”.'
                        : ' Se uma série ficar abaixo de '+t.lo+', faça as seguintes com '+fx(t.kg-(ex.inc||2))+' kg.';
-    return { tone:'up', html: g+last+' Bateu o topo em todas: '+(ex.lv ? 'subiu de nível.' : 'subiu a carga.')+ladder+more };
+    return { tone:'up', html: g+last+why+(ex.lv ? 'subiu de nível.' : 'subiu a carga.')+ladder+more };
   }
   if(t.kind==='limit') return { tone:'hold', html: g+last+' Você foi no limite: repita as mesmas reps. Quando sair sem ser no limite, volta o +1.'+more };
   if(t.kind==='max') return { tone:'hold', html: g+last+' Você está no nível mais alto: mantenha.'+more };
