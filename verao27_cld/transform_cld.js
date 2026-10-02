@@ -70,6 +70,26 @@ P.habits = P.habits.filter(x => x.id !== 'agua');
 const W1 = require(DIR + '/week1_cld.js');
 W1.data(P, fs, DIR, miss);
 
+// ---- elevação pélvica no chão (02/10): nível mais estável antes do sofá
+{
+  const HT = { n: 'Unilateral no chão, pausa 2 s no topo', r: '10-15' };
+  let n = 0;
+  Object.keys(P.sessions).forEach(sid => (P.sessions[sid].ex || []).forEach(x => {
+    if (x.key !== 'hip_thrust_unilat_casa' || !x.lv) return;
+    if (!x.lv.some(l => l.n === HT.n)) x.lv.splice(1, 0, Object.assign({}, HT));
+    x.start = { lv: 1, reps: 12 };
+    x.name = 'Elevação pélvica unilateral (no seu nível)';
+    x.cues = ['No chão: deitado de costas, pé da perna que trabalha perto do bumbum, a outra perna esticada no ar, braços abertos no chão',
+              'Empurre pelo calcanhar e suba o quadril até alinhar joelho, quadril e ombro; costelas fechadas, sem arquear a lombar',
+              'Aperte o glúteo 2 s no topo e desça devagar até o bumbum quase tocar o chão',
+              'No sofá (próximo nível): escápulas na borda do assento, pé embaixo do joelho, coxa paralela ao chão no topo'];
+    x.alts = [];
+    x.notes = 'Reps por perna, começando pela esquerda. 15 nas 2 séries sem ser no limite: passa para as costas no sofá.';
+    n++;
+  }));
+  if (n !== 1) miss.push('elevação pélvica: ' + n + ' exercícios ajustados (esperado 1)');
+}
+
 // ---- variações do cardápio (02/10): mesmas kcal e proteína, para não enjoar
 {
   const add = (id, arr) => { const m = P.meals.find(x => x.id === id); arr.forEach(t => { if (m.swaps.indexOf(t) < 0) m.swaps.push(t); }); };
