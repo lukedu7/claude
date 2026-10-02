@@ -70,6 +70,25 @@ P.habits = P.habits.filter(x => x.id !== 'agua');
 const W1 = require(DIR + '/week1_cld.js');
 W1.data(P, fs, DIR, miss);
 
+// ---- variações do cardápio (02/10): mesmas kcal e proteína, para não enjoar
+{
+  const add = (id, arr) => { const m = P.meals.find(x => x.id === id); arr.forEach(t => { if (m.swaps.indexOf(t) < 0) m.swaps.push(t); }); };
+  const BAN = '1 banana = 1 maçã média · 1 pera · 150 g de mamão · 120 g de manga · 150 g de uva · 150 g de morango + 1 colher (chá) de mel';
+  add('shake', [
+    'Chocolate: troque o açúcar por 1 colher (sopa) de cacau em pó + 1 colher (sopa) de açúcar (ou 2 colheres de Nescau)',
+    'Morango: 60 g de aveia + 100 g de morango congelado + 20 g de pasta de amendoim + 20 g de mel (sem banana e sem açúcar)',
+    'Maçã com canela: 1 maçã média picada no lugar da banana + canela',
+    'Capuccino: + 1 colher (chá) de café solúvel (só até as 17h30)',
+    'Mingau, sem liquidificador: ferva o leite com a aveia por 3 min; por cima, a banana picada, a pasta de amendoim e canela',
+    BAN
+  ]);
+  add('cafe', [
+    '2 ovos = 3 fatias de muçarela · ½ lata de atum · 50 g de frango desfiado · 100 g de queijo cottage',
+    '2 pães (ou o cuscuz) = crepioca: 1 ovo + 3 colheres (sopa) de goma de tapioca, com queijo'
+  ]);
+  add('ceia', ['Mingau: 200 ml de leite + 15 g de aveia + 1 fruta picada (aquecido 3 min)', BAN]);
+}
+
 // ---- casa até a academia (avaliação contínua, sem data fixa) · 01/10
 P.gym_from = 99;   // semana em que a academia começa; 99 = ainda em casa
 P.home_sched = { '2': 'CT', '4': 'CQ', '5': 'CX', '6': 'CS' };

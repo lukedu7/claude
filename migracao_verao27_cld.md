@@ -393,6 +393,12 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - `P.gym_from = 99` no `transform_cld.js` (bloco "casa até a academia") deixa todas as semanas em casa: ter CT, qui CQ, sex CX, sáb CS, seg C1, qua C2;
   - treino às **10h00** de seg a sáb (`P.home_days`): acorda 08h15, café 08h20 (pré), shake 10h45 (pós), almoço 13h00, lanche 16h30, jantar 19h30, ceia 21h30 a partir da S2;
   - as séries das sessões de casa acompanham as fases: [2,3,3,3,3], e as prioridades [2,3,3,4,3].
+- **Variações do cardápio (02/10, app v10):** ele pediu variedade ("sou humano, nem sempre quero o mesmo shake, banana e ovo"). Nas "Trocas equivalentes" do app entraram:
+  - 5 versões de shake: chocolate, morango, maçã com canela, capuccino, mingau sem liquidificador;
+  - trocas da banana: maçã, pera, mamão, manga, uva, morango com mel;
+  - trocas dos 2 ovos: 3 fatias de muçarela, ½ lata de atum, 50 g de frango, 100 g de cottage;
+  - crepioca no café e mingau na ceia.
+  - Lista de mercado sugerida para a semana 2: flocão 2×500 g, 16 bananas, 4 L de leite, ovos, mel, 10 pães, 3 latas de atum, muçarela 200 g, 4 iogurtes naturais, frutas, pão de forma, cacau, morango congelado, maçãs, mamão, canela, goma de tapioca e cottage.
 - **Para liberar a academia:** troque `P.gym_from = 99` pela semana em que ela começa (ex.: 3). Depois rode `node transform_cld.js` e os testes (`test5_cld.js` cobre os dois modos) e publique com `url`. Recoloque na agenda as datas da 1ª semana de academia (cargas de partida na seção 3.2) e a calibração de RIR.
 
 ## 9. Atualização depois da migração (30/09 tarde → 01/10)
