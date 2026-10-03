@@ -449,3 +449,11 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **Shake de hoje (variação chocolate):** 2 colheres (sopa) de Nescau no lugar dos 16 g de açúcar. Resto igual.
 - **Academia:** ainda não. Afundo 5 kg no limite; ponte e panturrilha ainda têm níveis em casa.
 - Os prints dos testes (`shot_*_cld.png`) foram para o `.gitignore`.
+- **Resto de sex 02/10:**
+  - **Almoço:** arroz (4 colheres de panela), feijão (3), polenta (3) e bastante frango desfiado ao molho, ≈ 800–900 kcal (estimado). Não comeu a fruta.
+  - **Tarde:** 500 ml de água; lanche 16h30 de 3 fatias de pão de forma + 1 colher (sopa) de mel; 500 ml às 18h.
+  - **19h:** 1 copo de iogurte integral de morango.
+  - **Noite:** saiu de casa; jantou 3 fatias de pizza calabresa por volta das 23h30 e foi dormir.
+- **Sáb 03/10:** futebol às 9h; sai de casa 8h10.
+  - **Orientado:** acordar 7h15, pesar, café 7h20 (3 fatias de pão de forma + mel, 2 ovos, 1 banana), banho 7h45, garrafa de 750 ml no futebol, shake ao voltar.
+  - **Superior B:** vai para a tarde, horário a definir quando ele contar a que horas o futebol acaba. Domingo seria colado na Casa 1 de segunda, que é o mesmo grupo muscular.
