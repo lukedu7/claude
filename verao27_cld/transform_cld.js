@@ -70,6 +70,18 @@ P.habits = P.habits.filter(x => x.id !== 'agua');
 const W1 = require(DIR + '/week1_cld.js');
 W1.data(P, fs, DIR, miss);
 
+// ---- domingo sem shake (04/10): pedido dele; a creatina vai com o almoço
+{
+  const SUN = { title: 'Descanso · domingo livre', train: '', train_end: '', skip: ['shake'],
+    times: { cafe: '09:30', almoco: '13:00', pre: '16:30', jantar: '19:30', ceia: '22:00' }, roles: { pre: 'lanche' },
+    note: 'Domingo sem shake e com horários livres. Creatina 5 g com água ou suco no almoço (todo dia, inclusive hoje). Proteína nas 3 refeições principais; no lanche, 1 copo de leite (300 ml) junto. Pode ter 2 doces e uma refeição fora do plano.' };
+  P.days['0'] = SUN;
+  Object.keys(P.week_days || {}).forEach(w => { if (P.week_days[w]['0']) P.week_days[w]['0'] = Object.assign({}, SUN); });
+  const cr = P.supplements.find(x => /Creatina/.test(x.name));
+  if (cr) cr.timing = 'Todo dia, inclusive domingo: no shake; no domingo, com água ou suco no almoço';
+  else miss.push('suplemento creatina não encontrado');
+}
+
 // ---- elevação pélvica no chão (02/10): nível mais estável antes do sofá
 {
   const HT = { n: 'Unilateral no chão, pausa 2 s no topo', r: '10-15' };
@@ -189,6 +201,11 @@ select{font:inherit;color:var(--ink);background:var(--surface);border:1px solid 
 .ex .ex-meta{white-space:normal;overflow-wrap:anywhere}`);
 
 W1.engine(swap);
+/* dias que pulam refeições (domingo sem shake) */
+swap(`    if(m.from && w < m.from) return;`, `    if(m.from && w < m.from) return;
+    if(D.skip && D.skip.indexOf(m.id) >= 0) return;`);
+swap(`var cell = function(k){ return '<td class="nowrap">'+esc(D.times[k])+`, `var cell = function(k){ if(D.skip && D.skip.indexOf(k) >= 0) return '<td class="nowrap muted">—</td>'; return '<td class="nowrap">'+esc(D.times[k])+`);
+
 /* casa até a academia: agenda e horários */
 swap(`function schedFor(w, dow){ var o = P.week_sched && P.week_sched[String(clampW(w))]; return (o && o[String(dow)]) || P.schedule[String(dow)]; }`,
      `function homeWeek(w){ return !!P.home_sched && clampW(w) < (P.gym_from || 99); }

@@ -331,21 +331,23 @@ window.PLAN = {
  ],
  "days": {
   "0": {
-   "title": "Descanso",
+   "title": "Descanso · domingo livre",
    "train": "",
    "train_end": "",
+   "skip": [
+    "shake"
+   ],
    "times": {
-    "cafe": "08:30",
-    "shake": "11:00",
+    "cafe": "09:30",
     "almoco": "13:00",
     "pre": "16:30",
     "jantar": "19:30",
-    "ceia": "22:30"
+    "ceia": "22:00"
    },
    "roles": {
     "pre": "lanche"
    },
-   "note": "Compras de manhã e preparo da semana à tarde (~3h). Comida igual à dos outros dias."
+   "note": "Domingo sem shake e com horários livres. Creatina 5 g com água ou suco no almoço (todo dia, inclusive hoje). Proteína nas 3 refeições principais; no lanche, 1 copo de leite (300 ml) junto. Pode ter 2 doces e uma refeição fora do plano."
   },
   "1": {
    "title": "Treino em casa à noite",
@@ -1207,7 +1209,7 @@ window.PLAN = {
   {
    "name": "Creatina monoidratada",
    "dose": "5 g/dia, sem fase de saturação",
-   "timing": "Todo dia, inclusive domingo (vai no shake)",
+   "timing": "Todo dia, inclusive domingo: no shake; no domingo, com água ou suco no almoço",
    "priority": "recomendado",
    "why": "É o suplemento com mais evidência para força e massa magra: dá 1–2 reps a mais por série. Espere +0,5–1,5 kg de água DENTRO do músculo nas primeiras 3–4 semanas (não é gordura nem inchaço). Compre monoidratada pura, com laudo."
   },
@@ -5350,21 +5352,23 @@ window.PLAN = {
  "week_days": {
   "1": {
    "0": {
-    "title": "Descanso",
+    "title": "Descanso · domingo livre",
     "train": "",
     "train_end": "",
+    "skip": [
+     "shake"
+    ],
     "times": {
-     "cafe": "08:30",
-     "shake": "11:00",
+     "cafe": "09:30",
      "almoco": "13:00",
      "pre": "16:30",
      "jantar": "19:30",
-     "ceia": "22:30"
+     "ceia": "22:00"
     },
     "roles": {
      "pre": "lanche"
     },
-    "note": "Descanso com a mesma comida: o pão com mel das 16h30 é lanche. De manhã, compras da S2 (flocão e 14 bananas) e, à tarde, os kits; a ceia começa amanhã."
+    "note": "Domingo sem shake e com horários livres. Creatina 5 g com água ou suco no almoço (todo dia, inclusive hoje). Proteína nas 3 refeições principais; no lanche, 1 copo de leite (300 ml) junto. Pode ter 2 doces e uma refeição fora do plano."
    },
    "1": {
     "title": "Casa 1 à noite (presencial)",
@@ -5743,6 +5747,7 @@ function mealsFor(w, dow, kind){
   var k = kind || weekKind(w), D = dayCfgW(w, dow), out = [];
   P.meals.forEach(function(m){
     if(m.from && w < m.from) return;
+    if(D.skip && D.skip.indexOf(m.id) >= 0) return;
     var items = m.items, name = m.name, ramp = '';
     if(m.ramp && w <= m.ramp.until){ items = m.ramp.items; ramp = m.ramp.note; }
     else if(k==='B' && m.b){ items = m.b.items; if(m.b.name) name = m.b.name; }
@@ -6154,7 +6159,7 @@ VIEWS.comida = function(){
   h += '<details class="fold" id="f-kick"'+op('f-kick', cw===1)+'><summary>'+esc(P.kickoff.title)+'</summary><div class="fold-body"><p>'+esc(P.kickoff.intro)+'</p>'+steps(escList(P.kickoff.steps))+'</div></details>';
   h += '<details class="fold" id="f-calc"'+op('f-calc',false)+'><summary>De onde vêm esses números</summary><div class="fold-body">'+P.calc.text.map(function(x){ return '<p>'+esc(x)+'</p>'; }).join('')+list(escList(P.calc.assumptions))+'</div></details></div>';
   h += '<div class="sec"><h3>Horários por dia</h3><p class="lede small">A comida é a mesma todo dia. O que muda é a hora, para o pré-treino cair 60–90 min antes e a proteína até 1–2 h depois do treino.</p><div class="tbl"><table><thead><tr><th>Dia</th><th>Treino</th><th>Café</th><th>Shake</th><th>Almoço</th><th>Lanche/pré</th><th>Jantar</th><th>Ceia</th></tr></thead><tbody>';
-  [1,2,3,4,5,6,0].forEach(function(dow){ var D = dayCfgW(cw, dow), s = P.sessions[schedFor(cw, dow)]; var cell = function(k){ return '<td class="nowrap">'+esc(D.times[k])+(D.roles[k]? '<br><span class="small muted">'+esc(D.roles[k])+'</span>' : '')+'</td>'; };
+  [1,2,3,4,5,6,0].forEach(function(dow){ var D = dayCfgW(cw, dow), s = P.sessions[schedFor(cw, dow)]; var cell = function(k){ if(D.skip && D.skip.indexOf(k) >= 0) return '<td class="nowrap muted">—</td>'; return '<td class="nowrap">'+esc(D.times[k])+(D.roles[k]? '<br><span class="small muted">'+esc(D.roles[k])+'</span>' : '')+'</td>'; };
     h += '<tr'+(today().getDay()===dow?' class="step-on"':'')+'><td><strong>'+DOW[dow]+'</strong></td><td class="small">'+(s.loc==='off'? 'descanso' : esc(D.train)+' '+esc(s.short))+'</td>'+cell('cafe')+cell('shake')+cell('almoco')+cell('pre')+cell('jantar')+cell('ceia')+'</tr>'; });
   h += '</tbody></table></div></div>';
   h += '<div class="callout small"><strong>Água:</strong> 300 ml ao acordar, 300–500 ml no meio de cada intervalo entre refeições, 500 ml durante o treino e 300 ml 1 h depois do jantar (até 21h30). Os horários exatos de cada dia aparecem na aba Hoje, junto das refeições, para marcar. Leite, shake e chá também contam.</div>';

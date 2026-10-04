@@ -457,3 +457,15 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **Sáb 03/10:** futebol às 9h; sai de casa 8h10.
   - **Orientado:** acordar 7h15, pesar, café 7h20 (3 fatias de pão de forma + mel, 2 ovos, 1 banana), banho 7h45, garrafa de 750 ml no futebol, shake ao voltar.
   - **Superior B:** vai para a tarde, horário a definir quando ele contar a que horas o futebol acaba. Domingo seria colado na Casa 1 de segunda, que é o mesmo grupo muscular.
+- **Sáb 03/10 (o que aconteceu):**
+  - Futebol às 9h **sem água**; só um Gatorade de 500 ml depois.
+  - Jogo do Brasil. Almoço ao meio-dia: 2 pedaços de pizza (frango e calabresa) + 6 nuggets.
+  - Soneca. **Dor de cabeça forte** (desidratação + sono curto): não aguentou os polichinelos e a **Superior B foi cancelada**.
+  - Pediu para trocar o **pike** ("muito difícil fazer certo"): substituto **desenvolvimento sentado com halteres de 5 kg, 2 × 12, descida 3 s, 90 s**. **Pendente:** trocar no app (c1c e cs3).
+  - Célula 17h30, culto até 21h, jantar 22h. Pipoca doce da mãe (doce do dia). Deitou 1h11.
+- **Dom 04/10:** acordou ~10h25, saiu para votar (banana + leite antes). **Regra nova: domingo sem shake** (app v13):
+  - `P.days['0'].skip = ['shake']`;
+  - creatina com água ou suco no almoço;
+  - 1 copo de leite no lanche;
+  - horários livres, 2 doces e uma refeição fora do plano;
+  - teste `test7_cld.js`.
