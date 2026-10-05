@@ -479,3 +479,11 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
     - sanduíche de pasta de amendoim às 10h30 no trabalho.
   - Teste `test8_cld.js`.
   - **Perguntar se o presencial é toda segunda (e quarta)** para virar regra fixa.
+- **Seg 05/10 (presencial):**
+  - Saiu só com pão com mel + leite e não levou lanche; no trabalho, só café.
+  - Volta tarde, então o treino fica para a noite (horário a confirmar; `P.wd_days['2-1']` ainda diz 18h15).
+  - **Pasta de amendoim:** a dele (DaColonia Amendo Power crunchy, vegana) ele acha ruim e só usa no shake. Próxima compra: **integral lisa, 100% amendoim**.
+  - Tarde orientada: almoço + 2 ovos, 15h banana + maçã, 16h30 pão com mel.
+  - Regra da noite:
+    - chegou até 19h30: treino → jantar → shake 1h30 depois;
+    - depois disso: banana às 18h30 e, em casa, treino → shake → jantar leve.
