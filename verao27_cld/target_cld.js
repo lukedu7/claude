@@ -9,6 +9,7 @@ function prevHist(w, sid, ex, max){
       for(var h=0; h<hits.length; h++) if(hits[h].sid===s2) hit = hits[h];
       if(!hit) continue;
       var d = Store.get('workouts', wid(k,s2)), e = d && d.ex && d.ex[hit.id];
+      if(e && ex.lv && e.v && lvIdx(ex, e.v) < 0) continue; /* nível que não existe nesta escada = registro de outro exercício (ex.: pike antigo) */
       if(e && e.sets && e.sets.some(function(x){ return x && num(x.reps)>0; })) out.push({ week:k, sid:s2, sets:e.sets, v:e.v||'', lim:!!e.lim, easy:!!e.easy && !e.lim });
     }
   }

@@ -70,6 +70,39 @@ P.habits = P.habits.filter(x => x.id !== 'agua');
 const W1 = require(DIR + '/week1_cld.js');
 W1.data(P, fs, DIR, miss);
 
+// ---- pike → desenvolvimento (03/10): "muito difícil fazer certo"
+{
+  const LV = [{ n: '5 kg, descida 3 s', r: '8-15' }, { n: '5 kg, descida 3 s + pausa 1 s embaixo', r: '8-15' },
+              { n: 'Arnold com 5 kg, descida 3 s', r: '8-15' }, { n: 'Arnold com 5 kg, descida 3 s + pausa 1 s embaixo', r: '8-15' }];
+  let n = 0;
+  ['C1', 'CS'].forEach(sid => {
+    const S = P.sessions[sid];
+    S.ex.forEach(x => {
+      if (x.key !== 'pike') return;
+      Object.assign(x, { key: 'desenv_halter_casa', name: 'Desenvolvimento sentado com halteres de 5 kg', eq: '', muscles: 'Ombros, tríceps', reps: '8-15', rest: '90 s', bw: false,
+        lv: LV.map(l => Object.assign({}, l)), start: { lv: 0, reps: 12 },
+        cues: ['Sentado numa cadeira com encosto, costas apoiadas e pés firmes no chão',
+               'Halteres na altura das orelhas, palmas para a frente, cotovelos um pouco à frente do corpo',
+               'Empurre até quase esticar os braços sem bater um halter no outro; desça em 3 s até a altura das orelhas',
+               'Abdômen firme: não arqueie a lombar para ajudar a subir'],
+        alts: [], notes: 'Substitui o pike (difícil de fazer certo). Arnold: comece com as palmas viradas para você e gire para a frente enquanto sobe.' });
+      delete x.level0; delete x.alt_kg;
+      n++;
+    });
+    S.warmup = S.warmup.map(t => /pike/i.test(t) ? '10 desenvolvimentos sem peso (só o movimento)' : t);
+  });
+  if (n !== 2) miss.push('pike: ' + n + ' trocados (esperado 2)');
+}
+// ---- dias com horário especial por semana-dia (ex.: presencial de seg 05/10, treino à noite)
+P.wd_days = {
+  '2-1': { title: 'Presencial · treino à noite', train: '18:15', train_end: '', skip: ['ceia'],
+    times: { cafe: '07:50', almoco: '12:15', pre: '16:00', jantar: '19:15', shake: '21:30' },
+    roles: { pre: 'pré-treino (no trabalho)', jantar: 'pós-treino', shake: 'no lugar da ceia' },
+    note: 'Sai 8h30, volta 12h, sai 13h15, volta 18h. Leve a garrafa de 750 ml cheia nas duas saídas. 10h30 no trabalho: sanduíche (2 fatias de pão de forma + 20 g de pasta de amendoim + 1 colher (chá) de mel), no lugar da ceia. 16h00: o pão com mel vai pronto de casa.' }
+};
+P.agenda['2026-10-05'] = (P.agenda['2026-10-05'] || []).map(t => t === '10h00 · Casa 1: metas do registro.'
+  ? 'Presencial: sai 8h30, volta 12h, sai 13h15, volta 18h. 18h15 · Casa 1 em casa (metas do registro); shake às 21h30 no lugar da ceia.' : t);
+
 // ---- domingo sem shake (04/10): pedido dele; a creatina vai com o almoço
 {
   const SUN = { title: 'Descanso · domingo livre', train: '', train_end: '', skip: ['shake'],
@@ -269,6 +302,13 @@ swap(`  else if(a==='meal'){`,
     if(!xlm.v && t.dataset.vdef) xlm.v = t.dataset.vdef; Store.put('workouts', wid(+t.dataset.w, t.dataset.s), dlm); }
   else if(a==='meal'){`);
 
+
+/* dia com horário especial (semana-dia) */
+swap(`function dayCfgW(w, dow){
+  if(homeWeek(w) && P.home_days && P.home_days[String(dow)]){`, `function dayCfgW(w, dow){
+  var X = P.wd_days && P.wd_days[clampW(w)+'-'+dow];
+  if(X){ var xs = P.sessions[schedFor(w, dow)]; if(X.train && xs && xs.dur && !X.train_end) X = Object.assign({}, X, { train_end: tm(hm(X.train) + xs.dur) }); return X; }
+  if(homeWeek(w) && P.home_days && P.home_days[String(dow)]){`);
 
 fs.writeFileSync(DIR + '/projeto_verao_27_cld.html', h);
 console.log(miss.length ? 'PENDÊNCIAS:\n' + miss.join('\n') : 'ok, sem pendências', '\nbytes', h.length);

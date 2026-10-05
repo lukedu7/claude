@@ -32,7 +32,7 @@ const data = { workouts: { 'w01-C1': LOG }, weighins: {}, checks: {}, measures: 
   check('sem rolagem lateral no celular', wide <= 0, 'excesso ' + wide + ' px');
   await p.close();
   p = await open('2026-10-03', data);
-  const s = { cs2: 'Serrote 5 kg, descida 3 s + pausa 1 s no topo · 16 / 16', cs3: 'Mãos no sofá, pés no chão · 6 / 6' };
+  const s = { cs2: 'Serrote 5 kg, descida 3 s + pausa 1 s no topo · 16 / 16', cs3: '5 kg, descida 3 s · 12 / 12' };
   for (const id in s) { const g = await goal(p, id); check('sáb ' + id + ' = ' + s[id], g.endsWith(s[id]), g); }
   await p.close();
   check('sem erros de script', errors.length === 0, errors.join(' | '));

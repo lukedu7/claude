@@ -469,3 +469,13 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - 1 copo de leite no lanche;
   - horários livres, 2 doces e uma refeição fora do plano;
   - teste `test7_cld.js`.
+- **App v14 (madrugada de 05/10):**
+  - **Pike → "Desenvolvimento sentado com halteres de 5 kg"** em C1 (c1c) e CS (cs3), key `desenv_halter_casa`, escada [5 kg descida 3 s → + pausa 1 s embaixo → Arnold → Arnold + pausa], começa 12 reps. O aquecimento troca pike por "10 desenvolvimentos sem peso".
+  - **Regra no motor (`prevHist`):** registro cujo nível não existe na escada atual é de outro exercício e não vira histórico (o pike antigo da c1c).
+  - **`P.wd_days['2-1']`** = seg 05/10 **presencial**:
+    - sai 8h30, volta 12h, sai 13h15, volta 18h;
+    - café 07h50, almoço 12h15, pão com mel às 16h no trabalho (pré);
+    - **Casa 1 às 18h15**, jantar 19h15 (pós), **shake 21h30 no lugar da ceia**;
+    - sanduíche de pasta de amendoim às 10h30 no trabalho.
+  - Teste `test8_cld.js`.
+  - **Perguntar se o presencial é toda segunda (e quarta)** para virar regra fixa.
