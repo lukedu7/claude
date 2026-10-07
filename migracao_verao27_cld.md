@@ -519,3 +519,7 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **Metas:**
   - qui Pernas A: búlgaro 11/11, stiff 13/13, agachamento calcanhar elevado 16/16, ponte com pausa 2 s 8/8, panturrilha + halter 5 kg 10/10, crucifixo inverso 17/17;
   - sex Superior A: **flexão no sofá 13/13 (destravar)**, remada mochila 13/13, crucifixo no chão 16/16, elevação lateral 15/15, crucifixo inverso 17/17, rosca 13/13, tríceps 14/14.
+- **Correção (07/10):**
+  - A flexão de `w02-C1` foi regravada com **lim:false**: a 2ª série sobrou 1–2, pela 1ª vez. Ele contestou o "destravar" e tinha razão.
+  - Nova condição em `stallOf` (app v17): se a última sessão saiu do limite e a anterior estava no limite, é progresso, não estagnação.
+  - Meta de sex: **flexão no chão 9/9**.

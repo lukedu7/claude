@@ -36,6 +36,12 @@ const base = {
   g = await goal(p, 'c1c');
   check('seg: desenvolvimento com 3 séries', g.endsWith('5 kg, descida 3 s · 12 / 12 / 12'), g);
   await p.close();
+  // mesmas 8 reps, mas a última saiu do limite: é progresso, não estagnação
+  const W3 = Object.assign({}, base, { 'w02-C1': { week: 2, session: 'C1', done: true, ex: { c1a: { lim: false, sets: S(8, 8), v: 'No chão' } } } });
+  p = await open('2026-10-09', W3);
+  g = await goal(p, 'cq1');
+  check('sex: saiu do limite → chão 9/9', g.endsWith('No chão · 9 / 9'), g);
+  await p.close();
   check('sem erros de script', errs.length === 0, errs.join(' | '));
   await b.close(); fs.unlinkSync(DIR + '/_page.html');
   console.log(fails ? fails + ' falha(s)' : 'TUDO OK');

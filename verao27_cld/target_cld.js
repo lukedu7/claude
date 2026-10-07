@@ -48,6 +48,7 @@ function recOf(ex, rec){
 /* 3 registros (do mais recente) sem progresso: mesma carga/nível e média de reps sem subir */
 function stallOf(ex, hs){
   if(hs.length < 3) return false;
+  if(!hs[0].lim && hs[1].lim) return false; /* mesmas reps, mas saiu do limite: sobrou mais = progresso */
   var Rs = hs.map(function(h){ return recOf(ex, h); });
   if(ex.lv && !(Rs[0].li > 0)) return false;
   return !Rs.some(function(x){ return x.fail; }) && Rs[0].W===Rs[1].W && Rs[1].W===Rs[2].W && Rs[0].avg <= Rs[1].avg && Rs[1].avg <= Rs[2].avg;
