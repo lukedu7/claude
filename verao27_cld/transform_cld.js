@@ -79,7 +79,7 @@ W1.data(P, fs, DIR, miss);
     const S = P.sessions[sid];
     S.ex.forEach(x => {
       if (x.key !== 'pike') return;
-      Object.assign(x, { key: 'desenv_halter_casa', name: 'Desenvolvimento sentado com halteres de 5 kg', eq: '', muscles: 'Ombros, tríceps', reps: '8-15', rest: '90 s', bw: false,
+      Object.assign(x, { key: 'desenv_halter_casa', name: 'Desenvolvimento sentado com halteres de 5 kg', eq: '', muscles: 'Ombros, tríceps', reps: '8-15', rest: '90 s', bw: false, sets: [2, 3, 3, 3, 3],
         lv: LV.map(l => Object.assign({}, l)), start: { lv: 0, reps: 12 },
         cues: ['Sentado numa cadeira com encosto, costas apoiadas e pés firmes no chão',
                'Halteres na altura das orelhas, palmas para a frente, cotovelos um pouco à frente do corpo',
@@ -217,7 +217,7 @@ if (a < 0 || b < 0) miss.push('motor: prevData()/suggest()');
 h = h.slice(0, a) + fs.readFileSync(DIR + '/target_cld.js', 'utf8') + '\n' + h.slice(b);
 
 swap(`var prev = prevData(w, sid, ex), sg = suggest(ex, prev, w), e = (doc.ex && doc.ex[ex.id]) || { sets:[], v:'' }, unit = ex.unit==='s' ? 's' : 'reps';`,
-     `var hist = prevHist(w, sid, ex, 3), sub = !!r.sub, tg = target(ex, hist, w, sub), sg = hintFor(ex, hist, tg, w, sub), e = (doc.ex && doc.ex[ex.id]) || { sets:[], v:'' }, unit = ex.unit==='s' ? 's' : 'reps', vdef = ex.lv ? ex.lv[tg.li].n : '';`);
+     `var hist = prevHist(w, sid, ex, 4), sub = !!r.sub, tg = target(ex, hist, w, sub), sg = hintFor(ex, hist, tg, w, sub), e = (doc.ex && doc.ex[ex.id]) || { sets:[], v:'' }, unit = ex.unit==='s' ? 's' : 'reps', vdef = ex.lv ? ex.lv[tg.li].n : '';`);
 swap(`'</div><div class="ex-meta">'+n+' × '+esc(ex.reps)+(ex.unit==='s'?' s':'')+' · RIR '+esc(rirFor(ex,w))+' · '+esc(ex.rest)+'</div></div>';`,
      `'</div><div class="ex-meta">'+n+(n===1?' série':' séries')+' · sobrar '+esc(rirExact(rirFor(ex,w)))+' · máx. '+tg.hi+(ex.unit==='s'?' s':'')+' · descanso '+esc(ex.rest)+'</div></div>';`);
 swap(`if(ex.bw){ var vid = 'in-'+w+'-'+sid+'-'+ex.id+'-v';`,

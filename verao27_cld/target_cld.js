@@ -45,6 +45,13 @@ function recOf(ex, rec){
   o.avg = aw.length ? aw.reduce(function(s,x){ return s+x.r; },0)/aw.length : NaN;
   return o;
 }
+/* 3 registros (do mais recente) sem progresso: mesma carga/nível e média de reps sem subir */
+function stallOf(ex, hs){
+  if(hs.length < 3) return false;
+  var Rs = hs.map(function(h){ return recOf(ex, h); });
+  if(ex.lv && !(Rs[0].li > 0)) return false;
+  return !Rs.some(function(x){ return x.fail; }) && Rs[0].W===Rs[1].W && Rs[1].W===Rs[2].W && Rs[0].avg <= Rs[1].avg && Rs[1].avg <= Rs[2].avg;
+}
 function target(ex, hist, w, sub){
   var n = setsFor(ex, w), L = ex.lv, st = ex.start || {}, step = ex.unit==='s' ? 5 : 1, prev = hist[0];
   var t = { kg:NaN, li:-1, reps:[], kind:'first', lo:0, hi:0 }, i, rr;
@@ -58,6 +65,16 @@ function target(ex, hist, w, sub){
   setLv(L ? R.li : -1); if(!L) t.kg = R.W;
   if(isDeload(w)){ t.kind = 'deload'; fill(t.lo); return t; }
   if(R.fail){ t.kind = 'down'; if(L) setLv(Math.max(0, R.li-1)); fill(t.lo); return t; }
+  /* a última foi a sessão de destravar (um degrau abaixo): volta ao nível/carga de antes, com as reps de antes */
+  if(hist.length >= 4 && stallOf(ex, hist.slice(1,4))){
+    var R1 = recOf(ex, hist[1]);
+    if(L ? R.li === R1.li - 1 : (isFinite(R.W) && isFinite(R1.W) && R.W < R1.W)){
+      t.kind = 'back';
+      if(L) setLv(R1.li); else t.kg = R1.W;
+      var r1 = R1.done.filter(R1.atW).map(function(x){ return x.r; });
+      fill(Math.max(t.lo, Math.min(t.hi, r1.length ? Math.min.apply(null, r1) : t.lo))); return t;
+    }
+  }
   var need = setsFor(ex, prev.week), lim = !!prev.lim, easy = !!prev.easy;
   var allTop = !lim && (easy ? R.done.length > 0 : R.done.length >= need && R.done.every(function(x){ return R.atW(x) && x.r >= t.hi; }));
   if(allTop){
@@ -66,13 +83,10 @@ function target(ex, hist, w, sub){
     else { t.kg = (isFinite(t.kg) ? t.kg : 0) + (ex.inc||2); t.kind = 'up'; }
     fill(t.lo); return t;
   }
-  if(hist.length >= 3 && (!L || R.li > 0)){
-    var Rs = hist.slice(0,3).map(function(h){ return recOf(ex, h); });
-    if(!Rs.some(function(x){ return x.fail; }) && Rs[0].W===Rs[1].W && Rs[1].W===Rs[2].W && Rs[0].avg <= Rs[1].avg && Rs[1].avg <= Rs[2].avg){
-      t.kind = 'stall';
-      if(L) setLv(Math.max(0, R.li-1)); else t.kg = Math.max(0, R.W - (ex.inc||2));
-      fill(Math.max(t.lo, t.hi-2)); return t;
-    }
+  if(stallOf(ex, hist.slice(0,3))){
+    t.kind = 'stall';
+    if(L) setLv(Math.max(0, R.li-1)); else t.kg = Math.max(0, R.W - (ex.inc||2));
+    fill(Math.max(t.lo, t.hi-2)); return t;
   }
   t.kind = lim ? 'limit' : 'hold';
   var atWr = R.done.filter(R.atW).map(function(x){ return x.r; });
@@ -99,6 +113,7 @@ function hintFor(ex, hist, t, w, sub){
   if(t.kind==='deload') return { tone:'down', html: g+'Semana leve: mesma carga, metade das séries.' };
   if(t.kind==='down') return { tone:'down', html: g+last+' Ficou abaixo de '+(t.lo-2)+u+' em todas: '+(ex.lv ? 'volte um nível.' : 'a carga desce um degrau.')+more };
   if(t.kind==='stall') return { tone:'down', html: g+last+' 3 sessões sem progresso: '+(ex.lv ? 'um nível abaixo' : 'um degrau de carga abaixo')+' por uma vez. Depois volta ao normal.'+more };
+  if(t.kind==='back') return { tone:'up', html: g+last+' Sessão de destravar feita: volta '+(ex.lv ? 'para “'+esc(ex.lv[t.li].n)+'”' : 'para '+fx(t.kg)+' kg')+' com as reps de antes.'+more };
   if(t.kind==='up'){
     var why = prev.easy ? ' Você marcou que sobrou muito: ' : ' Bateu o topo em todas: ';
     var ladder = ex.lv ? ' Se uma série ficar abaixo de '+t.lo+u+', faça as seguintes em “'+esc(ex.lv[t.li-1].n)+'”.'

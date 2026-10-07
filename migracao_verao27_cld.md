@@ -505,3 +505,17 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - teste `test9_cld.js`.
   - Os blocos de dados novos do transform rodam **antes** dos antigos (inserção logo após `W1.data`). O bloco da semana 2 foi movido para o fim, antes da serialização do PLAN.
 - **Último treino feito: sex 02/10 (Pernas B).** Superior sem treino desde qui 01/10.
+- **Qua 07/10, Casa 1 feita, registrada em `w02-C1`:**
+  - flexão no chão 8/8 (**lim**; 1ª no limite, 2ª sobrou 1–2);
+  - remada serrote 16/16 (boa);
+  - desenvolvimento 5 kg 12/12 (**lim**, a 12ª da 2ª falhou);
+  - elevação lateral 3 kg 15/14 (**lim**);
+  - rosca 12/12 (tranquila);
+  - tríceps testa 13/13 (tranquilo).
+- **App v16:**
+  - **regra de volta da estagnação** (`stallOf` + kind `back`): depois da sessão de destravar (um degrau abaixo), a próxima volta ao nível ou carga anterior com as reps de antes. O histórico passou para 4 registros;
+  - desenvolvimento com séries [2,3,3,3,3];
+  - teste `test10_cld.js`.
+- **Metas:**
+  - qui Pernas A: búlgaro 11/11, stiff 13/13, agachamento calcanhar elevado 16/16, ponte com pausa 2 s 8/8, panturrilha + halter 5 kg 10/10, crucifixo inverso 17/17;
+  - sex Superior A: **flexão no sofá 13/13 (destravar)**, remada mochila 13/13, crucifixo no chão 16/16, elevação lateral 15/15, crucifixo inverso 17/17, rosca 13/13, tríceps 14/14.
