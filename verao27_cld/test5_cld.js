@@ -20,7 +20,7 @@ fs.writeFileSync(DIR + '/_page.html', '<!doctype html><html><head><meta charset=
     return p;
   }
   // padrão: casa
-  for (const [iso, name] of [['2026-10-02', 'PERNAS B'], ['2026-10-03', 'SUPERIOR B'], ['2026-10-06', 'PERNAS A'], ['2026-10-13', 'PERNAS A'], ['2026-10-15', 'SUPERIOR A']]) {
+  for (const [iso, name] of [['2026-10-02', 'PERNAS B'], ['2026-10-03', 'SUPERIOR B'], ['2026-10-08', 'PERNAS A'], ['2026-10-13', 'PERNAS A'], ['2026-10-15', 'SUPERIOR A']]) {
     const p = await open(iso, 'hoje');
     const h3 = await p.$eval('#v-hoje .logger h3', el => el.innerText);
     const tl = await p.$$eval('#v-hoje .meal.train', els => els.map(e => e.innerText.replace(/\s+/g, ' ')));

@@ -487,3 +487,21 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - Regra da noite:
     - chegou até 19h30: treino → jantar → shake 1h30 depois;
     - depois disso: banana às 18h30 e, em casa, treino → shake → jantar leve.
+- **Seg 05/10 à noite:**
+  - Banana às 15h; às 20h30, KFC (batata pequena, 3 tiras, hambúrguer de frango, suco de uva, caldo de cana).
+  - Chegou tarde com muito sono: **não treinou** (decisão certa); creatina na água.
+- **Ter 06/10:**
+  - Acordou 9h50 (dormiu ~1h). Café: 2 fatias de pão com queijo e manteiga, manga, Nescau.
+  - Almoço: prato cheio de arroz, feijão, abobrinha, 2 filés de carne, azeite; mate gelado.
+  - Ligação longa à tarde: **não treinou de novo**.
+  - Shake antes do cabelo (18h30); à noite, café médio + pão de queijo; escreveu poesias (**pedido de namoro chegando**); dormiu às 2h.
+- **Qua 07/10:**
+  - Acordou 8h. ~9h: laranja, 4 bisnaguinhas com Nutella, Nescau; 9h45, Nescau proteico (15 g P).
+  - No trabalho, com castanhas-do-pará (máx. 2–3/dia). Almoço ~13h45. **Casa 1 às 15h30.**
+- **App v15:** `P.home_week['2']`:
+  - ter OFF; **qua C1, qui CT, sex CQ, sáb CX**;
+  - CS e C2 saem da S2;
+  - `P.wd_days['2-3']`: café 9h, almoço 13h45, treino 15h30, shake 16h15 (pós, no lugar do lanche), jantar 19h30, ceia 21h30;
+  - teste `test9_cld.js`.
+  - Os blocos de dados novos do transform rodam **antes** dos antigos (inserção logo após `W1.data`). O bloco da semana 2 foi movido para o fim, antes da serialização do PLAN.
+- **Último treino feito: sex 02/10 (Pernas B).** Superior sem treino desde qui 01/10.

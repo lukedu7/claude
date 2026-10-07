@@ -688,23 +688,20 @@ window.PLAN = {
    "Compras da S2 (semana B): 2 pacotes de 500 g de flocão e 14 bananas (~2,1 kg, 7 maduras + 7 de vez). O resto a primeira compra ainda cobre.",
    "Kits da S2: 7 potes de shake (50 g de aveia + 16 g de açúcar + 5 g de creatina), 7 de ceia (10 g de aveia) e 7 × 80 g de flocão. Congele 1 banana para o shake de segunda (presencial). A ceia começa amanhã."
   ],
-  "2026-10-06": [
-   "10h00 · Pernas A em casa (metas do registro)."
-  ],
-  "2026-10-07": [
-   "10h00 · Casa 2 (core e mobilidade). Prancha lateral: 30 s por lado."
-  ],
-  "2026-10-08": [
-   "10h00 · Superior A em casa."
-  ],
-  "2026-10-09": [
-   "10h00 · Pernas B em casa."
-  ],
-  "2026-10-10": [
-   "10h00 · Superior B em casa."
-  ],
   "2026-10-11": [
    "Descanso total. Semana 3 (12/10) começa a Acumulação I: 3 séries na maioria dos exercícios."
+  ],
+  "2026-10-07": [
+   "Semana 2 reorganizada: hoje Casa 1 (15h30), qui Pernas A, sex Superior A, sáb Pernas B. Superior B e Casa 2 saem desta semana."
+  ],
+  "2026-10-08": [
+   "Pernas A em casa (metas do registro)."
+  ],
+  "2026-10-09": [
+   "Superior A em casa (metas do registro)."
+  ],
+  "2026-10-10": [
+   "Pernas B em casa (metas do registro)."
   ]
  },
  "checkpoints": [
@@ -5492,6 +5489,26 @@ window.PLAN = {
     "shake": "no lugar da ceia"
    },
    "note": "Sai 8h30, volta 12h, sai 13h15, volta 18h. Leve a garrafa de 750 ml cheia nas duas saídas. 10h30 no trabalho: sanduíche (2 fatias de pão de forma + 20 g de pasta de amendoim + 1 colher (chá) de mel), no lugar da ceia. 16h00: o pão com mel vai pronto de casa."
+  },
+  "2-3": {
+   "title": "Trabalho de manhã · treino 15h30",
+   "train": "15:30",
+   "train_end": "",
+   "skip": [
+    "pre"
+   ],
+   "times": {
+    "cafe": "09:00",
+    "almoco": "13:45",
+    "shake": "16:15",
+    "jantar": "19:30",
+    "ceia": "21:30"
+   },
+   "roles": {
+    "almoco": "pré-treino",
+    "shake": "pós-treino (no lugar do lanche)"
+   },
+   "note": "11h30 no trabalho: 2 castanhas-do-pará (no máximo 3 por dia, por causa do selênio). Casa 1 às 15h30, quase 2h depois do almoço."
   }
  },
  "gym_from": 99,
@@ -5615,6 +5632,15 @@ window.PLAN = {
     "pre": "lanche"
    },
    "note": "Acorde 08h15 e pese-se antes de comer. O café das 08h20 é o pré-treino; o shake logo depois do treino é o pós-treino."
+  }
+ },
+ "home_week": {
+  "2": {
+   "2": "OFF",
+   "3": "C1",
+   "4": "CT",
+   "5": "CQ",
+   "6": "CX"
   }
  }
 };
@@ -5751,7 +5777,7 @@ function dayCfgW(w, dow){
   }
   var o = P.week_days && P.week_days[String(clampW(w))]; return (o && o[String(dow)]) || dayCfg(dow); }
 function homeWeek(w){ return !!P.home_sched && clampW(w) < (P.gym_from || 99); }
-function schedFor(w, dow){ if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)]; var o = P.week_sched && P.week_sched[String(clampW(w))]; return (o && o[String(dow)]) || P.schedule[String(dow)]; }
+function schedFor(w, dow){ var hw = homeWeek(w) && P.home_week && P.home_week[String(clampW(w))]; if(hw && hw[String(dow)]) return hw[String(dow)]; if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)]; var o = P.week_sched && P.week_sched[String(clampW(w))]; return (o && o[String(dow)]) || P.schedule[String(dow)]; }
 function orderFor(w){ var out = []; [1,2,3,4,5,6,0].forEach(function(d){ var s = schedFor(w, d); if(P.sessions[s] && P.sessions[s].loc!=='off' && out.indexOf(s)<0) out.push(s); }); return out; }
 function isMain(s){ return !!s && (!!s.main || s.loc==='academia'); }
 function mainLabel(w){ return orderFor(w).some(function(s){ return P.sessions[s].loc==='academia'; }) ? 'academia' : 'treinos'; }

@@ -192,6 +192,18 @@ P.phases[0].rules = P.phases[0].rules.map(t => t
 const cp2b = P.checkpoints.find(c => c.week === 2);
 cp2b.criteria = cp2b.criteria.map(t => t.replace('(4 em casa na S1, 4 na academia na S2)', '(em casa ou na academia)'));
 
+// ---- semana 2 reorganizada (07/10): seg e ter sem treino; Superior B e Casa 2 saem desta semana
+P.home_week = { '2': { '2': 'OFF', '3': 'C1', '4': 'CT', '5': 'CQ', '6': 'CX' } };
+P.wd_days['2-3'] = { title: 'Trabalho de manhã · treino 15h30', train: '15:30', train_end: '', skip: ['pre'],
+  times: { cafe: '09:00', almoco: '13:45', shake: '16:15', jantar: '19:30', ceia: '21:30' },
+  roles: { almoco: 'pré-treino', shake: 'pós-treino (no lugar do lanche)' },
+  note: '11h30 no trabalho: 2 castanhas-do-pará (no máximo 3 por dia, por causa do selênio). Casa 1 às 15h30, quase 2h depois do almoço.' };
+['2026-10-06', '2026-10-07', '2026-10-08', '2026-10-09', '2026-10-10'].forEach(d => { delete P.agenda[d]; });
+P.agenda['2026-10-07'] = ['Semana 2 reorganizada: hoje Casa 1 (15h30), qui Pernas A, sex Superior A, sáb Pernas B. Superior B e Casa 2 saem desta semana.'];
+P.agenda['2026-10-08'] = ['Pernas A em casa (metas do registro).'];
+P.agenda['2026-10-09'] = ['Superior A em casa (metas do registro).'];
+P.agenda['2026-10-10'] = ['Pernas B em casa (metas do registro).'];
+
 h = h.slice(0, s) + JSON.stringify(P, null, 1) + h.slice(e);
 
 // 3) motor
@@ -310,5 +322,8 @@ swap(`function dayCfgW(w, dow){
   if(X){ var xs = P.sessions[schedFor(w, dow)]; if(X.train && xs && xs.dur && !X.train_end) X = Object.assign({}, X, { train_end: tm(hm(X.train) + xs.dur) }); return X; }
   if(homeWeek(w) && P.home_days && P.home_days[String(dow)]){`);
 
+/* semana com agenda própria em casa (home_week) */
+swap(`function schedFor(w, dow){ if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)];`,
+     `function schedFor(w, dow){ var hw = homeWeek(w) && P.home_week && P.home_week[String(clampW(w))]; if(hw && hw[String(dow)]) return hw[String(dow)]; if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)];`);
 fs.writeFileSync(DIR + '/projeto_verao_27_cld.html', h);
 console.log(miss.length ? 'PENDÊNCIAS:\n' + miss.join('\n') : 'ok, sem pendências', '\nbytes', h.length);

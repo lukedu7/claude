@@ -29,7 +29,7 @@ const data = { workouts: {
   }
   const ex = (p, id) => p.$eval('[data-ex="' + id + '"]', el => el.closest('.ex').innerText.replace(/\s+/g, ' ')).catch(() => '—');
   const goal = (t) => (t.match(/Meta de hoje: (.*?)(Última|1ª vez)/) || [])[1] || t;
-  let p = await open('2026-10-06');
+  let p = await open('2026-10-08');
   // em casa a S2 ainda tem 2 séries (a 3ª entra na S3)
   const want6 = { ct4: 'Unilateral, pé na cadeira, pausa 2 s no topo · 8 / 8', ct5: 'Unilateral + halter 5 kg na mão livre · 10 / 10' };
   for (const id in want6) { const t = await ex(p, id); check('ter ' + id + ' = ' + want6[id], goal(t).trim() === want6[id], goal(t)); check('ter ' + id + ' explica o "sobrou muito"', /marcou que sobrou muito: subiu de nível/.test(t), ''); }
@@ -41,7 +41,7 @@ const data = { workouts: {
   const ov = await p.evaluate(() => document.documentElement.scrollWidth - window.innerWidth);
   check('sem rolagem lateral', ov <= 0, ov + ' px');
   await p.close();
-  p = await open('2026-10-09');
+  p = await open('2026-10-10');
   const want9 = { cx1: 'Halteres 5 kg · 10 / 10', cx2: 'Unilateral no chão, pausa 2 s no topo · 11 / 11', cx5: 'Halter 5 kg no peito · 17 / 17', cx6: 'Joelhos a 90° · 11 / 11' };
   for (const id in want9) { const t = goal(await ex(p, id)).trim(); check('sex ' + id + ' = ' + want9[id], t === want9[id], t); }
   await p.close();
