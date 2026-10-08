@@ -523,3 +523,16 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - A flexão de `w02-C1` foi regravada com **lim:false**: a 2ª série sobrou 1–2, pela 1ª vez. Ele contestou o "destravar" e tinha razão.
   - Nova condição em `stallOf` (app v17): se a última sessão saiu do limite e a anterior estava no limite, é progresso, não estagnação.
   - Meta de sex: **flexão no chão 9/9**.
+
+## 12. Jejum (regra nova, 08/10)
+
+- **Jejum de 24h a cada 8 dias, das 20h às 20h, com água.** O primeiro começa **qui 15/10 às 20h** e termina sex 16/10 às 20h. Próximos inícios: 23/10, 31/10, 08/11, 16/11, 24/11, 02/12, 10/12, 18/12, 26/12, 03/01.
+- **App v18** (`P.fasts`, `P.fast_off`, `P.weigh_skip`, `wd_days` gerados):
+  - **véspera:** jantar 19h e ceia 19h45;
+  - **dia do jejum:** sem treino; só a quebra às 20h (vitamina) e o jantar às 20h45 com creatina; água 500 ml a cada 2h (08–18h);
+  - **semana do jejum:** os 5 treinos principais (C1, CT, CQ, CX, CS) vão para os outros dias, sem a Casa 2;
+  - **compensação:** shake extra às 15h nos 3 dias seguintes, pulando domingo;
+  - **pesagem:** a do dia seguinte ao jejum fica fora da média semanal;
+  - teste `test11_cld.js`.
+- **Pendente:** quando a academia entrar, rever a redistribuição dos treinos nas semanas de jejum (hoje só as semanas em casa redistribuem; nas de academia o dia do jejum só vira descanso).
+- **Qui 08/10:** fora de casa o dia todo, só castanhas. Pernas A à noite; jantar fora com proteína; shake depois do treino.

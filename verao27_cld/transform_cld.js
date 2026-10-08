@@ -204,6 +204,48 @@ P.agenda['2026-10-08'] = ['Pernas A em casa (metas do registro).'];
 P.agenda['2026-10-09'] = ['Superior A em casa (metas do registro).'];
 P.agenda['2026-10-10'] = ['Pernas B em casa (metas do registro).'];
 
+// ---- jejum de 24h a cada 8 dias, das 20h às 20h (desde 15/10; pode água)
+{
+  const DAY = 864e5, t0 = Date.UTC(2026, 8, 28), end = Date.UTC(2027, 0, 3);
+  const isoOf = t => new Date(t).toISOString().slice(0, 10);
+  const wOf = t => Math.floor((t - t0) / DAY / 7) + 1, dowOf = t => new Date(t).getUTCDay();
+  const key = t => wOf(t) + '-' + dowOf(t);
+  const clone = o => JSON.parse(JSON.stringify(o));
+  const baseCfg = t => { const k = key(t), d = String(dowOf(t)); return clone(P.wd_days[k] || (dowOf(t) && P.home_days[d] ? P.home_days[d] : P.days[d])); };
+  const ag = (t, txt) => { const d = isoOf(t); (P.agenda[d] = P.agenda[d] || []).push(txt); };
+  const ORDER = ['C1', 'CT', 'CQ', 'CX', 'CS'];
+  P.fasts = []; P.fast_off = {}; P.weigh_skip = []; P.home_week = P.home_week || {};
+  for (let st = Date.UTC(2026, 9, 15); st <= end; st += 8 * DAY) {
+    const f = st + DAY;
+    P.fasts.push(isoOf(st));
+    const S = baseCfg(st);
+    S.times = Object.assign({}, S.times, { jantar: '19:00', ceia: '19:45' });
+    S.note = (S.note ? S.note + ' ' : '') + 'Jejum começa às 20h (até amanhã às 20h): jantar reforçado às 19h e a ceia às 19h45. Depois, só água.';
+    P.wd_days[key(st)] = S;
+    ag(st, '20h · começa o jejum (até amanhã às 20h). Jantar reforçado às 19h e ceia às 19h45.');
+    if (f > end) break;
+    P.fast_off[key(f)] = true;
+    P.wd_days[key(f)] = { title: 'Jejum (só água até as 20h)', train: '', train_end: '', skip: ['cafe', 'shake', 'almoco', 'pre'],
+      times: { ceia: '20:00', jantar: '20:45' }, roles: { ceia: 'quebra do jejum', jantar: 'refeição normal + creatina' },
+      water: ['08:00', '10:00', '12:00', '14:00', '16:00', '18:00'].map(t => ({ t: t, ml: 500, why: 'jejum' })),
+      note: 'Jejum até as 20h: só água, 500 ml a cada 2h. Sem treino e sem creatina até quebrar. 20h: a vitamina (leite + banana + aveia); 20h45: jantar normal com a creatina, sem exagerar.' };
+    ag(f, 'Jejum até as 20h: só água (500 ml a cada 2h), sem treino. 20h vitamina; 20h45 jantar + creatina.');
+    const fw = wOf(f), fd = dowOf(f);
+    if (fd !== 0 && !P.home_week[String(fw)]) {
+      const hw = {}; let i = 0;
+      [1, 2, 3, 4, 5, 6].forEach(d => { hw[String(d)] = d === fd ? 'OFF' : ORDER[i++]; });
+      P.home_week[String(fw)] = hw;
+    }
+    P.weigh_skip.push(isoOf(f + DAY));
+    let n = 0;
+    for (let c = f + DAY; n < 3 && c <= end; c += DAY) {
+      if (dowOf(c) === 0) continue;
+      const C = baseCfg(c);
+      C.note = (C.note ? C.note + ' ' : '') + 'Compensação do jejum: shake extra às 15h (mesma receita), além do de sempre.';
+      P.wd_days[key(c)] = C; ag(c, '15h · shake extra (compensação do jejum).'); n++;
+    }
+  }
+}
 h = h.slice(0, s) + JSON.stringify(P, null, 1) + h.slice(e);
 
 // 3) motor
@@ -325,5 +367,9 @@ swap(`function dayCfgW(w, dow){
 /* semana com agenda própria em casa (home_week) */
 swap(`function schedFor(w, dow){ if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)];`,
      `function schedFor(w, dow){ var hw = homeWeek(w) && P.home_week && P.home_week[String(clampW(w))]; if(hw && hw[String(dow)]) return hw[String(dow)]; if(homeWeek(w) && P.home_sched[String(dow)]) return P.home_sched[String(dow)];`);
+/* jejum: dia sem treino, água própria e pesagem do dia seguinte fora da média */
+swap(`function schedFor(w, dow){ var hw = homeWeek(w)`, `function schedFor(w, dow){ if(P.fast_off && P.fast_off[clampW(w)+'-'+dow]) return 'OFF'; var hw = homeWeek(w)`);
+swap(`var wl = waterSlots(ms, D, s), wml = 0;`, `var wl = D.water ? D.water.slice() : waterSlots(ms, D, s), wml = 0;`);
+swap(`var vals=[]; for(var i=0;i<7;i++){ var v=Store.get('weighins', iso(addDays(weekStart(w),i)));`, `var vals=[]; for(var i=0;i<7;i++){ var wd = iso(addDays(weekStart(w),i)); if(P.weigh_skip && P.weigh_skip.indexOf(wd) >= 0) continue; var v=Store.get('weighins', wd);`);
 fs.writeFileSync(DIR + '/projeto_verao_27_cld.html', h);
 console.log(miss.length ? 'PENDÊNCIAS:\n' + miss.join('\n') : 'ok, sem pendências', '\nbytes', h.length);
