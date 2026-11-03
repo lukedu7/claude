@@ -536,3 +536,17 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
   - teste `test11_cld.js`.
 - **Pendente:** quando a academia entrar, rever a redistribuição dos treinos nas semanas de jejum (hoje só as semanas em casa redistribuem; nas de academia o dia do jejum só vira descanso).
 - **Qui 08/10:** fora de casa o dia todo, só castanhas. Pernas A à noite; jantar fora com proteína; shake depois do treino.
+
+## 13. Retorno (ter 03/11)
+
+- **22/10:** ele disse que voltaria em 23/10. Liguei a semana leve da S4 (`settings/deload = {weeks:{'4':true}}`), mas ele não voltou.
+- **03/11 (S6):** voltou depois de quase 4 semanas sem treinar. Último treino registrado: Casa 1 de 07/10. Pesagem: só a de 28/09 (66 kg).
+- **`settings/deload` = `{weeks:{'6':true}}`:** a S6 inteira é semana leve, com mesmos exercícios e cargas, metade das séries e reps no piso. Com isso a S6 não vira referência de progressão.
+- **Metas da S6:**
+  - **ter 03 Pernas A:** búlgaro 8/8, stiff 10/10, agachamento calcanhar elevado 12/12, ponte 8/8, panturrilha 10/10, crucifixo inverso 12/12;
+  - **qua 04 Casa 2:** abdominal supra 10/10, reverso 10/10, prancha lateral 20 s;
+  - **qui 05 Superior A:** flexão 6/6, remada mochila 10/10, crucifixo chão 12/12, elevação lateral 15/15, crucifixo inverso 12/12, rosca 10/10, tríceps 12/12;
+  - **sex 06 Pernas B:** afundo 8/8, elevação pélvica 10/10, ponte 8/8, panturrilha 10/10, abdominais 10/10;
+  - **sáb 07 Superior B:** flexão 6/6, remada serrote 12/12, desenvolvimento 8/8, crucifixo 12/12, elevação lateral 15/15, rosca 10/10, tríceps 12/12.
+- **Dom 08:** jejum começa às 20h (jantar 19h, ceia 19h45). **Seg 09:** jejum, sem treino. S7 com treinos de ter a sáb.
+- O scratchpad foi apagado no reinício do contêiner (o repo está intacto). Script de metas recriado em `scratchpad/v27/semana6_cld.js`. Neste contêiner o Chromium do Playwright é o padrão (`chromium.launch()`).
