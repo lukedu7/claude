@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **03/11/2026 (S6)**
+Última atualização: **03/11/2026 (S6), fila nova**
 
 ---
 
@@ -63,34 +63,71 @@
   5. D5: +1 pão no café (+150).
 - **Suplementos:** só creatina, 5 g/dia, todo dia. Não usar hipercalórico, BCAA nem termogênico.
 
-## 4. Divisão de treino
+## 4. Divisão de treino: fila de 12 sessões (aprovada em 03/11)
 
-**Em uso desde 03/11 (semana leve de volta):** ele pediu para começar pelo peito. Hoje foi o **Superior A**.
+Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e perna 1×**, montado como um personal faria.
 
-**Proposta enviada em 03/11, aguardando o ok dele:**
+**A fila** (repete a cada 2 semanas, de segunda a sábado; domingo é descanso):
 
-| Seg | Ter | Qua | Qui | Sex | Sáb | Dom |
-|---|---|---|---|---|---|---|
-| **Peito + costas** | **Ombros + braços** | Pernas + abdômen | **Peito + costas** | **Ombros + braços** | Abdômen + mobilidade (20 min, opcional) | descanso |
+| # | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 | 10 | 11 | 12 |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| Sessão | **PC** | **OB** | **PE** | **PC** | **OB** | **PC** | **OB** | **PC** | **PE** | **OB** | **PC** | **OB** |
 
-- **Peito + costas:** flexão ↔ remada serrote · crucifixo no chão ↔ remada curvada (2 halteres de 5 kg) · crucifixo inverso.
-- **Ombros + braços:** desenvolvimento sentado · elevação lateral · rosca alternada ↔ tríceps testa · **rosca martelo ↔ tríceps coice** (exercícios novos: definir a escada quando ele aprovar).
-- **Pernas + abdômen:** búlgaro · stiff unilateral · agachamento com calcanhar elevado · panturrilha · abdominal supra · abdominal reverso.
-- **Abdômen + mobilidade:** prancha lateral, abdominal supra e reverso, e 5 min de mobilidade.
+- **Regra de ouro: a fila não pula.** Perdeu um dia, caiu um jejum ou um domingo, o próximo treino é o próximo da fila. Nenhum treino se perde.
+- Nunca cai o mesmo bloco em dias seguidos, e PC/OB descansam pelo menos 48h entre si. Em 12 sessões ficam 5 PC, 5 OB e 2 PE, ou seja, 2,5 / 2,5 / 1 por semana.
+- **Abdômen 2×/semana:** a PE já tem abdômen; o segundo vai como **finalizador no último treino da semana** (normalmente sábado: prancha lateral 2 × 30 s/lado + abdominal supra 2 séries, ~8 min). Se o último treino da semana for a PE, o finalizador vai no treino anterior.
+
+**PC: peito + costas** (~35 min)
+1. Flexão ↔ remada serrote 5 kg (par: direto de um pro outro; 90 s depois do par)
+2. Crucifixo no chão 5 kg ↔ remada curvada com 2 halteres de 5 kg (par; 90 s)
+
+**OB: ombros + braços** (~40 min)
+1. Desenvolvimento sentado 5 kg (90 s)
+2. Elevação lateral (60 s)
+3. Crucifixo inverso 3 kg (posterior de ombro; 60 s)
+4. Rosca alternada ↔ tríceps testa (par; 60 s depois do par)
+5. **Rosca martelo ↔ tríceps coice** (par; 60 s), exercícios novos
+
+**PE: pernas + abdômen** (~35 min)
+1. Búlgaro (30 s entre as pernas, 90 s entre as séries)
+2. Stiff unilateral (30 s / 75 s)
+3. Agachamento com calcanhar elevado (75 s)
+4. Panturrilha unilateral (60 s)
+5. Abdominal supra ↔ abdominal reverso (par; 60 s)
+
+**Séries** (com 2,5×/semana o volume semanal já é alto, então cada sessão fica enxuta):
+
+| Fase | Semanas | Por exercício | Sobrar |
+|---|---|---|---|
+| Acumulação II | S5–S7 | 3 | 3 |
+| Bloco final | S8–S12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
+| Festas | S13–S14 | 3 | 3 |
+
+Volume semanal em S7, contando 2,5 sessões: peito ~15 séries, costas ~15, ombros ~22, bíceps ~15, tríceps ~15 (fora o indireto), abdômen ~10, pernas 12.
+
+**Semana leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries** (arredonda pra cima), reps no **piso da faixa**. Ela não serve de referência para a progressão. **A S6 (02–08/11) é semana leve.**
+
+**Agenda prevista** (atualizar se ele faltar):
+
+| Data | Sessão | Obs. |
+|---|---|---|
+| ter 03/11 | **1 PC** | leve |
+| qua 04/11 | 2 OB | leve |
+| qui 05/11 | 3 PE | leve |
+| sex 06/11 | 4 PC | leve |
+| sáb 07/11 | 5 OB + finalizador de abdômen | leve |
+| dom 08/11 | — | jejum começa às 20h |
+| seg 09/11 | — | **jejum** |
+| ter 10/11 | 6 PC | normal (S7) |
+| qua 11/11 | 7 OB | |
+| qui 12/11 | 8 PC | |
+| sex 13/11 | 9 PE | |
+| sáb 14/11 | 10 OB + abdômen | |
+| seg 16/11 | 11 PC | jejum começa às 20h |
+| ter 17/11 | — | **jejum** |
+| qua 18/11 | 12 OB | depois a fila recomeça no 1 |
 
 **Divisão antiga (S1–S5), para referência:** C1 Casa 1 (superior) · CT Pernas A · C2 Casa 2 (core) · CQ Superior A · CX Pernas B · CS Superior B.
-
-**Séries por semana** (prioritários = peito, costas, ombro lateral, bíceps, tríceps):
-
-| Fase | Semanas | Prioritários | Demais | Sobrar (em casa) |
-|---|---|---|---|---|
-| Adaptação | S1–S2 | 2 | 2 | 4 |
-| Acumulação I | S3–S4 | 3 | 3 | 3–4 |
-| Acumulação II | S5–S7 | 3 | 3 | 3 |
-| Bloco final | S8–S12 | **4** | 3 | 2 |
-| Festas | S13–S14 | 3 | 3 | 3 |
-
-**Semana leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries**, reps no **piso da faixa**. Ela não serve de referência para a progressão. **A S6 (02–08/11) é semana leve.**
 
 ## 5. Regras de progressão (a meta é sempre um número exato por série)
 
@@ -139,7 +176,12 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 |---|---|---|---|
 | **Rosca alternada 5 kg** | **0 5 kg** · 1 descida 3 s + pausa · 2 concentrada pausa 2 s · 3 + descida 3 s (10–15) | 07/10: 12/12, tranquila | **13/13** |
 | **Tríceps** | **0 testa no chão, 5 kg com as 2 mãos** (12–20) · 1 5 kg unilateral sentado · 2 unilateral descida 4 s (10–15) · 3 diamante no sofá · 4 diamante no chão (6–15) | 07/10: 13/13, tranquilo | **14/14** |
-| Rosca martelo / tríceps coice | a definir quando a divisão nova for aprovada | — | — |
+| **Rosca martelo 5 kg** (nova) | **0 5 kg** · 1 5 kg descida 3 s · 2 5 kg descida 3 s + pausa 1 s no topo · 3 cruzada (atravessando o peito), descida 3 s (10–15) | — (1ª vez) | **12/12** (na semana leve, 10/10) |
+| **Tríceps coice 5 kg** (novo) | **0 5 kg, mão e joelho apoiados no sofá** · 1 + pausa 1 s com o braço esticado · 2 + descida 3 s e pausa 1 s · 3 em pé inclinado, sem apoio, descida 3 s (10–15) | — (1ª vez) | **12/12** (na semana leve, 10/10) |
+
+**Técnica dos novos:**
+- **Rosca martelo:** palmas viradas uma para a outra o tempo todo; cotovelo colado; sobe até o antebraço ficar quase vertical; desce em 2 s.
+- **Tríceps coice:** mão e joelho do mesmo lado no sofá, costas retas; braço de trabalho colado ao tronco, cotovelo apontando para trás, na altura das costas; estica o braço para trás até ficar reto, segura 1 s, volta em 2 s. Só o antebraço se mexe.
 
 ### Abdômen
 | Exercício | Escada (faixa) | Último registro | Próxima meta normal |
@@ -171,7 +213,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 03/10 | — | Superior B cancelado: dor de cabeça forte depois do futebol sem água |
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
 | 08/10–02/11 | — | **Sem treino** (~4 semanas) |
-| 03/11 | Superior A (leve) | aguardando o relato. Metas: flexão 6/6 · remada curvada 10/10 · crucifixo 12/12 · elev. lateral 15/15 · crucifixo inverso 12/12 · rosca 10/10 · tríceps 12/12 |
+| 03/11 | 1 PC (leve) | aguardando o relato. Metas: flexão 6/6 ↔ serrote 12/12 · crucifixo no chão 12/12 ↔ remada curvada 10/10 |
 
 ## 8. Peso e medidas
 
@@ -181,7 +223,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 
 ## 9. Pendências
 
-- [ ] Ok dele na divisão nova (seção 4) e, depois, montar as escadas da rosca martelo e do tríceps coice.
+- [x] Divisão nova aprovada (03/11): fila de 12 sessões; escadas da rosca martelo e do tríceps coice criadas.
 - [ ] Pesagem e cintura (não há dados desde 28/09).
 - [ ] Remedir peito e ombros com a fita dando a volta completa.
 - [ ] Jejum: **dom 08/11, 20h → seg 09/11, 20h**.
