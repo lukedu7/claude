@@ -213,7 +213,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 03/10 | — | Superior B cancelado: dor de cabeça forte depois do futebol sem água |
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
-| 13/11 | 1 PC (leve) | aguardando o relato. Metas, 3 séries: flexão 6 ↔ serrote 12 · crucifixo no chão 12 ↔ remada curvada 10 |
+| 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
 
 ## 8. Peso e medidas
 
