@@ -99,7 +99,7 @@ Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e 
 
 | Fase | Datas | Séries por exercício | Sobrar |
 |---|---|---|---|
-| **Volta (leve)** | 13/11–16/11 (as 3 primeiras sessões: PC, OB, PE) | **2**, reps no piso da faixa, mesmo nível | 4 |
+| **Volta (leve)** | 13/11–16/11 (as 3 primeiras sessões: PC, OB, PE) | **3** (ele pediu mais: joga bola e anda todo dia), reps no piso da faixa, mesmo nível | 4 |
 | Acumulação II | 18/11–29/11 | 3 | 3 |
 | Bloco final | 30/11–20/12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
 | Festas | 21/12–03/01 | 3 | 3 |
@@ -213,7 +213,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 03/10 | — | Superior B cancelado: dor de cabeça forte depois do futebol sem água |
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
-| 13/11 | 1 PC (leve) | aguardando o relato. Metas: flexão 6/6 ↔ serrote 12/12 · crucifixo no chão 12/12 ↔ remada curvada 10/10 |
+| 13/11 | 1 PC (leve) | aguardando o relato. Metas, 3 séries: flexão 6 ↔ serrote 12 · crucifixo no chão 12 ↔ remada curvada 10 |
 
 ## 8. Peso e medidas
 
