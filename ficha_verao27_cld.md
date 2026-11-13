@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **03/11/2026 (S6), fila nova**
+Última atualização: **13/11/2026: recomeço, fila no 1**
 
 ---
 
@@ -95,37 +95,37 @@ Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e 
 4. Panturrilha unilateral (60 s)
 5. Abdominal supra ↔ abdominal reverso (par; 60 s)
 
-**Séries** (com 2,5×/semana o volume semanal já é alto, então cada sessão fica enxuta):
+**Fases recalibradas depois da pausa** (ficou de 08/10 a 12/11 sem treinar, ~5 semanas):
 
-| Fase | Semanas | Por exercício | Sobrar |
+| Fase | Datas | Séries por exercício | Sobrar |
 |---|---|---|---|
-| Acumulação II | S5–S7 | 3 | 3 |
-| Bloco final | S8–S12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
-| Festas | S13–S14 | 3 | 3 |
+| **Volta (leve)** | 13/11–16/11 (as 3 primeiras sessões: PC, OB, PE) | **2**, reps no piso da faixa, mesmo nível | 4 |
+| Acumulação II | 18/11–29/11 | 3 | 3 |
+| Bloco final | 30/11–20/12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
+| Festas | 21/12–03/01 | 3 | 3 |
 
-Volume semanal em S7, contando 2,5 sessões: peito ~15 séries, costas ~15, ombros ~22, bíceps ~15, tríceps ~15 (fora o indireto), abdômen ~10, pernas 12.
+Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta. Volume semanal na Acumulação II, contando 2,5 sessões: peito ~15 séries, costas ~15, ombros ~22, bíceps ~15, tríceps ~15 (fora o indireto), abdômen ~10, pernas 12.
 
-**Semana leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries** (arredonda pra cima), reps no **piso da faixa**. Ela não serve de referência para a progressão. **A S6 (02–08/11) é semana leve.**
+**Sessão leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries** (arredonda pra cima), reps no **piso da faixa**. Ela não serve de referência para a progressão.
 
-**Agenda prevista** (atualizar se ele faltar):
+**Agenda prevista** (atualizar se ele faltar; a fila recomeçou no 1 em 13/11):
 
 | Data | Sessão | Obs. |
 |---|---|---|
-| ter 03/11 | **1 PC** | leve |
-| qua 04/11 | 2 OB | leve |
-| qui 05/11 | 3 PE | leve |
-| sex 06/11 | 4 PC | leve |
-| sáb 07/11 | 5 OB + finalizador de abdômen | leve |
-| dom 08/11 | — | jejum começa às 20h |
-| seg 09/11 | — | **jejum** |
-| ter 10/11 | 6 PC | normal (S7) |
-| qua 11/11 | 7 OB | |
-| qui 12/11 | 8 PC | |
-| sex 13/11 | 9 PE | |
-| sáb 14/11 | 10 OB + abdômen | |
-| seg 16/11 | 11 PC | jejum começa às 20h |
+| sex 13/11 | **1 PC** | leve |
+| sáb 14/11 | 2 OB + finalizador de abdômen | leve |
+| seg 16/11 | 3 PE | leve. Jejum começa às 20h (jantar 19h, ceia 19h45) |
 | ter 17/11 | — | **jejum** |
-| qua 18/11 | 12 OB | depois a fila recomeça no 1 |
+| qua 18/11 | 4 PC | normal (Acumulação II) |
+| qui 19/11 | 5 OB | |
+| sex 20/11 | 6 PC | |
+| sáb 21/11 | 7 OB + abdômen | |
+| seg 23/11 | 8 PC | |
+| ter 24/11 | 9 PE | jejum começa às 20h |
+| qua 25/11 | — | **jejum** |
+| qui 26/11 | 10 OB | |
+| sex 27/11 | 11 PC | |
+| sáb 28/11 | 12 OB + abdômen | depois a fila recomeça no 1, já no Bloco final |
 
 **Divisão antiga (S1–S5), para referência:** C1 Casa 1 (superior) · CT Pernas A · C2 Casa 2 (core) · CQ Superior A · CX Pernas B · CS Superior B.
 
@@ -212,8 +212,8 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 02/10 | Pernas B | afundo 10/10 (lim) · elevação pélvica no chão 10/10 · ponte 11/11 (sobrou muito) · panturrilha 13/13 (sobrou muito) · abd. supra 16/16 · abd. reverso 10/10 |
 | 03/10 | — | Superior B cancelado: dor de cabeça forte depois do futebol sem água |
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
-| 08/10–02/11 | — | **Sem treino** (~4 semanas) |
-| 03/11 | 1 PC (leve) | aguardando o relato. Metas: flexão 6/6 ↔ serrote 12/12 · crucifixo no chão 12/12 ↔ remada curvada 10/10 |
+| 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
+| 13/11 | 1 PC (leve) | aguardando o relato. Metas: flexão 6/6 ↔ serrote 12/12 · crucifixo no chão 12/12 ↔ remada curvada 10/10 |
 
 ## 8. Peso e medidas
 
@@ -224,7 +224,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 ## 9. Pendências
 
 - [x] Divisão nova aprovada (03/11): fila de 12 sessões; escadas da rosca martelo e do tríceps coice criadas.
-- [ ] Pesagem e cintura (não há dados desde 28/09).
+- [ ] Pesagem e cintura (não há dados desde 28/09). Pedir sempre: em jejum, ao acordar.
 - [ ] Remedir peito e ombros com a fita dando a volta completa.
-- [ ] Jejum: **dom 08/11, 20h → seg 09/11, 20h**.
+- [ ] Jejum: **seg 16/11, 20h → ter 17/11, 20h**; depois **ter 24/11 → qua 25/11**.
 - [ ] Com a academia, rever o encaixe dos treinos nas semanas de jejum.
