@@ -99,8 +99,8 @@ Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e 
 
 | Fase | Datas | Séries por exercício | Sobrar |
 |---|---|---|---|
-| **Volta (leve)** | 13/11–16/11 (as 3 primeiras sessões: PC, OB, PE) | **3** (ele pediu mais: joga bola e anda todo dia), reps no piso da faixa, mesmo nível | 4 |
-| Acumulação II | 18/11–29/11 | 3 | 3 |
+| **Volta (leve)** | 13/11–18/11 (as 3 primeiras sessões: PC, OB, PE) | **3** (ele pediu mais: joga bola e anda todo dia), reps no piso da faixa, mesmo nível | 4 |
+| Acumulação II | 19/11–29/11 | 3 | 3 |
 | Bloco final | 30/11–20/12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
 | Festas | 21/12–03/01 | 3 | 3 |
 
@@ -112,20 +112,21 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 
 | Data | Sessão | Obs. |
 |---|---|---|
-| sex 13/11 | **1 PC** | leve |
-| sáb 14/11 | 2 OB + finalizador de abdômen | leve |
-| seg 16/11 | 3 PE | leve. Jejum começa às 20h (jantar 19h, ceia 19h45) |
+| sex 13/11 | ✅ **1 PC** | leve, feito |
+| sáb 14/11 | — | futebol de manhã + palavra da célula: sem tempo para treinar (a fila não pula) |
+| seg 16/11 | 2 OB + finalizador de abdômen | leve. Jejum começa às 20h (jantar 19h, ceia 19h45) |
 | ter 17/11 | — | **jejum** |
-| qua 18/11 | 4 PC | normal (Acumulação II) |
-| qui 19/11 | 5 OB | |
-| sex 20/11 | 6 PC | |
-| sáb 21/11 | 7 OB + abdômen | |
-| seg 23/11 | 8 PC | |
-| ter 24/11 | 9 PE | jejum começa às 20h |
+| qua 18/11 | 3 PE | leve |
+| qui 19/11 | 4 PC | normal (Acumulação II) |
+| sex 20/11 | 5 OB | |
+| sáb 21/11 | 6 PC + abdômen | |
+| seg 23/11 | 7 OB | |
+| ter 24/11 | 8 PC | jejum começa às 20h |
 | qua 25/11 | — | **jejum** |
-| qui 26/11 | 10 OB | |
-| sex 27/11 | 11 PC | |
-| sáb 28/11 | 12 OB + abdômen | depois a fila recomeça no 1, já no Bloco final |
+| qui 26/11 | 9 PE | |
+| sex 27/11 | 10 OB | |
+| sáb 28/11 | 11 PC + abdômen | |
+| seg 30/11 | 12 OB | Bloco final a partir daqui; depois a fila recomeça no 1 |
 
 **Divisão antiga (S1–S5), para referência:** C1 Casa 1 (superior) · CT Pernas A · C2 Casa 2 (core) · CQ Superior A · CX Pernas B · CS Superior B.
 

@@ -556,3 +556,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **13/11:** o recomeço de 03/11 não aconteceu; ele recomeça hoje (~5 semanas sem treinar). A fila volta para o **1 PC (leve)**. Fases recalibradas: volta leve 13–16/11 (PC, OB, PE), Acumulação II 18–29/11, Bloco final 30/11–20/12, Festas 21/12–03/01. Agora tem 3 bisnaguinhas + ¼ de mamão: orientado a comer antes (leve) e tomar o shake depois.
 - **13/11:** ele questionou as poucas séries (joga bola e anda todo dia): a volta passa a ter **3 séries**, com as mesmas reps no piso, sobrando 4.
 - **13/11:** 1 PC leve feito (30 min, sem falhar, gostou). Próximo: sáb 14/11, 2 OB leve + finalizador de abdômen.
+- **14/11 (sáb):** futebol de manhã; às 13h15 ainda não tinha chegado em casa e precisava preparar a palavra da célula (sai às 16h). **Sem treino.** A fila segue: OB na seg 16, PE na qua 18. Shake às 15h30 como lanche; jantar às 22h.
