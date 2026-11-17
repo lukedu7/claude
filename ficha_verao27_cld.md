@@ -157,14 +157,14 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 ### Peito
 | Exercício | Escada (faixa) | Último registro | Próxima meta normal |
 |---|---|---|---|
-| **Flexão** | 0 mãos na mesa · 1 mãos no sofá · **2 no chão** · 3 chão + pausa 2 s embaixo · 4 pés na cadeira · 5 pés na cadeira, descida 3 s + pausa 2 s · 6 pés na cadeira + mochila 8 kg · 7 + mochila 12 kg (6–15) | 07/10: chão 8/8, a 1ª no limite, a 2ª sobrou 1–2 (saiu do limite) | **chão 9/9** |
-| **Crucifixo no chão 5 kg** | **0 descida 3 s** · 1 + pausa 2 s embaixo · 2 "1 e ½" (12–20; nível 2: 10–15) | 01/10: 15/15 | **16/16** |
+| **Flexão** | 0 mãos na mesa · 1 mãos no sofá · **2 no chão** · 3 chão + pausa 2 s embaixo · 4 pés na cadeira · 5 pés na cadeira, descida 3 s + pausa 2 s · 6 pés na cadeira + mochila 8 kg · 7 + mochila 12 kg (6–15) | 17/11: chão 8/8/8. 1ª e 2ª normais; 3ª bem devagar, apertou na 7ª–8ª | **chão 9/9/9** (descida em 2 s em todas as séries) |
+| **Crucifixo no chão 5 kg** | **0 descida 3 s** · 1 + pausa 2 s embaixo · 2 "1 e ½" (12–20; nível 2: 10–15) | 17/11: 15/15/15, cotovelo levemente dobrado, "muito bom" | **16/16/16** |
 
 ### Costas
 | Exercício | Escada (faixa) | Último registro | Próxima meta normal |
 |---|---|---|---|
-| **Remada serrote 5 kg** (descida 3 s + 1 s no topo) | **0 serrote** (12–20) · 1 invertida na mesa, joelhos dobrados · 2 pernas estendidas · 3 pés na cadeira · 4 + pausa 2 s (6–15) | 07/10: 16/16 por braço | **17/17** |
-| **Remada curvada** (2 halteres de 5 kg; na escada, "mochila") | **0 mochila 8 kg/halteres, descida 3 s** · 1 + pausa 1 s · 2 mochila 12 kg · 3 + pausa (10–15) | 01/10: 12/12 (feita com 2 halteres de 5 kg) | **13/13** |
+| **Remada serrote 5 kg** (descida 3 s + 1 s no topo) | **0 serrote** (12–20) · 1 invertida na mesa, joelhos dobrados · 2 pernas estendidas · 3 pés na cadeira · 4 + pausa 2 s (6–15) | 17/11: 16/16/16 por braço; sentiu o esquerdo antes do direito | **17/17/17** |
+| **Remada curvada** (2 halteres de 5 kg; na escada, "mochila") | **0 mochila 8 kg/halteres, descida 3 s** · 1 + pausa 1 s · 2 mochila 12 kg · 3 + pausa (10–15) | 17/11: 12/12/**17**. Na 3ª "encaixou" e foi até 17 | **15/15/15** (decisão do coach pela 3ª série; se fechar, sobe para + pausa 1 s no topo) |
 | **Crucifixo inverso 3 kg** (posterior de ombro e costas altas) | **0 3 kg** · 1 3 kg descida 3 s + pausa (12–20) · 2 5 kg · 3 5 kg + pausa (8–15) | 01/10: 16/16 | **17/17** |
 
 ### Ombros
@@ -216,7 +216,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
 | 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
-| 17/11 | 4 PC (reentrada) | aguardando o relato. Metas, 3 séries: flexão 8 ↔ serrote 16 · crucifixo no chão 15 ↔ remada curvada 12. Café 9h30: ¼ de mamão, 1 copo de leite, 3 bisnaguinhas com manteiga |
+| 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
 
 ## 8. Peso e medidas
 
