@@ -557,3 +557,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **13/11:** ele questionou as poucas séries (joga bola e anda todo dia): a volta passa a ter **3 séries**, com as mesmas reps no piso, sobrando 4.
 - **13/11:** 1 PC leve feito (30 min, sem falhar, gostou). Próximo: sáb 14/11, 2 OB leve + finalizador de abdômen.
 - **14/11 (sáb):** futebol de manhã; às 13h15 ainda não tinha chegado em casa e precisava preparar a palavra da célula (sai às 16h). **Sem treino.** A fila segue: OB na seg 16, PE na qua 18. Shake às 15h30 como lanche; jantar às 22h.
+- **17/11 (ter):** não treinou na seg 16 e **não fez o jejum** de 16→17. Pediu PC de novo hoje: vira o item 4 da fila, adiantado, como **reentrada** (repete os últimos números reais: flexão 8, serrote 16, crucifixo 15, remada curvada 12, com 3 séries). Nova regra de volta de pausa na seção 5. Fila: qua OB leve, qui PE leve, sex OB, sáb PC.

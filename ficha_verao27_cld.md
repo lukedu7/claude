@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **13/11/2026: recomeço, fila no 1**
+Última atualização: **17/11/2026**
 
 ---
 
@@ -99,8 +99,8 @@ Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e 
 
 | Fase | Datas | Séries por exercício | Sobrar |
 |---|---|---|---|
-| **Volta (leve)** | 13/11–18/11 (as 3 primeiras sessões: PC, OB, PE) | **3** (ele pediu mais: joga bola e anda todo dia), reps no piso da faixa, mesmo nível | 4 |
-| Acumulação II | 19/11–29/11 | 3 | 3 |
+| **Volta (leve)** | 13/11–19/11 (a 1ª sessão de cada bloco: PC 13/11, OB 18/11, PE 19/11) | **3** (ele pediu mais: joga bola e anda todo dia), reps no piso da faixa, mesmo nível | 4 |
+| Acumulação II | 17/11–29/11 (o PC de 17/11 é a reentrada) | 3 | 3 |
 | Bloco final | 30/11–20/12 | 3, e **4 no primeiro exercício de cada grupo** (flexão, remada serrote, desenvolvimento, elevação lateral, rosca alternada, tríceps testa) | 2 |
 | Festas | 21/12–03/01 | 3 | 3 |
 
@@ -108,17 +108,17 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 
 **Sessão leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries** (arredonda pra cima), reps no **piso da faixa**. Ela não serve de referência para a progressão.
 
-**Agenda prevista** (atualizar se ele faltar; a fila recomeçou no 1 em 13/11):
+**Agenda prevista** (atualizar se ele faltar):
 
 | Data | Sessão | Obs. |
 |---|---|---|
 | sex 13/11 | ✅ **1 PC** | leve, feito |
-| sáb 14/11 | — | futebol de manhã + palavra da célula: sem tempo para treinar (a fila não pula) |
-| seg 16/11 | 2 OB + finalizador de abdômen | leve. Jejum começa às 20h (jantar 19h, ceia 19h45) |
-| ter 17/11 | — | **jejum** |
-| qua 18/11 | 3 PE | leve |
-| qui 19/11 | 4 PC | normal (Acumulação II) |
-| sex 20/11 | 5 OB | |
+| sáb 14/11 | — | futebol + palavra da célula, sem tempo |
+| seg 16/11 | — | não deu tempo. **Não fez o jejum de 16→17/11** (decisão dele) |
+| ter 17/11 | **4 PC** (adiantado, a pedido dele) | **reentrada:** repete os últimos números reais, sem +1 |
+| qua 18/11 | 2 OB | leve (1ª vez de ombro e braço na volta) |
+| qui 19/11 | 3 PE | leve (perna não treina desde 02/10) |
+| sex 20/11 | 5 OB | normal (Acumulação II) |
 | sáb 21/11 | 6 PC + abdômen | |
 | seg 23/11 | 7 OB | |
 | ter 24/11 | 8 PC | jejum começa às 20h |
@@ -143,7 +143,8 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
    - **Exceção:** se ele faz as mesmas reps mas **saiu do limite**, isso é progresso e não conta como travado.
    - **No nível mais baixo da escada** não existe destravar.
 7. **Unilaterais:** reps por lado, sempre começando pelo esquerdo.
-8. **Critério para a academia** (ir quando valerem 2 destes):
+8. **Volta de pausa** (mais de 2 semanas parado): a 1ª sessão de cada bloco é leve (piso da faixa). Na 2ª sessão do bloco (**reentrada**), repete os últimos números reais, sem +1. A partir da 3ª, a progressão normal volta.
+9. **Critério para a academia** (ir quando valerem 2 destes):
    - uma semana com 5–6 sessões, sem dor nas articulações e com técnica sólida;
    - 3 ou mais exercícios fáceis no nível mais difícil seguro em casa;
    - 3 ou mais exercícios travados por 2 sessões, mesmo comendo e dormindo bem.
@@ -215,6 +216,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 07/10 | Casa 1 | flexão 8/8 (saiu do limite) · serrote 16/16 · desenvolvimento 12/12 (lim) · elev. lateral 15/14 (lim) · rosca 12/12 · tríceps 13/13 |
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
 | 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
+| 17/11 | 4 PC (reentrada) | aguardando o relato. Metas, 3 séries: flexão 8 ↔ serrote 16 · crucifixo no chão 15 ↔ remada curvada 12. Café 9h30: ¼ de mamão, 1 copo de leite, 3 bisnaguinhas com manteiga |
 
 ## 8. Peso e medidas
 
@@ -227,5 +229,5 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 - [x] Divisão nova aprovada (03/11): fila de 12 sessões; escadas da rosca martelo e do tríceps coice criadas.
 - [ ] Pesagem e cintura (não há dados desde 28/09). Pedir sempre: em jejum, ao acordar.
 - [ ] Remedir peito e ombros com a fita dando a volta completa.
-- [ ] Jejum: **seg 16/11, 20h → ter 17/11, 20h**; depois **ter 24/11 → qua 25/11**.
+- [ ] Jejum: o de 16→17/11 não foi feito. Próximo: **ter 24/11, 20h → qua 25/11, 20h**.
 - [ ] Com a academia, rever o encaixe dos treinos nas semanas de jejum.
