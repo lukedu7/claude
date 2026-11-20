@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **17/11/2026**
+Última atualização: **20/11/2026**
 
 ---
 
@@ -108,25 +108,24 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 
 **Sessão leve** (retorno ou cansaço acumulado): mesmo nível, **metade das séries** (arredonda pra cima), reps no **piso da faixa**. Ela não serve de referência para a progressão.
 
-**Agenda prevista** (atualizar se ele faltar):
+**Agenda prevista** (atualizar se ele faltar). Na prática ele prioriza PC; o coach garante que OB e PE não fiquem esquecidos:
 
 | Data | Sessão | Obs. |
 |---|---|---|
-| sex 13/11 | ✅ **1 PC** | leve, feito |
-| sáb 14/11 | — | futebol + palavra da célula, sem tempo |
-| seg 16/11 | — | não deu tempo. **Não fez o jejum de 16→17/11** (decisão dele) |
-| ter 17/11 | **4 PC** (adiantado, a pedido dele) | **reentrada:** repete os últimos números reais, sem +1 |
-| qua 18/11 | 2 OB | leve (1ª vez de ombro e braço na volta) |
-| qui 19/11 | 3 PE | leve (perna não treina desde 02/10) |
-| sex 20/11 | 5 OB | normal (Acumulação II) |
-| sáb 21/11 | 6 PC + abdômen | |
-| seg 23/11 | 7 OB | |
-| ter 24/11 | 8 PC | jejum começa às 20h |
+| sex 13/11 | ✅ PC | leve |
+| ter 17/11 | ✅ PC | reentrada |
+| qua 18 e qui 19/11 | — | não treinou (OB e PE ficaram pendentes) |
+| sex 20/11 | **PC** (pedido dele: "treinei terça, quero de novo sexta") | progressão normal, + finalizador opcional de braço (rosca ↔ tríceps, leve) |
+| sáb 21/11 | **OB** | leve (1ª de ombro e braço na volta) |
+| seg 23/11 | **PE** | leve (perna parada desde 02/10) |
+| ter 24/11 | PC | jejum começa às 20h |
 | qua 25/11 | — | **jejum** |
-| qui 26/11 | 9 PE | |
-| sex 27/11 | 10 OB | |
-| sáb 28/11 | 11 PC + abdômen | |
-| seg 30/11 | 12 OB | Bloco final a partir daqui; depois a fila recomeça no 1 |
+| qui 26/11 | OB | normal |
+| sex 27/11 | PC | |
+| sáb 28/11 | OB + abdômen | |
+| seg 30/11 | PE | Bloco final a partir daqui |
+
+**Regra para os pedidos dele:** PC pode repetir com 72h de intervalo (seg/qua/sex ou ter/sex). Mas **OB precisa de pelo menos 2 sessões por semana e PE de 1**. Se ele pular, o próximo dia livre vai para o bloco mais atrasado.
 
 **Divisão antiga (S1–S5), para referência:** C1 Casa 1 (superior) · CT Pernas A · C2 Casa 2 (core) · CQ Superior A · CX Pernas B · CS Superior B.
 
@@ -217,6 +216,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
 | 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
 | 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
+| 20/11 | PC | aguardando o relato. Metas, 3 séries: flexão 9 ↔ serrote 17 · crucifixo 16 ↔ remada curvada 15. Almoço às 13h40 |
 
 ## 8. Peso e medidas
 
