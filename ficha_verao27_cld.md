@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **20/11/2026**
+Última atualização: **22/11/2026**
 
 ---
 
@@ -124,6 +124,8 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 | sex 27/11 | PC | |
 | sáb 28/11 | OB + abdômen | |
 | seg 30/11 | PE | Bloco final a partir daqui |
+
+**Flexão diária (combinado em 22/11):** nos dias **sem PC** e que **não sejam véspera de PC**, nem dia de jejum: **2 séries de 5 flexões no chão**, descendo em 2 s, com 1 min entre as séries, a qualquer hora. Fica bem longe da falha (é treino de técnica e de volume leve). Quando a meta de flexão do PC chegar a 12, passa para 2 × 6.
 
 **Regra para os pedidos dele:** PC pode repetir com 72h de intervalo (seg/qua/sex ou ter/sex). Mas **OB precisa de pelo menos 2 sessões por semana e PE de 1**. Se ele pular, o próximo dia livre vai para o bloco mais atrasado.
 
