@@ -25,12 +25,7 @@
 - **Números exatos:** nada de faixas como "6–15". Ele avisa quando fica fácil ou difícil.
 - **Água com horário e quantidade**; se não estiver escrita, ele não toma.
 - **Domingo:** sem shake; creatina com água ou suco no almoço; horários livres; 2 doces e uma refeição fora do plano liberados.
-- **Jejum de 24h a cada 8 dias, das 20h às 20h, com água** (é prática espiritual; respeitar). Inícios: 15/10, 23/10, 31/10, **08/11**, 16/11, 24/11, 02/12, 10/12, 18/12, 26/12, 03/01.
-  - **Véspera:** jantar reforçado às 19h e ceia às 19h45.
-  - **Dia do jejum:** sem treino; 💧 500 ml às 8h, 10h, 12h, 14h, 16h e 18h; às 20h quebra com vitamina (leite + banana + aveia); às 20h45, jantar normal + creatina.
-  - **3 dias seguintes:** shake extra às 15h (pula domingo).
-  - **Peso:** a pesagem da manhã seguinte ao jejum não entra na média.
-  - **Semana do jejum:** os treinos principais vão para os outros dias, e a sessão leve (abdômen/mobilidade) sai.
+- **Jejum: fora do plano** desde 24/11/2026, a pedido dele ("não vamos mais contar o jejum aqui"). Não planejar, não perguntar e não ajustar treino ou comida por causa de jejum. (De 08/10 a 24/11 havia uma regra de jejum de 24h a cada 8 dias; o histórico está em `migracao_verao27_cld.md`.)
 - **Pasta de amendoim:** a dele (DaColonia crocante, vegana) ele acha ruim e só usa no shake. Na próxima compra, **integral lisa, 100% amendoim**.
 - **Castanha-do-pará:** no máximo 3 por dia (selênio).
 - **Café/cafeína:** até 17h30.
@@ -73,7 +68,7 @@ Ele pediu **peito + costas 2,5×/semana, ombros + braços 2,5×, abdômen 2× e 
 |---|---|---|---|---|---|---|---|---|---|---|---|---|
 | Sessão | **PC** | **OB** | **PE** | **PC** | **OB** | **PC** | **OB** | **PC** | **PE** | **OB** | **PC** | **OB** |
 
-- **Regra de ouro: a fila não pula.** Perdeu um dia, caiu um jejum ou um domingo, o próximo treino é o próximo da fila. Nenhum treino se perde.
+- **Regra de ouro: a fila não pula.** Perdeu um dia ou caiu um domingo, o próximo treino é o próximo da fila. Nenhum treino se perde.
 - Nunca cai o mesmo bloco em dias seguidos, e PC/OB descansam pelo menos 48h entre si. Em 12 sessões ficam 5 PC, 5 OB e 2 PE, ou seja, 2,5 / 2,5 / 1 por semana.
 - **Abdômen 2×/semana:** a PE já tem abdômen; o segundo vai como **finalizador no último treino da semana** (normalmente sábado: prancha lateral 2 × 30 s/lado + abdominal supra 2 séries, ~8 min). Se o último treino da semana for a PE, o finalizador vai no treino anterior.
 
@@ -118,14 +113,14 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 | sex 20/11 | **PC** (pedido dele: "treinei terça, quero de novo sexta") | progressão normal, + finalizador opcional de braço (rosca ↔ tríceps, leve) |
 | sáb 21/11 | **OB** | leve (1ª de ombro e braço na volta) |
 | seg 23/11 | **PE** | leve (perna parada desde 02/10) |
-| ter 24/11 | PC | jejum começa às 20h |
-| qua 25/11 | — | **jejum** |
-| qui 26/11 | OB | normal |
+| ter 24/11 | ✅ PC | + finalizador leve de braço |
+| qua 25/11 | OB | 1ª de ombro na volta (rosca e tríceps já em progressão normal) |
+| qui 26/11 | PE | leve (perna parada desde 02/10) |
 | sex 27/11 | PC | |
 | sáb 28/11 | OB + abdômen | |
-| seg 30/11 | PE | Bloco final a partir daqui |
+| seg 30/11 | PC | Bloco final a partir daqui |
 
-**Flexão diária (combinado em 22/11):** nos dias **sem PC** e que **não sejam véspera de PC**, nem dia de jejum: **2 séries de 5 flexões no chão**, descendo em 2 s, com 1 min entre as séries, a qualquer hora. Fica bem longe da falha (é treino de técnica e de volume leve). Quando a meta de flexão do PC chegar a 12, passa para 2 × 6.
+**Flexão diária (combinado em 22/11):** nos dias **sem PC** e que **não sejam véspera de PC**: **2 séries de 5 flexões no chão**, descendo em 2 s, com 1 min entre as séries, a qualquer hora. Fica bem longe da falha (é treino de técnica e de volume leve). Quando a meta de flexão do PC chegar a 12, passa para 2 × 6.
 
 **Combinado em 24/11:** ele vai tentar treinar com frequência. **Se não conseguir de novo, montar um plano com menos dias por semana** (ex.: 3 sessões fixas), porque fica mais fácil pra ele.
 
@@ -227,12 +222,11 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 
 | Data | Peso | Cintura | Obs. |
 |---|---|---|---|
-| 28/09 | 66,0 kg | 72 cm | única pesagem até agora. **Pedir pesagem em jejum, toda manhã** |
+| 28/09 | 66,0 kg | 72 cm | única pesagem até agora. **Pedir a pesagem toda manhã, ao acordar, antes de comer** |
 
 ## 9. Pendências
 
 - [x] Divisão nova aprovada (03/11): fila de 12 sessões; escadas da rosca martelo e do tríceps coice criadas.
-- [ ] Pesagem e cintura (não há dados desde 28/09). Pedir sempre: em jejum, ao acordar.
+- [ ] Pesagem e cintura (não há dados desde 28/09). Pedir sempre: ao acordar, antes de comer.
 - [ ] Remedir peito e ombros com a fita dando a volta completa.
-- [ ] Jejum: o de 16→17/11 não foi feito. Próximo: **ter 24/11, 20h → qua 25/11, 20h**.
-- [ ] Com a academia, rever o encaixe dos treinos nas semanas de jejum.
+- [x] Jejum retirado do plano (24/11).
