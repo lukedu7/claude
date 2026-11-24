@@ -179,8 +179,8 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 ### Braços
 | Exercício | Escada (faixa) | Último registro | Próxima meta normal |
 |---|---|---|---|
-| **Rosca alternada 5 kg** | **0 5 kg** · 1 descida 3 s + pausa · 2 concentrada pausa 2 s · 3 + descida 3 s (10–15) | 07/10: 12/12, tranquila | **13/13** |
-| **Tríceps** | **0 testa no chão, 5 kg com as 2 mãos** (12–20) · 1 5 kg unilateral sentado · 2 unilateral descida 4 s (10–15) · 3 diamante no sofá · 4 diamante no chão (6–15) | 07/10: 13/13, tranquilo | **14/14** |
+| **Rosca alternada 5 kg** | **0 5 kg** · 1 descida 3 s + pausa · 2 concentrada pausa 2 s · 3 + descida 3 s (10–15) | 24/11 (finalizador leve): 10/10, "bem tranquilo". Antes: 07/10 12/12 | **13/13/13** |
+| **Tríceps** | **0 testa no chão, 5 kg com as 2 mãos** (12–20) · 1 5 kg unilateral sentado · 2 unilateral descida 4 s (10–15) · 3 diamante no sofá · 4 diamante no chão (6–15) | 24/11 (finalizador leve): testa 12/12, "bem tranquilo". Antes: 07/10 13/13 | **testa 14/14/14** |
 | **Rosca martelo 5 kg** (nova) | **0 5 kg** · 1 5 kg descida 3 s · 2 5 kg descida 3 s + pausa 1 s no topo · 3 cruzada (atravessando o peito), descida 3 s (10–15) | — (1ª vez) | **12/12** (na semana leve, 10/10) |
 | **Tríceps coice 5 kg** (novo) | **0 5 kg, mão e joelho apoiados no sofá** · 1 + pausa 1 s com o braço esticado · 2 + descida 3 s e pausa 1 s · 3 em pé inclinado, sem apoio, descida 3 s (10–15) | — (1ª vez) | **12/12** (na semana leve, 10/10) |
 
@@ -221,7 +221,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
 | 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
 | 20/11–23/11 | — | não treinou (no dia 20 ele pediu o PC, mas não fez) |
-| 24/11 | PC | **feito**: flexão 9/9/9 (a 3ª no limite) · serrote 17/17/17 · crucifixo 16/16/16 (dorzinha na mão) · curvada 15/15/15 (bem fácil). Pump no ombro e no braço. O finalizador de braço ficou para depois do shake (ele não tinha visto) |
+| 24/11 | PC | **feito**: flexão 9/9/9 (a 3ª no limite) · serrote 17/17/17 · crucifixo 16/16/16 (dorzinha na mão) · curvada 15/15/15 (bem fácil). Pump no ombro e no braço. Finalizador de braço feito depois do shake: rosca 10/10 · tríceps testa 12/12, bem tranquilo |
 
 ## 8. Peso e medidas
 
