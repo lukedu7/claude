@@ -562,3 +562,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **20/11 (sex):** não treinou qua nem qui (OB e PE pendentes). Pediu PC de novo hoje: metas flexão 9 · serrote 17 · crucifixo 16 · curvada 15. Combinado OB no sáb 21 e PE na seg 23.
 - **22/11 (dom):** sem treino. Perguntou sobre flexão todo dia: combinado 2 × 5 no chão nos dias sem PC (nem véspera de PC, nem jejum), longe da falha. Ainda não disse se fez o PC de sex 20/11.
 - **24/11 (ter):** uma semana sem treinar. Pediu PC com a progressão normal, sem reduzir. Combinado: se não conseguir manter a frequência, montar um plano com menos dias. Hoje à noite começa o jejum (20h), se ele for fazer.
+- **24/11:** PC feito. Flexão 9/9/9 (3ª no limite) · serrote 17×3 · crucifixo 16×3 (dor leve na mão) · curvada 15×3 fácil, sobe para pausa 1 s, 10×3. Próximas: flexão 9 · serrote 18 · crucifixo 17 · curvada c/ pausa 10.
