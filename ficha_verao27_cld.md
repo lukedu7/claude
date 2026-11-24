@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **22/11/2026**
+Última atualização: **24/11/2026**
 
 ---
 
@@ -127,6 +127,8 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 
 **Flexão diária (combinado em 22/11):** nos dias **sem PC** e que **não sejam véspera de PC**, nem dia de jejum: **2 séries de 5 flexões no chão**, descendo em 2 s, com 1 min entre as séries, a qualquer hora. Fica bem longe da falha (é treino de técnica e de volume leve). Quando a meta de flexão do PC chegar a 12, passa para 2 × 6.
 
+**Combinado em 24/11:** ele vai tentar treinar com frequência. **Se não conseguir de novo, montar um plano com menos dias por semana** (ex.: 3 sessões fixas), porque fica mais fácil pra ele.
+
 **Regra para os pedidos dele:** PC pode repetir com 72h de intervalo (seg/qua/sex ou ter/sex). Mas **OB precisa de pelo menos 2 sessões por semana e PE de 1**. Se ele pular, o próximo dia livre vai para o bloco mais atrasado.
 
 **Divisão antiga (S1–S5), para referência:** C1 Casa 1 (superior) · CT Pernas A · C2 Casa 2 (core) · CQ Superior A · CX Pernas B · CS Superior B.
@@ -218,7 +220,8 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 08/10–12/11 | — | **Sem treino** (~5 semanas; o recomeço de 03/11 não aconteceu) |
 | 13/11 | 1 PC (leve) | **feito em 30 min, sem falhar em nenhuma série, "achei bem bom"**: flexão 6/6/6 · serrote 12/12/12 · crucifixo no chão 12/12/12 · remada curvada 10/10/10. Sessão leve: não serve de referência para a progressão |
 | 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
-| 20/11 | PC | aguardando o relato. Metas, 3 séries: flexão 9 ↔ serrote 17 · crucifixo 16 ↔ remada curvada 15. Almoço às 13h40 |
+| 20/11–23/11 | — | não treinou (no dia 20 ele pediu o PC, mas não fez) |
+| 24/11 | PC | aguardando o relato. Mesma progressão, sem reduzir (pedido dele): flexão 9 ↔ serrote 17 · crucifixo 16 ↔ remada curvada 15, + finalizador leve de braço. Comeu às 9h30, treino às 11h |
 
 ## 8. Peso e medidas
 
