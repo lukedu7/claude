@@ -565,3 +565,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **24/11:** PC feito. Flexão 9/9/9 (3ª no limite) · serrote 17×3 · crucifixo 16×3 (dor leve na mão) · curvada 15×3 fácil, sobe para pausa 1 s, 10×3. Próximas: flexão 9 · serrote 18 · crucifixo 17 · curvada c/ pausa 10.
 - **24/11:** finalizador de braço feito (rosca 10/10, tríceps 12/12, bem tranquilo). Próximo OB: rosca 13×3, tríceps 14×3.
 - **24/11:** a pedido dele, **o jejum saiu do plano** ("não vamos mais contar o jejum aqui"). Ficha limpa: não planejar nem perguntar mais. Agenda: qua OB, qui PE leve, sex PC, sáb OB + abdômen, seg PC.
+- **25/11 (qua):** vai treinar **na academia** hoje (dá pra usar peso). Fez PC ontem e o peito quase não dói. Hoje é OB na academia, com as cargas de partida do coach antigo e a regra da 1ª série. Perguntar se a academia vai virar rotina.

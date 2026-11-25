@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **24/11/2026**
+Última atualização: **25/11/2026**
 
 ---
 
@@ -114,7 +114,7 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 | sáb 21/11 | **OB** | leve (1ª de ombro e braço na volta) |
 | seg 23/11 | **PE** | leve (perna parada desde 02/10) |
 | ter 24/11 | ✅ PC | + finalizador leve de braço |
-| qua 25/11 | OB | 1ª de ombro na volta (rosca e tríceps já em progressão normal) |
+| qua 25/11 | **OB na academia** | 1ª vez na academia: cargas de partida do plano antigo, ajustadas pela 1ª série |
 | qui 26/11 | PE | leve (perna parada desde 02/10) |
 | sex 27/11 | PC | |
 | sáb 28/11 | OB + abdômen | |
@@ -217,6 +217,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
 | 20/11–23/11 | — | não treinou (no dia 20 ele pediu o PC, mas não fez) |
 | 24/11 | PC | **feito**: flexão 9/9/9 (a 3ª no limite) · serrote 17/17/17 · crucifixo 16/16/16 (dorzinha na mão) · curvada 15/15/15 (bem fácil). Pump no ombro e no braço. Finalizador de braço feito depois do shake: rosca 10/10 · tríceps testa 12/12, bem tranquilo |
+| 25/11 | OB na academia | aguardando o relato. Partida: desenvolvimento c/ halteres 8 kg × 10 · elevação lateral 4 kg × 15 · peck deck inverso 15 kg × 15 · rosca W 12 kg × 10 ↔ tríceps corda 15 kg × 12 · rosca martelo 6 kg × 12 ↔ tríceps francês polia 10 kg × 12 (3 séries). Peito quase sem dor do dia anterior |
 
 ## 8. Peso e medidas
 
