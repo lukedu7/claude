@@ -18,5 +18,6 @@ Repositório pessoal do Lucas. O projeto ativo é o **Projeto Verão 27**: bulk 
 ## Como ele quer ser orientado
 - **Números exatos** (reps, séries, gramas, horários). Nunca faixas como "6–15".
 - **Água sempre com horário e quantidade.**
+- **Treino sempre passo a passo e bem detalhado:** ordem exata, reps, descanso e, em cada exercício, **posição/postura, pegada, execução (tempo de subida e descida), respiração e erros comuns.** Ele pediu para ser "o mais detalhador possível".
 - Português, tom de igual para igual, direto. Sinalize estimativas como estimativas.
 - Todo arquivo novo termina com `_cld` no nome (exceção: este `CLAUDE.md`, que precisa ter esse nome).

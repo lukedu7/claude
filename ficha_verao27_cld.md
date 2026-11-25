@@ -23,6 +23,7 @@
 ## 2. Regras fixas dele
 
 - **Números exatos:** nada de faixas como "6–15". Ele avisa quando fica fácil ou difícil.
+- **Treino detalhado ao máximo (25/11):** passo a passo, com posição/postura, pegada, execução, respiração e erros comuns em cada exercício.
 - **Água com horário e quantidade**; se não estiver escrita, ele não toma.
 - **Domingo:** sem shake; creatina com água ou suco no almoço; horários livres; 2 doces e uma refeição fora do plano liberados.
 - **Jejum: fora do plano** desde 24/11/2026, a pedido dele ("não vamos mais contar o jejum aqui"). Não planejar, não perguntar e não ajustar treino ou comida por causa de jejum. (De 08/10 a 24/11 havia uma regra de jejum de 24h a cada 8 dias; o histórico está em `migracao_verao27_cld.md`.)
@@ -217,7 +218,7 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 17/11 | 4 PC (reentrada) | **feito**: flexão 8/8/8 (3ª lenta, apertou no fim) · serrote 16/16/16 · crucifixo 15/15/15 · remada curvada 12/12/17. Sentiu-se muito bem. Café 9h30: ¼ de mamão, leite, 3 bisnaguinhas com manteiga |
 | 20/11–23/11 | — | não treinou (no dia 20 ele pediu o PC, mas não fez) |
 | 24/11 | PC | **feito**: flexão 9/9/9 (a 3ª no limite) · serrote 17/17/17 · crucifixo 16/16/16 (dorzinha na mão) · curvada 15/15/15 (bem fácil). Pump no ombro e no braço. Finalizador de braço feito depois do shake: rosca 10/10 · tríceps testa 12/12, bem tranquilo |
-| 25/11 | OB na academia | aguardando o relato. Partida: desenvolvimento c/ halteres 8 kg × 10 · elevação lateral 4 kg × 15 · peck deck inverso 15 kg × 15 · rosca W 12 kg × 10 ↔ tríceps corda 15 kg × 12 · rosca martelo 6 kg × 12 ↔ tríceps francês polia 10 kg × 12 (3 séries). Peito quase sem dor do dia anterior |
+| 25/11 | OB na academia | aguardando o relato. Partida: desenvolvimento c/ halteres 8 kg × 10 · elevação lateral 4 kg × 15 · crucifixo inverso no banco inclinado 4 kg × 15 (não tem peck deck) · rosca W 12 kg × 10 ↔ tríceps corda 15 kg × 12 · rosca martelo 6 kg × 12 ↔ tríceps francês polia 10 kg × 12 (3 séries). Peito quase sem dor do dia anterior |
 
 ## 8. Peso e medidas
 

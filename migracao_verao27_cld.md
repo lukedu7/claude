@@ -566,3 +566,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **24/11:** finalizador de braço feito (rosca 10/10, tríceps 12/12, bem tranquilo). Próximo OB: rosca 13×3, tríceps 14×3.
 - **24/11:** a pedido dele, **o jejum saiu do plano** ("não vamos mais contar o jejum aqui"). Ficha limpa: não planejar nem perguntar mais. Agenda: qua OB, qui PE leve, sex PC, sáb OB + abdômen, seg PC.
 - **25/11 (qua):** vai treinar **na academia** hoje (dá pra usar peso). Fez PC ontem e o peito quase não dói. Hoje é OB na academia, com as cargas de partida do coach antigo e a regra da 1ª série. Perguntar se a academia vai virar rotina.
+- **25/11:** a academia não tem peck deck: o crucifixo inverso vai no banco inclinado com halteres de 4 kg. Rosca W com 12 kg no total (barra comum ~7 kg + 2,5 kg de cada lado). Ele pediu **o máximo de detalhe** em cada exercício (pegada, respiração, postura), e isso foi para o CLAUDE.md e a ficha.
