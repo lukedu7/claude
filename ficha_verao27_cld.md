@@ -4,7 +4,7 @@
 > **Como usar:** leia esta ficha antes de orientar. Depois de cada relato (treino, comida, peso), atualize as seções 6 a 8 e faça commit e push.
 > O diário completo, com tudo o que foi dito, fica em `migracao_verao27_cld.md`.
 
-Última atualização: **26/11/2026**
+Última atualização: **27/11/2026**
 
 ---
 
@@ -116,7 +116,8 @@ Com 2,5×/semana o volume semanal já é alto, por isso cada sessão fica enxuta
 | seg 23/11 | **PE** | leve (perna parada desde 02/10) |
 | ter 24/11 | ✅ PC | + finalizador leve de braço |
 | qua 25/11 | — | não treinou (nem academia nem o OB em casa) |
-| qui 26/11 | **PC + braços** (pedido dele) | flexão 9 · serrote 18 · crucifixo 17 · curvada com pausa 10 · rosca 13 ↔ tríceps testa 14 (3 séries) |
+| qui 26/11 | — | não treinou |
+| sex 27/11 | **PC + braços** (pedido dele; o mesmo de 26/11) | flexão 9 · serrote 18 · crucifixo 17 · curvada com pausa 10 · rosca 13 ↔ tríceps testa 14 (3 séries) |
 | qui 26/11 | PE | leve (perna parada desde 02/10) |
 | sex 27/11 | PC | |
 | sáb 28/11 | OB + abdômen | |
@@ -220,7 +221,8 @@ Em cada exercício, ele relata as reps feitas e diz se foi **no limite** (sobrou
 | 20/11–23/11 | — | não treinou (no dia 20 ele pediu o PC, mas não fez) |
 | 24/11 | PC | **feito**: flexão 9/9/9 (a 3ª no limite) · serrote 17/17/17 · crucifixo 16/16/16 (dorzinha na mão) · curvada 15/15/15 (bem fácil). Pump no ombro e no braço. Finalizador de braço feito depois do shake: rosca 10/10 · tríceps testa 12/12, bem tranquilo |
 | 25/11 | — | não treinou. O OB da academia e o OB em casa ficaram guardados |
-| 26/11 | PC + braços em casa | aguardando o relato. Metas, 3 séries: flexão 9 ↔ serrote 18 · crucifixo 17 ↔ curvada com pausa 1 s 10 · rosca alternada 13 ↔ tríceps testa 14 |
+| 26/11 | — | não treinou |
+| 27/11 | PC + braços em casa (treino às 11h, shake 11h50, almoço 13h15, sai 14h) | aguardando o relato. Metas, 3 séries: flexão 9 ↔ serrote 18 · crucifixo 17 ↔ curvada com pausa 1 s 10 · rosca alternada 13 ↔ tríceps testa 14 |
 
 ## 8. Peso e medidas
 
