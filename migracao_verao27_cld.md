@@ -570,3 +570,4 @@ Observação: se alguém editar o artefato direto (fora deste build), `transform
 - **25/11 (noite):** não deu para ir à academia. **OB em casa**, só halter e simples. Reentrada de ombro com decisão do coach: desenvolvimento 10×3 (o último real foi 12 no limite, em 07/10), elevação lateral 15×3, crucifixo inverso 15×3. Braço em progressão: rosca 13, tríceps 14, martelo 12, coice 12. Sem flexão (peito treinou ontem).
 - **26/11 (qui):** não treinou ontem. Pediu peito, costas e braços em casa: PC com a progressão + rosca alternada ↔ tríceps testa. Ombro (desenvolvimento, elevação lateral) segue pendente desde 07/10.
 - **27/11 (sex):** não treinou ontem. Hoje faz o PC + braços em casa: comeu 9h30, treino às 11h, shake 11h50, almoço 13h15, sai às 14h.
+- **27/11:** treino feito (o relato vem depois). Pediu para aumentar o shake: **shake turbinado** = 450 ml de leite + 20 g de mel a mais (+152 kcal; ~807 kcal e 27 g P). Virou o padrão na ficha.

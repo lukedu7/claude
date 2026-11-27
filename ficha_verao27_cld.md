@@ -39,7 +39,7 @@
 | Hora (dia em casa) | Refeição | Quantidades | ≈ |
 |---|---|---|---|
 | 08h20 | **Café** | 2 pães franceses + 2 ovos mexidos (semana B: 1 xícara rasa de flocão em cuscuz + 2 ovos) | 446 kcal · 21 g P |
-| logo após o treino (~10h45) | **Shake** | 300 ml de leite integral + 50 g de aveia + 1 banana + 20 g de pasta de amendoim + 16 g de açúcar + **5 g de creatina** | 655 kcal · 22 g P |
+| logo após o treino (~10h45) | **Shake turbinado** (desde 27/11, a pedido dele) | **450 ml** de leite integral + 50 g de aveia + 1 banana + 20 g de pasta de amendoim + 16 g de açúcar + **20 g de mel (1 colher de sopa)** + **5 g de creatina** | 807 kcal · 27 g P |
 | 13h00 | **Almoço** | 250 g de arroz (≈10 colheres de sopa cheias) + 1 concha de feijão + 100 g de proteína (1 filé do tamanho da palma) + 1 xícara de legumes + salada + 1 colher (chá) de azeite | 727 kcal · 46 g P |
 | 16h30 | **Lanche** | 2 pães franceses + 1 colher (sopa) de mel (= 5 fatias de pão de forma + mel) | 362 kcal · 8 g P |
 | 19h30 | **Jantar** | 2 pegadores de macarrão (ou 250 g de arroz) + 100 g de proteína + molho/legumes | 580 kcal · 44 g P |
@@ -53,7 +53,7 @@
 - **Fora de casa (pedidos que funcionam):** prato feito com proteína · shawarma · x-frango · 4 esfihas de carne · 3 fatias de pizza. Lanche portátil: bisnaguinha, banana, Toddynho, atum abre-fácil, amendoim.
 - **Ajuste de calorias** (se o peso não subir 0,2–0,4 kg/semana), um degrau por vez:
   1. D1: +10 g de pasta de amendoim e +15 g de aveia no shake (+118 kcal);
-  2. D2: +150 ml de leite no shake (+90);
+  2. D2: +150 ml de leite no shake (+90). **Já aplicado em 27/11, junto com +20 g de mel**;
   3. D3: +25 g de aveia na ceia (+99);
   4. D4: +10 g de azeite no almoço (+88);
   5. D5: +1 pão no café (+150).
